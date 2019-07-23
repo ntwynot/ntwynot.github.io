@@ -1,0 +1,30 @@
+﻿body { font-family: "Times New Roman", Times, serif; font-size: 12pt; }
+	
+a { font-size: 10pt; font-weight: normal; }
+
+h1, h2, h3, h4, h5, h6 { color: black; padding-bottom: 1px;
+   border-bottom: 1px solid gray; margin-top: 1em;
+	margin-bottom: 1em; font-size: 12pt; }
+
+#nav, #templateLeft, #templateRight { display: none; }
+
+#wrapper, #content-main {
+	width: auto;
+	border: 0;
+	margin: 0 5%;
+	padding: 0;
+	float: none !important;
+	}
+	
+div#content-main {
+   margin-left: 5%;
+   padding-top: 1em;
+   }
+
+#wrapper a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 12pt;
+   }
+#wrapper a[href^="/"]:after {
+   content: " (http://www.mikrotech.com" attr(href) ") ";
+   }

@@ -1,0 +1,346 @@
+#content {
+	border: 1px solid #999;
+	width: 100%;
+	max-width: 850px;
+	min-width: 760px;
+	margin: 15px auto;
+	padding: 0 7px;
+	background-color: #0E0E0E;
+	color: #E6E6E6; }
+	
+#gallery p { width: 95%; }
+	
+.textGallery {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: auto !important;
+    height: 100%;
+    font-size: 0.9em; }
+
+.titleImage {
+	position: relative;
+	display: block;
+	padding: 4px 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 408px;
+	background-color: #f1f1f1; }
+
+.titlePDF {
+	position: relative;
+	padding: 6px 0 12px 0;
+	margin: 0;
+	text-align: right;
+	font-size: 0.9em; }
+
+.jobTitleDesc {
+	font-size: 12px;
+	color: #669;
+	padding-top: 4px;
+	letter-spacing: .005em;
+	font-weight: bold; }
+
+hr { display: none; }
+
+/* begin navs */
+
+#navBar {
+	background-image: url(../images/navbckgrd.gif);
+	background-repeat: repeat-x;
+	height: 36px;
+	padding: 0;
+	margin: 0;
+	z-index: 100;
+	position: relative;
+	bottom: 1px; }
+
+ul#nav {
+	padding: 0;
+	float: left;
+	position: relative;
+	width: 425px;
+	left: 50%;
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	top: 0.5em;
+	list-style: none;
+	font-weight: bolder;
+	cursor: default;
+	z-index: 4000;
+	margin: 0 0 0 -202px; }
+
+#nav a {
+	font-weight: bolder;
+	color: #669;
+	border-bottom: #D54F49;
+	border-width: 0;
+	border-style: none;
+	padding-top: 2px; }
+
+#nav a {
+	text-decoration: none; }
+
+#nav a:hover {
+	color: #C3605D;
+	text-decoration: none; } 
+
+#nav li li a {
+	display: block;
+	font-weight: bold;
+	color: #000;
+	padding: 0.6em 8px;
+	border-color: #F0DBE1;
+	border-width: 1px;
+	line-height: 125%;
+	border-style: outset; }
+
+#nav li li a:hover {
+	padding: 0.8em 8px;
+	color: #e6e6e6;
+	border-width: 2px;
+	border-color: #eee;
+	border-style: inset;
+	background-color: #61678D; }
+
+li {
+	float: left;
+	position: relative;
+	width: 9em;
+	text-align: center;
+	cursor: default; }
+
+li#first {
+	border-left-width: 1em; }
+
+li#last {
+	border-width: 0;
+	border-style: none; }
+
+li ul {
+	/* second-level lists */	
+	display: none;
+	position: absolute;
+	top: 2.5em;
+	left: -.8em;
+	font-weight: normal;
+	/* background: url(images/.gif) bottom left no-repeat; */
+	padding: 0;
+	border-color: #000;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #999; }
+
+li>ul {
+	top: auto;
+	right: auto; }
+
+li li {
+	display: block;
+	float: none;
+	background-color: #DAE5DE;
+	width: 10.5em;
+	border-width: 1px; }
+
+li:hover ul, li.over ul {
+	display: block; }
+
+#lihome, #liabout, #liport, #licontact {
+	float: left;
+	/*	background-image: url(images/tab-right.gif); 
+	background-repeat: no-repeat;
+	background-position: top right;  */
+	line-height: 2.6em;
+	top: -3px;
+	margin: 0;
+	padding: 0 0 0 0;
+	height: 36px; }
+
+#home, #about, #port, #contact {
+	display: block;
+	/*	background-image: url(images/tab-left.gif);
+	background-repeat: no-repeat;
+	background-position: top left;   */
+	line-height: 2.6em;
+	top: -3px;
+	padding: 0 0 0 0;
+	margin: 0;
+	height: 36px; } 
+/* end navs */	
+
+.smallText {
+	font-size: 0.7em;
+	line-height: 150%;
+	font-weight: normal; }
+
+.title, h3 {
+	position: relative;
+	display: block;
+	padding: 6px 12px 0 12px;
+	margin-bottom: -3em;
+	font-size: 1.25em;
+	text-align: left;
+	line-height: 150%;
+	background-color: transparent; }
+	
+.workTitle, h3 {
+	position: relative;
+	padding: 6px 12px 6px 12px;
+	margin-bottom: 0;
+	font-size: 1.25em;
+	text-align: left;
+	line-height: 150%;
+	background-color: transparent; }
+	
+.workTitle2, h3 {
+	position: relative;
+	padding: 9px 12px 16px 0px;
+	margin-left: -2.25em;
+	font-size: 1em;
+	text-align: left; }
+
+.standard, h3, h2 {
+padding: 3px 12px 9px 12px;
+font-size: 1.25em; }
+
+div h3 { 
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+
+.cronus, h3 {
+	padding: 0;
+	font-size: 1.25em;
+	text-align: center;
+	vertical-align: top;
+	background-color: transparent;
+	line-height: 125%;
+	font-family:  Helvetica, sans-serif; }
+
+.cronusBdy, h2 {
+	padding: 0;
+	font-size: 1.25em;
+	text-align: left;
+	vertical-align: top;
+	background-color: transparent;
+	line-height: 125%;
+	font-weight: normal;
+	font-family:  Helvetica, sans-serif; }
+	
+.copyright {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #666666;
+	margin-left: 0px;
+	padding: 8px;
+	border-top: 1px solid #999;
+	clear: both;
+	text-align: center; }
+
+p.intro {
+	font-size: 1.5em;
+	line-height: normal;
+	margin-bottom: 20px;
+	margin-top: 20px; }
+
+.figure {
+	float: left;
+	width: 250px;
+	margin: 0 0 0 20px;
+	padding: 0px;
+    text-align: left; }
+    
+.figure img {
+	border: 1px solid #666;
+	background-color: #f1f1f1;
+	padding: 4px;
+	text-align: center; }
+	
+.figure h3 {
+	font-size: 1.1em;
+	text-align: left;
+	padding: 4;
+	margin: 12px 0 9px 0;
+	width: 250px;
+	height: 1em; }
+
+.figure p {
+	font: 0.8em/normal Verdana, Helvetica, sans-serif;
+	text-align: left;
+	margin: 15px 0 0 0;
+	height: 5em; }
+	
+.right { text-align: right;
+padding-right: 20px; }
+
+div#bodyLi {	
+	float: left;
+	display: inline:
+	position: relative;
+	width: 100%;
+	padding: 1% 0 1% 0;
+	margin: 0 0 0 10%;
+	font-size: 1.2em; }
+
+ul.bodyLi2 {
+float: left;
+	display: inline:
+	position: relative;
+	width: 270px;
+	text-align: left;
+	padding: 0 0 1% 4%;
+	margin: 1% 0; }
+
+.bodyLi2 li {
+float: none;
+	display: block:
+	position: relative;
+	text-align: left;
+	width: 100%;
+		padding: 1% 0;
+	margin: 0; }
+
+a[href^="http:"] {
+	background-image: url(../images/externalLink.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-right: 10px; }
+
+a[href^="http://www.nathanielwhynott.com"] {
+	background-image: none;
+	padding-right: 0px; }
+
+a[href$=".pdf"] {
+	background-image: url(../images/pdficon_small.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-right: 16px;
+	padding-top: 6px; }
+	
+.clear { clear: both;}
+
+.clear:after {
+content: ".";
+height: 0;
+visibility: hidden;
+display: block;
+clear: both; }
+
+.floatcontainer {display: inline-block;} 
+
+    /* Hides from IE Mac \*/
+    * html .floatcontainer {height: 1%;}
+       .floatcontainer{display:block;}
+    /* End Hack */ 
+
+/* IE 5/6 border erase bug */
+* html #gallery #textGallery {
+	width: 100%; }
+
+/* IE 5 placement bug */
+* html #gallery img {
+	width: 100%; }

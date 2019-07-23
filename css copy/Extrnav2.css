@@ -1,0 +1,161 @@
+﻿#navBar
+{ background-image: url(../images/navbckgrd.gif);
+background-repeat: repeat-x;
+height: 36px;
+padding: 0;
+margin: 0 0 0 -15px;
+z-index: 100;
+position: relative;
+bottom: 1px;
+} 
+
+ul#nav {
+float: left;
+position: relative;
+width: 400px;
+left: 50%;
+text-align: center;
+font-size: 1.1em;
+line-height: 1.1em;
+top: 0.5em;
+list-style: none;
+font-weight: bolder;
+cursor: default;
+z-index: 4000;
+margin: 0 0 0 -202px;
+ padding: 0;
+} 
+
+#nav a { 
+display: block;
+font-weight: bolder;
+color: #669;
+border-bottom: #D54F49;
+border-width: 0;
+border-style: none;
+padding-top: 2px;
+text-decoration: none; } 
+
+#nav a:hover
+{ color: #C3605D;
+text-decoration: none;
+} 
+
+
+#lihome, #liabout, #liport, #licontact
+{ float: left;
+/* background-image: url(images/tab-right.gif);
+background-repeat: no-repeat;
+background-position: top right;
+*/ line-height: 2.6em;
+top: -3px;
+margin: 0;
+padding: 0 0 0 0;
+height: 36px;
+} 
+
+#home, #about, #port, #contact
+{ display: block;
+/* background-image: url(images/tab-left.gif);
+background-repeat: no-repeat;
+background-position: top left;
+*/ line-height: 2.6em;
+top: -3px;
+padding: 0 0 0 0;
+margin: 0;
+height: 36px;
+} 
+
+#nav li li a
+{ display: block;
+font-weight: bold;
+color: #000;
+padding: 0.6em 8px;
+border-color: #F0DBE1;
+border-width: 1px;
+line-height: 125%;
+border-style: outset;
+} 
+
+li
+{ float: left;
+position: relative;
+width: 9em;
+text-align: center;
+cursor: default;
+} 
+
+
+li ul
+{ /* second-level lists */ display: none;
+position: absolute;
+top: 2.5em;
+left: -1em;
+font-weight: normal;
+/* background: url(images/.gif) bottom left no-repeat;
+*/ padding: 0;
+border-color: #000;
+border-width: 2px;
+border-style: solid;
+background-color: #999;
+} 
+
+#nav li ul ul
+{ /* third-and-above-level lists */  left: -999em;
+margin-top: -30px;
+margin-left: 110px;
+text-align: left;
+ }
+
+li>ul
+{ top: auto;
+right: auto;
+} 
+
+li li
+{ display: block;
+float: none;
+background-color: #DAE5DE;
+width: 10.5em;
+border-width: 1px;
+} 
+
+ul ul
+{ border-color: #000;
+border-width: 2px;
+border-style: solid;
+background-color: #999;}
+
+#nav li li a:hover
+{ padding: 0.6em 8px;
+color: #e6e6e6;
+border-width: 2px;
+border-color: #eee;
+border-style: inset;
+background-color: #61678D;
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul
+{ left: -999em;
+}
+	
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul
+{ /* lists nested under hovered list items */
+	left: auto;
+}
+
+li:hover ul, li.over ul
+{ display: block;
+} 
+
+
+li#first
+{ border-left-width: 1em;
+} 
+
+li#last
+{ border-width: 0;
+border-style: none;
+} 
+
+/* end navs */ 
