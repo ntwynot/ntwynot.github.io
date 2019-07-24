@@ -1,0 +1,163 @@
+        <select class="form-control bodyHS" id="ddlOffice" onchange="javascript:setTimeout('__doPostBack(\'ddlOffice\',\'\')', 0)" name="ddlOffice">
+			<option value="84D352FB748843A189200CE9B1C3E618" selected="selected">-- company level --</option>
+			<option value="3C0EFD968D964077B25AF634801A8730">Berkshire Hathaway HomeServices 1st Choice, REALTORS - NC703</option>
+			<option value="C7D44DABCE0643D5A7227A857E882F3E">Berkshire Hathaway HomeServices 1st Realty - AR302</option>
+			<option value="543CE8D7D85641339E9A3EECD8090137">Berkshire Hathaway HomeServices Ada, REALTORS - TX701</option>
+			<option value="82BBCE6451F04B058746566C08B6BC06">Berkshire Hathaway HomeServices Ada, REALTORS - TX701</option>
+
+		</select>
+		
+		
+		<table>
+		            <tbody><tr class="titleLink">
+		                <td><img width="16" border="0" height="13" align="absMiddle" src="../images/miniArrow.gif"></td>
+		                <td colspan="2">
+		                    <font class="labels">Lead Retraction Options &nbsp;&nbsp;
+                            <select id="drpRetractionFor" onchange="javascript:setTimeout('__doPostBack(\'drpRetractionFor\',\'\')', 0)" name="drpRetractionFor">
+		<option value="default" selected="selected">Default</option>
+		<option value="listingagent">Listing Agent</option>
+
+	</select>
+                        </font>
+		                </td>
+		            </tr>
+		            <tr class="bodyHS"><td><img width="16" border="0" height="13" align="absMiddle" src="../images/spacer.gif"></td><td colspan="2">Specify whether and how to retract any leads automatically routed to the agents that are not yet accepted by the agents. </td></tr>
+		            <tr style="display: none" class="bodyHS" id="trRetractCustomerCareAutoAccept">
+		<td><img width="16" border="0" height="13" align="absMiddle" alt="" src="../images/spacer.gif"></td>
+		<td colspan="2">
+							<table cellspacing="0" cellpadding="0">
+								<tbody><tr>
+									<td><span disabled="disabled"><input type="checkbox" disabled="disabled" name="chkRetractToCCAndAutoAccept" id="chkRetractToCCAndAutoAccept"><label for="chkRetractToCCAndAutoAccept">Retract to Customer Care and auto accept lead after&nbsp;</label></span></td>
+									<td>
+										<select id="ddlCCNumberOfRetractions" name="ddlCCNumberOfRetractions">
+			<option value="1" selected="selected">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+
+		</select>
+									</td>
+									<td>&nbsp;retractions</td>
+								</tr>
+							</tbody></table>
+						</td>
+	</tr>
+	
+                    <tr style="display: none" class="bodyHS" id="trRetractOriginalCustomerCare">
+		<td>
+                            <img width="16" border="0" height="13" align="absMiddle" alt="" src="../images/spacer.gif"></td>
+		<td style="padding-left: 17px" colspan="2">
+                            <input type="checkbox" name="chkCCAssignToOriginalUser" id="chkCCAssignToOriginalUser"><label for="chkCCAssignToOriginalUser">Assign to original Customer Care user</label>
+                        </td>
+	</tr>
+	
+                    <tr class="bodyHS" id="trRetractOriginalCustomerCareSms">
+		<td>
+                            <img width="16" border="0" height="13" align="absMiddle" alt="" src="../images/spacer.gif"></td>
+	</tr>
+	
+		            <tr class="bodyHS"><td>&nbsp;</td><td width="100%" colspan="2"><input type="checkbox" onclick="handleAcceptAllLeadsChanged(this.checked);" checked="checked" name="cbDoNotAutoAcceptLeads" id="cbDoNotAutoAcceptLeads"><label for="cbDoNotAutoAcceptLeads">Disable Auto Lead Acceptance when leads are assigned to users</label></td></tr>
+		            <tr class="bodyHS">
+		                <td>&nbsp;</td>
+		                <td width="100%" colspan="2">
+		                     <div id="pnlRetraction">
+		
+		                     <table cellspacing="0" cellpadding="0" align="left">
+		                     <tbody><tr><td>
+		                        <table cellspacing="0" cellpadding="0" align="left">
+		                            <tbody><tr class="bodyHS">
+		                                <td><input type="checkbox" onclick="handleRecisionChanged(this.checked);" checked="checked" name="cbRecision" id="cbRecision"><label for="cbRecision">Enable retraction of unaccepted leads after</label></td>
+		                                <td><input type="text" style="width:40px;" id="txtTimePeriod" value="30" name="txtTimePeriod"></td>
+		                                <td><select id="ddlTimeUnit" name="ddlTimeUnit">
+			<option value="MIN" selected="selected">Minutes</option>
+			<option value="HOUR">Hours</option>
+			<option value="DAY">Days</option>
+
+		</select></td>
+		                            </tr>
+		                        </tbody></table>
+		                      </td></tr> 
+		                      <tr><td> 
+                                <div style="padding-left:17px;" id="divSchedule">
+                                 <table width="500">
+		                             <tbody><tr class="bodyHS"><td colspan="2"><b>Schedule</b></td></tr>
+		                              <tr class="bodyHS"><td colspan="__designer:mapid=&quot;262&quot;">Weekday settings</td></tr>
+		                             <tr class="bodyHS"><td colspan="2"><input type="radio" checked="checked" value="RadioButton1" name="1" id="RadioButton1"><label for="RadioButton1">Daily</label><br><input type="radio" value="RadioButton2" name="1" id="RadioButton2"><label for="RadioButton2">Week Days Only</label></td></tr>
+		                              <tr class="bodyHS">
+		                              <td>
+		                              From:&nbsp;<select id="DropDownList1" name="DropDownList1">
+			<option value="12">12</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8" selected="selected">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+
+		</select>
+		                              :<select id="DropDownList3" name="DropDownList3">
+			<option value="0" selected="selected">00</option>
+			<option value="15">15</option>
+			<option value="30">30</option>
+			<option value="45">45</option>
+
+		</select>
+		                              <select id="DropDownList4" name="DropDownList4">
+			<option value="AM">AM</option>
+			<option value="PM">PM</option>
+
+		</select>
+		                              </td>
+		                               <td>
+		                              Until:&nbsp;<select id="DropDownList5" name="DropDownList5">
+			<option value="12">12</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8" selected="selected">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+
+		</select>
+		                              :<select id="DropDownList6" name="DropDownList6">
+			<option value="0" selected="selected">00</option>
+			<option value="15">15</option>
+			<option value="30">30</option>
+			<option value="45">45</option>
+
+		</select>
+		                              <select id="DropDownList7" name="DropDownList7">
+			<option value="AM">AM</option>
+			<option value="PM" selected="selected">PM</option>
+
+		</select>
+		                              </td>
+		                              </tr>
+		                             
+	                            </tbody></table>
+                                
+                                 </div>
+                                  </td></tr> 
+                                  </tbody></table> 
+		                        
+		                    
+	</div>
+		                </td>
+		            </tr>
+		        </tbody></table>
