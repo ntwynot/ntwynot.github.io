@@ -516,13 +516,12 @@ padding: 0;
 	padding: .5rem 0 0;
 	text-align: left;
 	font-weight: bold}
-
-a[href^="http:"]
-{ background-image: url(../images/externalLink.gif);
+/*
+a[href^="http:"] { background-image: url(../images/externalLink.gif);
 background-repeat: no-repeat;
 background-position: right top;
 padding-right: 10px;
-} 
+} */
 
 a[href^="http://www.nathanielwhynott.com"]
 { background-image: none;
