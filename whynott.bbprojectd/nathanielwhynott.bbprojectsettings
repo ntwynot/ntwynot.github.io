@@ -18,6 +18,78 @@
 		<dict>
 			<key>BookmarkData</key>
 			<data>
+			Ym9vaygDAAAAAAQQMAAAAIjNKEBT7XfmMEY7U297ShTQvpcFDzZq
+			vEupKvVsFjOJGAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAQAAAAAQEAAG5hdGhhbmllbHdoeW5vdHQFAAAAAQEAAFNpdGVz
+			AAAABwAAAAEBAAB3aHlub3R0AA4AAAABAQAAaW5kZXhTcGVjLmh0
+			bWwAABQAAAABBgAAEAAAACAAAAA4AAAASAAAAFgAAAAIAAAABAMA
+			AG6dCgAAAAAACAAAAAQDAACibxAAAAAAAAgAAAAEAwAAyacSAAAA
+			AAAIAAAABAMAAEqGRwAAAAAACAAAAAQDAACImFAAAAAAABQAAAAB
+			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHBc8UKwZxB
+			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
+			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
+			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAUD8tHAAAAAgAAAAA
+			BAAAQcCuSMT3nCskAAAAAQEAAEFFQkI5NzFGLUFFNkMtNEJDOS04
+			N0NELTkxMDA3ODNGMjlCOBgAAAABAgAAgQAAAAEAAADvEwAAAQAA
+			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
+			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAJYAAADY
+			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
+			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
+			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
+			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
+			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
+			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/nathanielwhynott/Sites/whynott/indexSpec.html</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./indexSpec.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
+			Ym9vazADAAAAAAQQMAAAAF0VgJskOkgbrMKkg8sticDCHPVAg219
+			P4bOh/4+Itp6IAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAQAAAAAQEAAG5hdGhhbmllbHdoeW5vdHQFAAAAAQEAAFNpdGVz
+			AAAABwAAAAEBAAB3aHlub3R0ABgAAAABAQAAcmVhbC1lc3RhdGUt
+			ZGlnaXRhbC5odG1sFAAAAAEGAAAQAAAAIAAAADgAAABIAAAAWAAA
+			AAgAAAAEAwAAbp0KAAAAAAAIAAAABAMAAKJvEAAAAAAACAAAAAQD
+			AADJpxIAAAAAAAgAAAAEAwAASoZHAAAAAAAIAAAABAMAAIkKSQAA
+			AAAAFAAAAAEGAACUAAAApAAAALQAAADEAAAA1AAAAAgAAAAABAAA
+			wc0n5EAAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+			AAgAAAAEAwAAAwAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZp
+			bGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAABQPy0c
+			AAAACAAAAAAEAABBwK5IxPecKyQAAAABAQAAQUVCQjk3MUYtQUU2
+			Qy00QkM5LTg3Q0QtOTEwMDc4M0YyOUI4GAAAAAECAACBAAAAAQAA
+			AO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoA
+			AAABAQAATlNVUkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAAD
+			AwAAsAAAANgAAAD+////AQAAAAAAAAARAAAABBAAAHgAAAAAAAAA
+			BRAAAOQAAAAAAAAAEBAAABABAAAAAAAAQBAAAAABAAAAAAAAAiAA
+			ANwBAAAAAAAABSAAAEwBAAAAAAAAECAAAFwBAAAAAAAAESAAAJAB
+			AAAAAAAAEiAAAHABAAAAAAAAEyAAAIABAAAAAAAAICAAALwBAAAA
+			AAAAMCAAAOgBAAAAAAAAAcAAADABAAAAAAAAEcAAACAAAAAAAAAA
+			EsAAAEABAAAAAAAAENAAAAQAAAAAAAAA8AEAgBQCAAAAAAAA
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/nathanielwhynott/Sites/whynott/real-estate-digital.html</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./real-estate-digital.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
 			Ym9vaxQDAAAAAAQQMAAAAEcyU1MsQFkUAEr95LvrnzYrHuvBCfB0
 			zHHepXWJVKnJEAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
 			AAAQAAAAAQEAAG5hdGhhbmllbHdoeW5vdHQFAAAAAQEAAFNpdGVz
@@ -263,42 +335,6 @@
 			<true/>
 			<key>RelativePath</key>
 			<string>./zdm-circuit-boards.html</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
-			Ym9vayQDAAAAAAQQMAAAAKn3glaSGcB1Zmnl2dDK43IHroe0YFfi
-			ZPDb12ENV3rHFAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAQAAAAAQEAAG5hdGhhbmllbHdoeW5vdHQFAAAAAQEAAFNpdGVz
-			AAAABwAAAAEBAAB3aHlub3R0AAoAAAABAQAAaW5kZXguaHRtbAAA
-			FAAAAAEGAAAQAAAAIAAAADgAAABIAAAAWAAAAAgAAAAEAwAAbp0K
-			AAAAAAAIAAAABAMAAKJvEAAAAAAACAAAAAQDAADJpxIAAAAAAAgA
-			AAAEAwAASoZHAAAAAAAIAAAABAMAAIiYUAAAAAAAFAAAAAEGAACI
-			AAAAmAAAAKgAAAC4AAAAyAAAAAgAAAAABAAAQcFzxQrBnEEYAAAA
-			AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAAAwAA
-			AAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
-			AABNYWNpbnRvc2ggSEQIAAAABAMAAABQPy0cAAAACAAAAAAEAABB
-			wK5IxPecKyQAAAABAQAAQUVCQjk3MUYtQUU2Qy00QkM5LTg3Q0Qt
-			OTEwMDc4M0YyOUI4GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAA
-			AAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoAAAABAQAATlNVUkxE
-			b2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAADAwAAlgAAANgAAAD+
-			////AQAAAAAAAAARAAAABBAAAGwAAAAAAAAABRAAANgAAAAAAAAA
-			EBAAAAQBAAAAAAAAQBAAAPQAAAAAAAAAAiAAANABAAAAAAAABSAA
-			AEABAAAAAAAAECAAAFABAAAAAAAAESAAAIQBAAAAAAAAEiAAAGQB
-			AAAAAAAAEyAAAHQBAAAAAAAAICAAALABAAAAAAAAMCAAANwBAAAA
-			AAAAAcAAACQBAAAAAAAAEcAAACAAAAAAAAAAEsAAADQBAAAAAAAA
-			ENAAAAQAAAAAAAAA5AEAgAgCAAAAAAAA
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/nathanielwhynott/Sites/whynott/index.html</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./index.html</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -675,42 +711,6 @@
 		<dict>
 			<key>BookmarkData</key>
 			<data>
-			Ym9vazADAAAAAAQQMAAAAF0VgJskOkgbrMKkg8sticDCHPVAg219
-			P4bOh/4+Itp6IAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAQAAAAAQEAAG5hdGhhbmllbHdoeW5vdHQFAAAAAQEAAFNpdGVz
-			AAAABwAAAAEBAAB3aHlub3R0ABgAAAABAQAAcmVhbC1lc3RhdGUt
-			ZGlnaXRhbC5odG1sFAAAAAEGAAAQAAAAIAAAADgAAABIAAAAWAAA
-			AAgAAAAEAwAAbp0KAAAAAAAIAAAABAMAAKJvEAAAAAAACAAAAAQD
-			AADJpxIAAAAAAAgAAAAEAwAASoZHAAAAAAAIAAAABAMAAIkKSQAA
-			AAAAFAAAAAEGAACUAAAApAAAALQAAADEAAAA1AAAAAgAAAAABAAA
-			wc0n5EAAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
-			AAgAAAAEAwAAAwAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZp
-			bGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAABQPy0c
-			AAAACAAAAAAEAABBwK5IxPecKyQAAAABAQAAQUVCQjk3MUYtQUU2
-			Qy00QkM5LTg3Q0QtOTEwMDc4M0YyOUI4GAAAAAECAACBAAAAAQAA
-			AO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoA
-			AAABAQAATlNVUkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAAD
-			AwAAsAAAANgAAAD+////AQAAAAAAAAARAAAABBAAAHgAAAAAAAAA
-			BRAAAOQAAAAAAAAAEBAAABABAAAAAAAAQBAAAAABAAAAAAAAAiAA
-			ANwBAAAAAAAABSAAAEwBAAAAAAAAECAAAFwBAAAAAAAAESAAAJAB
-			AAAAAAAAEiAAAHABAAAAAAAAEyAAAIABAAAAAAAAICAAALwBAAAA
-			AAAAMCAAAOgBAAAAAAAAAcAAADABAAAAAAAAEcAAACAAAAAAAAAA
-			EsAAAEABAAAAAAAAENAAAAQAAAAAAAAA8AEAgBQCAAAAAAAA
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/nathanielwhynott/Sites/whynott/real-estate-digital.html</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./real-estate-digital.html</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
 			Ym9vaywDAAAAAAQQMAAAAGMG6roE27prAqoyHa1baoCIeQ+pZ7bA
 			ciS4xY1i7+NdHAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
 			AAAQAAAAAQEAAG5hdGhhbmllbHdoeW5vdHQFAAAAAQEAAFNpdGVz
@@ -831,7 +831,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -873,7 +873,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -915,7 +915,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -958,7 +958,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1001,7 +1001,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1044,7 +1044,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1087,7 +1087,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1130,7 +1130,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1173,7 +1173,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1216,7 +1216,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1260,7 +1260,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1303,7 +1303,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1347,7 +1347,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1390,7 +1390,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1433,7 +1433,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T20:51:11Z</date>
+			<date>2019-07-30T01:35:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1486,6 +1486,6 @@
 	<key>ViewSplitterPosition:nathanielwhynott</key>
 	<real>0.24228742718696594</real>
 	<key>WindowFrame:nathanielwhynott:displays([(0, 0), (1920, 1080)])</key>
-	<string>rect(45,293,1080,1622)</string>
+	<string>rect(45,271,1080,1600)</string>
 </dict>
 </plist>
