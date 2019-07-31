@@ -471,7 +471,6 @@ letter-spacing: normal;
 .psb .figure { min-height: 120px}
 
 .figure {
-/* display: block; */
 margin: auto auto .5rem;
 padding: 0;
 min-height: 320px;
