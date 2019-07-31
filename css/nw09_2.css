@@ -51,6 +51,8 @@ h6, .h6 {font-size: .85rem}
 
 p { line-height:1.42857143 } 
 
+main {min-width: 0}
+
 #nav.navbar-nav, #navFooter .nav { margin: auto}
 
 #navFooter a.nav-link {min-height: 24px; font-size: 1rem}
@@ -166,6 +168,7 @@ text-shadow: 1px 0 1px rgba(0, 0, 0, 1)}
 .overnight-prints-gallery .figure {padding-bottom: 1.5rem; min-height: 200px;}
 
 .thumbnails .thumbnail-outer-container {
+	margin: auto;
     padding-right: .85rem;
     padding-left: .85rem;
 }
