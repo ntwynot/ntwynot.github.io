@@ -130,7 +130,7 @@ padding: 0 1rem 1rem}
 #gallery.carousel-inner {margin: auto}
 
 #gallery {
-margin-bottom: 1rem;
+margin: auto auto 1rem;
 width: 100%;
 overflow-x: auto;
 -webkit-overflow-scrolling: touch;
