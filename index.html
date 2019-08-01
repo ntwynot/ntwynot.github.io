@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +33,7 @@
 			<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Web Portfolio</a> 
 			<ul class="dropdown-menu">
 				<li class="dropdown-item">By Client <span class="small">(partial list)</span></li>
-				<li class="dropdown-item"><a href="real-estate-digital.html">Real Estate Digital - Web</a></li>
+				<li class="dropdown-item"><a href="real-estate-digital.html">Real Estate Digital (RED) - Web</a></li>
 				<li class="dropdown-item"> <a href="mikrotech-web.html">Mikrotech - Web</a></li>
 <!--<li class="dropdown-item"><a href="">.</a></li> -->
 				<div class="dropdown-divider">
@@ -68,18 +67,240 @@
 
 
 
-<main id="content" class="box container-fluid clearfix">
-	<div class="box-outer">
-    	<div class="box-inner">
-<header>
-				<h1 class="sr-only">
-					Nathaniel T. Whynott&#8217;s Portfolio
-				</h1>
-			</header>
+<main id="content" class="clearfix container-fluid">
+<section>
 
-<div id="box2SmlCtr" class="row text-center">
+    	
+<header>
+	<h1 class="sr-only">
+		Nathaniel T. Whynott&#8217;s Portfolio
+	</h1>
+</header>
+			<style>
+			.print-portfolio-homepage .mosaic-box p {
+			padding: .5rem .5rem 0rem;
+			top:0;
+			right:0;
+			bottom: auto;
+			left: auto;
+			border-bottom: 1px solid #aeb1bf
+			}
+			.mosaic-box p {
+			position: absolute;
+			padding: .25rem .5rem .125rem;
+			background: rgba(174,177,191,.5);
+			margin: 0;
+			width: 100%;
+			border-top: 1px solid #aeb1bf;
+			font-size: 1rem;
+			color: #fff;
+			text-shadow: #000 1px 1px 0;
+			bottom:0;
+			left: 0
+		}
+			
+			.portfolio-homepage {
+			display: -ms-grid;
+			display: grid;
+			height: 100%;
+			grid-template-columns: repeat(1, 1fr [col-start]);
+			grid-template-rows: auto;
+			grid-column-gap: 0
+  			grid-row-gap: 1.125rem;}
+  			
+  			.web-portfolio-homepage, .print-portfolio-homepage {
+  			display: -ms-grid;
+			display: grid;
+			padding-bottom: 1.5rem;
+			height: 100%;
+			grid-template-columns: repeat(1, 1fr [col-start]);
+			grid-template-rows: auto;
+			grid-column-gap: .85rem;
+  			grid-row-gap: 1rem}
+			
+			.mosaic-box {
+				position: relative;
+				padding: .25rem;
+				background-color: #aeb1bf; 
+				min-height: 50px; 
+				min-width: 50px;
+				justify-self: center;
+				align-self: start;
+				overflow: hidden}
+			
+			/* .box-1 { grid-column: 1 / 3;} */
+			
+			}
+			
+			.print-portfolio-homepage .box-3 {
+			grid-column: 3 /3}
+			
+			/*.box-2 { background-color: green}
+			.box-3 { background-color: blue}
+			.box-4 { background-color: pink}
+			.box-5 { background-color: beige}
+			.box-6 { background-color: purple} *.
+			
+			/*  
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap 
+*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	
+	
+}
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	.web-portfolio-homepage::after {
+		display: block;
+		content: "";
+		border-right: #191919 1px solid;
+		top: 0;
+		position: absolute;
+		right: -1rem;
+		width: 1px;
+		height: 100%;
+	}
+
+	.portfolio-homepage {
+			padding-bottom: 1.5rem;
+			grid-template-columns: repeat(2, 1fr [col-start]);
+			grid-column-gap: 2rem;
+  			grid-row-gap: 2rem;
+	}
+	
+	.web-portfolio-homepage header, 
+	.print-portfolio-homepage header {
+		grid-column: 1 / 3;
+	}
+	
+	
+	.web-portfolio-homepage, 
+	.print-portfolio-homepage {
+		position: relative;
+		grid-template-columns: repeat(2, 1fr [col-start]);
+	}
+	
+	.web-portfolio-homepage .box-1 {grid-column: 1 / 3; } 
+	.web-portfolio-homepage .box-2 {grid-row: 3 / 5;} 
+	.web-portfolio-homepage .box-3 { } 
+	.web-portfolio-homepage .box-4 { } 
+	
+	.print-portfolio-homepage .box-1 {grid-column: 2 / 2; grid-row: 2 / 5; } 
+	.print-portfolio-homepage .box-2 {} 
+	.print-portfolio-homepage .box-3 { } 
+	.print-portfolio-homepage .box-4 {grid-row: 2 / 3;}
+	
+	/*.box-1 img {max-height: 257px}*/
+
+
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	/* .portfolio-homepage {
+		grid-template-columns: repeat(2, 1fr [col-start]);
+	} */
+	
+
+		
+}
+
+/*  Extra large devices (large desktops, 1200 and up) */
+@media (min-width: 1200px) {	
+	
+}
+			
+			</style>
+			<div class="portfolio-homepage">
+			
+			<section class="web-portfolio-homepage">
+			<header>
+				<h3 class="text-center h4">Web/Internet</h3>
+				<p class="text-center small">Web Design &amp; Production: Web Sites, Intranets, B2B Sites, Landing Pages, Ezines, Static/Animated Banners, Email&nbsp;Blasts (E-blasts, E-Newletters), &amp;&nbsp;E-commerce&nbsp;Sites</p>
+			</header>
+			<article  class="mosaic-box box-1">
+				<div>
+				<img src="web/Real%20Estate%20Digital/RED%20Marketing/Email%20Banner/Rountable/RED-Email-Bnr-770w-257hVer2.jpg" alt="RED-Email-Bnr-770w-257hVer2" class="img-fluid" alt="Email blast banner">
+				<p>E-mail Blast Banner</p>
+				</div>
+			</article>
+			<article class="mosaic-box box-2">
+				<div>
+				<img src="images/homepage/anniversary-lg.jpg" class="img-fluid" alt="anniversary-lg">
+				<p>Landing Pages</p>
+				</div>
+			</article>
+			<article class="mosaic-box box-3">
+				<div>
+				<img src="images/homepage/Screenshot_2019-07-09%20InSites%20InSites.png" class="img-fluid" alt="InSites Website">
+				<p>Web Sites</p>
+				</div>
+			</article>
+			<article class="mosaic-box box-4">
+				<div>
+				<img src="images/homepage/LeadRouting.png" class="img-fluid" alt="UI LeadRouting" width="1215" height="961">
+				<p>UI</p>
+				</div>
+			</article>
+			<!-- <article class="mosaic-box box-5">
+				<div>
+				</div>
+			</article>
+			<article class="mosaic-box box-6">
+				<div>
+				</div>
+			</article> -->
+			</section>
+			
+			<section class="print-portfolio-homepage">
+			<header>
+				<h3 class="text-center h4">Print/Publishing</h3>
+				<p class="text-center small">Print Design &amp; Production: Advertising Graphics, Logos, Magazine Ads, Brochures, Mailers, Trade Show Banners, Sales Booklets, Posters, &amp;&nbsp;Layout/Pagination.</p>
+			</header>
+			<article  class="mosaic-box box-1">
+				<div>
+					<p>Trade Show Banners</p>
+					<img src="images/homepage/vertical-banner.jpg" alt="vertical-banner" class="img-fluid">
+				</div>
+			</article>
+			<article class="mosaic-box box-2">
+				<div>
+					<p>Logos</p>
+					<img src="images/homepage/zdm-logo.png" alt="zdm-logo" class="img-fluid">
+				</div>
+			</article>
+			<article class="mosaic-box box-3">
+				<div>
+				<p>Mailers</p>
+					<img src="images/homepage/alta-one-2fold-mailer.png" alt="alta-one-2fold-mailer" class="img-fluid">
+				</div>
+			</article>
+			 <article class="mosaic-box box-4">
+				<div>
+				<p>Die-Cut</p>
+					<img src="images/homepage/die-cut-production-wheel.png" alt="die-cut-production-wheel" class="img-fluid">
+				</div>
+				</div>
+			</article>
+			<!-- <article class="mosaic-box box-5">
+				<div>
+				</div>
+			</article>
+			<article class="mosaic-box box-6">
+				<div>
+				</div>
+			</article> -->
+			</section>
+			</div>
+		
+
+<!--  <div id="box2SmlCtr" class="row text-center">
 <div class="box2Small col col-sm-6">
-<!-- <h2 class="titleBckgrd clearfix"><span class="web"></span></h2> -->
+ <h2 class="titleBckgrd clearfix"><span class="web"></span></h2> 
 	<div class="box2">
 		<div class="box-outer2">
     		<div class="box-inner2 web">
@@ -92,12 +313,11 @@
 		</div>
 	</div>
 </div>
-
 <div class="box2Small col col-sm-6">
 	<div class="box2">
 		<div class="box-outer2">
     		<div class="box-inner2 print">
- 			<h2><strong><a href="design-print.html">Graphic Design &#38; Production:</a></strong></h2>
+ 			<h2><strong><a href="design-print.html">Print Design &#38; Production:</a></strong></h2>
            
            <ul class="bodyLi3 list-unstyled">
 <li>
@@ -108,14 +328,14 @@
 		</div>
 	</div>
 </div>
-</div>
+</div> -->
 <aside class="text-center clearfix"><!-- This site is presented in chronological order based upon start times. <br />However, dates may overlap due to repeat Freelance work. -->This site is under construction
 <!-- <p class="floatRgt clearfix"><a href="javascript:history.go(-1)" title="Go Back">&#60; Back</a></p> --></aside>
 
 
 
-</div>
-   	  </div>
+
+   	  </section>
 	</main>
 	<!-- #bbinclude "includes/footerNav.htm" -->
 <nav id="navFooter" class="navbar clearfix">
