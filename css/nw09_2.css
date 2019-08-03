@@ -678,9 +678,11 @@ padding-top: 6px;
 
 .lft {text-align: left;}
 
-
 .ctr { text-align: center; text-indent: 0;}
 
+.show-grid {
+	margin-top: 1rem;
+	margin-bottom: .5rem
 
 #gallery .carousel-item {
 display: block !important;
