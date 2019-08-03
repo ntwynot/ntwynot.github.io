@@ -24,7 +24,7 @@ a:not(.nav-link):visited {
 	
 a:active {color: #ff8571; text-decoration: none; border-bottom: 0;  }
 
-acronym {text-decoration:none;}
+abbr {text-decoration:none;}
 
 
 h1, h2, h3, h4, h5, h6 { font-family: Verdana, Helvetica, sans-serif; color: #191919;} 
@@ -234,7 +234,7 @@ No media query for `xs` since this is the default in Bootstrap
 	
 #content { background-color: #cacbce}  
 
-#thumbnails {margin-top: .5rem;  width: 100%}
+#thumbnails, #thumbnails2 {margin-top: .5rem;  width: 100%}
 
 #box2SmlCtr { 
     display: -webkit-box;
@@ -593,7 +593,7 @@ font-size: .825rem;
 letter-spacing: normal;
 } 
 
-.figure acronym {display: inline-block}
+.figure abbr {display: inline-block}
 
 .psb .figure { min-height: 120px}
 
