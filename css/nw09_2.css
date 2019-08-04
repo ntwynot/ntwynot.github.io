@@ -57,6 +57,9 @@ main {min-width: 0}
 
 #navFooter a.nav-link {min-height: 24px; font-size: 1rem}
 
+#myCarousel .carousel-item.active,
+#thumbnailsComplete .carousel-item  {display: block !important}
+
 #wrapper2 { 
 margin: 1rem auto 0;
 padding-top: 1rem;
@@ -250,7 +253,7 @@ padding: 0 1rem 1rem}
 
 /* end Small inner box */
 
-#gallery.carousel-inner {margin: auto}
+#gallery.carousel-inner, .carousel-inner {margin: auto}
 
 #gallery {
 margin: auto auto 1rem;
@@ -267,6 +270,10 @@ font-size: 1rem}
 -ms-flex: none;
 flex: none; 
 	 max-width: 100%}
+	 
+.thumbnail-outer-container.carousel-item { 
+	float: none !important;
+	display: none !important}
 
 .gallery-content .figure img,
 .gallery-content .figure2 img {max-height:none}
@@ -668,6 +675,8 @@ padding-top: 6px;
 
 #gallery > br { clear: left;}
 
+.carousel-control-next, .carousel-control-prev {font-size: 3.5rem;}
+
 .floatLft { float: left; }
 
 .floatRgt { float: right; }
@@ -718,7 +727,7 @@ height: 100%;}
     top: 50%;
 }
 
-.carousel-inner { padding-top: 1rem}
+.carousel-inner { margin: 0 auto; padding-top: 1rem}
 
 /*  
 Extra small devices (portrait phones, less than 576px)
