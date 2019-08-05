@@ -65,7 +65,7 @@ main {min-width: 0}
 #wrapper2 { 
 margin: 1rem auto 0;
 padding-top: 1rem;
-background-color: #222;}
+background-color: #fff;}
 
 #navBar {
 display: block;
@@ -264,9 +264,7 @@ No media query for `xs` since this is the default in Bootstrap
 	
 #gallery > .standard {margin-bottom: 1rem}
 
-#gallery .thumbnails {margin-top: 1rem}
-	
-#content { background-color: #cacbce}  
+#gallery .thumbnails {margin-top: 1rem} 
 
 #thumbnails, #thumbnails2 {margin-top: .5rem;  width: 100%}
 
@@ -316,13 +314,13 @@ flex: none;
 .dropdown-item a {color: #7080B2 !important; border:0}
 
 a.nav-link, .navbar-light .navbar-nav .nav-link {
-color: #fff !important;
+color: #7080B2 !important;
 border: 0;
 padding-top: 0;
 padding-bottom: 0;
 font-size: 1.125rem;
 font-weight: 300;
-text-shadow: 1px 0 1px rgba(0, 0, 0, 1)}
+text-shadow: 1px 0 1px rgba(0, 0, 0, .12)}
 
 .navbar-nav .dropdown .caret { color:#e0e8ff !important;}
 
