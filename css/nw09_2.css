@@ -463,7 +463,7 @@ col { border: 0 solid #fafafa; }
 th, td { padding: 2% 1%; border-color: transparent; border-width: 0;  border: 0 solid #fff; } 
 
 .table-striped tbody tr:nth-of-type(odd) {
-	background-color: #aeb1bf; /* #5B5E66 */
+	background-color: #c2c5d3 /*  #aeb1bf;  #5B5E66 */
 	color: #F1F4F9; } 
 
 #workTable tr:hover
