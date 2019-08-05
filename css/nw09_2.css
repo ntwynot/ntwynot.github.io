@@ -118,7 +118,7 @@ height: 100%;
 grid-template-rows: auto;
 grid-column-gap: 0;
 grid-row-gap: 1.125rem;
-
+padding-top: 1.5rem;
 }
 .portfolio-homepage  > *:nth-child(1) {
    -ms-grid-row: 1;
