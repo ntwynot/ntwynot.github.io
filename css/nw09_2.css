@@ -186,7 +186,9 @@
  @media (min-width: 768px) {
  
  .nav-item.dropdown:hover ul,
- .nav-item.dropdown:focus ul { display: block !important;}
+ .nav-item.dropdown:focus ul {
+  display: block !important;
+  margin-top: -.25rem}
 
     /* .web-portfolio-homepage::after {
          display: block;
