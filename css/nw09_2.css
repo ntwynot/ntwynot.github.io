@@ -158,6 +158,8 @@
      -ms-grid-column: 1
 }
 
+.nav-link.dropdown-toggle:hover + ul { display: block !important;}
+
  .nav-tabs .nav-link {
      padding: .75rem 0;
      color: #6FADBF
