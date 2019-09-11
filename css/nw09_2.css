@@ -185,6 +185,8 @@
 /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) {
  
+ .nav-item.dropdown:hover ul,
+ .nav-item.dropdown:focus ul { display: block !important;}
 
     /* .web-portfolio-homepage::after {
          display: block;
