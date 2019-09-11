@@ -158,8 +158,6 @@
      -ms-grid-column: 1
 }
 
-.nav-link.dropdown-toggle:hover + ul { display: block !important;}
-
  .nav-tabs .nav-link {
      padding: .75rem 0;
      color: #6FADBF
@@ -186,6 +184,9 @@
 }
 /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) {
+ 
+ .nav-link.dropdown-toggle:hover + ul { display: block !important;}
+
     /* .web-portfolio-homepage::after {
          display: block;
          content: "";
