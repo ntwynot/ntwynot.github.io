@@ -14,12 +14,12 @@
  body {
     font-size: 1rem
 }
- a, a.nav-link {
+ a, a.nav-link, a abbr {
      text-decoration: none;
      color: #7080B2;
      border-bottom: 1px dotted #7080B2;
 }
- a:hover, a.nav-link:hover {
+ a:hover, a.nav-link:hover, a abbr:hover {
      text-decoration: none;
      color: #866FBF 
     /* #F0D3F8 */
@@ -28,8 +28,8 @@
 }
  a:not(.nav-link):visited {
      text-decoration: none;
-     color: #f1f1f1;
-     border-bottom: 1px dotted #f1f1f1;
+     /*color: #f1f1f1;
+     border-bottom: 1px dotted #f1f1f1; */
 }
  a:active {
      color: #ff8571;
@@ -114,9 +114,10 @@
     /* IE6-9 */
 }
 /* Start Homepage */
- .web-portfolio-homepage .box-2 img {max-height: 714px}
+ .web-portfolio-homepage .box-2 img {max-height: 912px}
 
  .print-portfolio-homepage .box-1 img {max-height: 561px}
+  .print-portfolio-homepage .box-1 img {max-height: 612px}
  .print-portfolio-homepage .box-4 img {max-height: 600px}
  
  .print-portfolio-homepage .mosaic-box p {
@@ -136,7 +137,7 @@
      border-top: 1px solid #aeb1bf;
      color: #191919;
      text-shadow: #fff 1px 1px 1px, #fff 0 -1px 1px;
-     bottom:0;
+     top:0;
      left: 0 
 }
  .web-portfolio-homepage, .print-portfolio-homepage {
@@ -312,8 +313,8 @@
 }
  #gallery {
      margin: auto auto 1rem;
-     width: 100%;
-     overflow-x: auto;
+     width: auto;
+     overflow: visible;
      -webkit-overflow-scrolling: touch;
      font-size: 1rem
 }
@@ -325,9 +326,13 @@
      font-weight: 300;
      text-shadow: 1px 0 1px rgba(0, 0, 0, .12)
 }
- .carousel .standard, .modal-backdrop.fade.in {
+
+ .carousel .standard, 
+ .modal-backdrop.fade.in,
+ .modal-open .carousel-indicators {
     display: none
 }
+
  .carousel-inner .thumbnail-outer-container {
      -webkit-box-flex: 0;
      -ms-flex: none;
@@ -530,7 +535,10 @@
      #5B5E66 */
      color: #F1F4F9 
 }
- #workTable tbody tr:hover .cronus a, #workTable tbody tr:hover .cronusBdy a, #workTable tbody tr:hover .cronus, #workTable tbody tr:hover .cronusBdy {
+ #workTable tbody tr:hover .cronus a,
+ #workTable tbody tr:hover .cronusBdy a,
+ #workTable tbody tr:hover .cronus,
+ #workTable tbody tr:hover .cronusBdy {
     color: #fff !important
 }
  #workTable tbody tr:hover {
@@ -541,7 +549,9 @@
      background-color: #DDE0E5;
      color: #191919;
 }
- .mikrotech-hrz-banner-container .figure h3, .mikrotech-hrz-banner-container h3, .figure.card h3 {
+ .mikrotech-hrz-banner-container .figure h3,
+ .mikrotech-hrz-banner-container h3, 
+ .figure.card h3 {
      margin-bottom: 1.125rem;
      padding: .5rem 1rem .75rem;
      background: rgba(112,128,178, .7);
@@ -550,7 +560,8 @@
      text-shadow: #333 0 1px 1px;
      border-radius: 2px 
 }
- .mikrotech-hrz-banner-container .figure, .figure.card {
+ .mikrotech-hrz-banner-container .figure, 
+ .figure.card {
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -560,6 +571,9 @@
      min-height: auto;
      background: rgba(112,128,178, .125);
 }
+
+ .figure h3 a {color: #fff}
+ 
  .show-info {
      width: 85%;
      margin: 1.5em .5em 0 2.5em;
@@ -636,8 +650,10 @@
  .standard {
      padding: .25rem 0 0;
      margin: 0;
+     font-size: 1.05rem;
      line-height: 1.5;
      widows: 2;
+     orphans: 2;
      overflow: hidden
 }
  .standard:last-child {
@@ -725,12 +741,12 @@
      padding: .325rem 0 .5rem;
      text-align: center 
 }
- .figure abbr > a, .figure h3 > a {
-    color: #fff !important
-}
+
+ 
  .figure a {
      display: block;
      border: 0;
+     color: #7080B2;
      text-decoration: none
 }
  .figure p {
@@ -843,8 +859,8 @@
  #gallery .carousel-item {
      display: block !important;
      float: none;
-     margin: 0;
-     width: auto
+    /* margin: 0;
+     width: auto */
 }
  #myCarousel .carousel-inner {
      margin: auto;
@@ -868,7 +884,7 @@
 }
  .carousel-control-next, .carousel-control-prev {
      font-size: 5rem;
-     background: #fff;
+     background: rgba(0,0,0,.25);
      width: 50px;
      height: 50px;
      top: 50%;
@@ -893,6 +909,9 @@
          -webkit-column-count: 2;
          column-count: 2
     }
+    
+    #gallery .carousel-item {margin: 0}
+    
      .navbar-expand-lg .navbar-nav .nav-link {
          padding-right: 1rem;
          padding-left: 1rem;
@@ -913,11 +932,8 @@
      #gallery article > .standard, #gallery > .standard {
          -webkit-column-count: 3;
          column-count: 3
-    }
-    /*.gallery-content .figure img, .gallery-content .figure2 img {
-        max-height:450px
-    }
-     */
+    } 
+   
 }
 /* Extra large devices (large desktops, 1200 and up) */
  @media (min-width: 1200px) {
@@ -930,6 +946,6 @@
 }
  @media (min-width: 1600px) {
      .container {
-        max-width: 1600px
+        max-width: 1400px
     }
 }
