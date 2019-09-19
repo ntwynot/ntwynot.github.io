@@ -134,7 +134,7 @@
 }
 
  .nav-tabs .nav-link {
-     padding: .75rem 0;
+     padding: .75rem 1rem;
      color: #6FADBF
 }
 
@@ -166,16 +166,9 @@
 }
  .web-portfolio-homepage, 
  .print-portfolio-homepage {
-     display: -ms-grid;
-     display: grid;
+     display: block;
      padding-bottom: 1.5rem;
      height: 100%;
-     -ms-grid-columns: 1fr .85rem [col-start];
-     grid-template-columns: repeat(1, 1fr [col-start]);
-     -ms-grid-rows: auto;
-     grid-template-rows: auto;
-     grid-column-gap: .85rem;
-     grid-row-gap: 1rem
 }
 /*
  .web-portfolio-homepage > *:nth-child(1),
@@ -186,6 +179,7 @@
 
  .mosaic-box {
      position: relative;
+     margin-bottom: 1rem;
      padding: .25rem;
      background-color: #aeb1bf;
      min-height: 50px;
@@ -210,6 +204,18 @@
   display: block !important;
   margin-top: -.25rem
   }
+  
+  .web-portfolio-homepage, 
+ .print-portfolio-homepage {
+     display: -ms-grid;
+     display: grid;
+     -ms-grid-columns: 1fr .85rem [col-start];
+     grid-template-columns: repeat(1, 1fr [col-start]);
+     -ms-grid-rows: auto;
+     grid-template-rows: auto;
+     grid-column-gap: .85rem;
+     grid-row-gap: 1rem
+}
   
   .print-portfolio-homepage .box-1 {
   	-ms-grid-column: 1;
