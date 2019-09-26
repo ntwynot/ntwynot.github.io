@@ -156,6 +156,7 @@ header #navBar {
 
 .print-portfolio-homepage header,
 .web-portfolio-homepage header {
+	padding: .5rem 1rem 0;
 	-ms-grid-row: 1;
     grid-row: 1/1;
     -ms-grid-column: 1; 
