@@ -129,7 +129,10 @@ header #navBar {
 /* Start Homepage */
  .web-portfolio-homepage .box-2 img {max-height: 912px}
 
- .print-portfolio-homepage .box-1 img {max-height: 561px}
+ .print-portfolio-homepage .box-1 img {
+ display: block;
+ margin: auto 0;
+ max-height: 561px}
  .print-portfolio-homepage .box-2 img {max-height: 500px}
  .print-portfolio-homepage .box-4 img {max-height: 600px}
  
@@ -172,7 +175,10 @@ header #navBar {
  .mosaic-box p {
      position: absolute;
      padding: .25rem .5rem .125rem;
-     background: rgba(0,0,0,.25);
+	 background: -moz-linear-gradient(left,  rgba(125,182,198,1) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
+	 background: -webkit-linear-gradient(left,  rgba(125,182,198,1) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
+	 background: linear-gradient(to right,  rgba(125,182,198,1) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 );
      margin: 0;
      width: 100%;
      border-top: 1px solid #aeb1bf;
@@ -197,8 +203,9 @@ header #navBar {
  .mosaic-box {
      position: relative;
      margin-bottom: 1rem;
-     padding: .25rem;
-     background-color: #aeb1bf;
+     padding; 0;
+     /* padding: .25rem; */
+     background-color: /* #aeb1bf */ #fff;
      min-height: 50px;
      min-width: 50px;
      -ms-grid-column-align: center;
@@ -223,7 +230,7 @@ header #navBar {
   }
   
   .web-portfolio-homepage, 
- .print-portfolio-homepage {
+  .print-portfolio-homepage {
      display: -ms-grid;
      display: grid;
      -ms-grid-columns: 1fr .85rem [col-start];
@@ -958,7 +965,7 @@ header #navBar {
          column-count: 3
     } 
     
-      .print-portfolio-homepage .box-2 img {max-height: 500px}
+      .print-portfolio-homepage .box-2 img {max-height: 350px}
 
    
 }
@@ -969,6 +976,8 @@ header #navBar {
     }
     
     header #navBar { background-position: left top, center -1rem}
+    
+	.print-portfolio-homepage .box-2 img {max-height: 500px}
     
      .container {
         max-width: 1200px
