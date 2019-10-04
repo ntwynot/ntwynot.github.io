@@ -208,9 +208,9 @@ header #navBar {
      margin-bottom: 1rem;
      padding: 1.5rem 0 0;
      /* background-color:  #aeb1bf #fff; */ 
-     background: -moz-linear-gradient(left,  rgba(125,182,198,.75) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
-	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.75) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
-	 background: linear-gradient(to right,  rgba(125,182,198,.75) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
+     background: -moz-linear-gradient(left,  rgba(125,182,198,.36) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
+	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.36) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
+	 background: linear-gradient(to right,  rgba(125,182,198,.36) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 );
      min-height: 50px;
      min-width: 50px;
