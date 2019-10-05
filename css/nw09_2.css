@@ -600,9 +600,9 @@ header #navBar {
      margin-bottom: 1.125rem;
      padding: .5rem 1rem .75rem;
      /* background: rgba(112,128,178, .7) */
-     background: -moz-linear-gradient(left,  rgba(125,182,198,.75) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
-	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.75) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
-	 background: linear-gradient(to right,  rgba(125,182,198,.75) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
+     background: -moz-linear-gradient(left,  rgba(125,182,198,.35) 0%, rgba(111,173,191,0.35) 50%, rgba(134,111,191,0.32) 100%);
+	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.35) 0%,rgba(111,173,191,0.35) 50%,rgba(134,111,191,0.32) 100%);
+	 background: linear-gradient(to right,  rgba(125,182,198,.35) 0%,rgba(111,173,191,0.35) 50%,rgba(134,111,191,0.32) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 );
     /* #7080B2 */
      color: #fff;
