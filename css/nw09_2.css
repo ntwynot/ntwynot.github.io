@@ -9,10 +9,23 @@
      font-family: helvetica, verdana, arial, sans-serif;
     /* background-image: url(../images/whynottSiteBckgrd.jpg);
      background-repeat: repeat; */
-	 background: -moz-linear-gradient(top,  rgba(134,111,191,0.36) 0%, rgba(255,255,255,1) 100%);
+	/* background: -moz-linear-gradient(top,  rgba(134,111,191,0.36) 0%, rgba(255,255,255,1) 100%);
 	 background: -webkit-linear-gradient(top,  rgba(134,111,191,0.36) 0%,rgba(255,255,255,1) 100%);
 	 background: linear-gradient(to bottom,  rgba(134,111,191,0.36) 0%,rgba(255,255,255,1) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c866fbf', endColorstr='#ffffff',GradientType=0 );
+	 *//*
+	 background: -moz-linear-gradient(top,  rgba(199,212,255,0.36) 0%, rgba(255,255,255,1) 100%);
+	 background: -webkit-linear-gradient(top,  rgba(199,212,255,0.36) 0%,rgba(255,255,255,1) 100%);
+	 background: linear-gradient(to bottom,  rgba(199,212,255,0.36) 0%,rgba(255,255,255,1) 100%);
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cc7d4ff', endColorstr='#ffffff',GradientType=0 ); */
+	 
+	 
+	 background: -moz-linear-gradient(top,  rgba(149,162,204,0.36) 0%, rgba(255,255,255,1) 100%);
+	 background: -webkit-linear-gradient(top,  rgba(149,162,204,0.36) 0%,rgba(255,255,255,1) 100%);
+	 background: linear-gradient(to bottom,  rgba(149,162,204,0.36) 0%,rgba(255,255,255,1) 100%);
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c95a2cc', endColorstr='#ffffff',GradientType=0 );
+
+
      color: #191919;
      letter-spacing: .05em;
 }
@@ -21,8 +34,8 @@
 }
  a, a.nav-link, a abbr {
      text-decoration: none;
-     color: #7080B2;
-     border-bottom: 1px dotted #7080B2;
+     color: #425799;
+     border-bottom: 1px dotted #425799;
 }
  a:hover, a.nav-link:hover, a abbr:hover {
      text-decoration: none;
@@ -104,6 +117,9 @@ header #navBar {
  #myCarousel .carousel-item.active, #thumbnailsComplete .carousel-item {
     display: block !important
 }
+#content .nav-tabs {
+	 margin-top:3rem
+}
  #thumbnails5 {
      width: 100%
 }
@@ -119,6 +135,7 @@ header #navBar {
      width: 100%;
      height: auto;   
 }
+
 /* Start Homepage */
  .web-portfolio-homepage .box-2 img {max-height: 912px}
 
@@ -138,13 +155,14 @@ header #navBar {
 }
 
 .nav-tabs .nav-link.active {
-    color: #866FBF;
+    color: #425799 /* #866FBF */;
     box-shadow: rgba(0,0,0,.125) 3px -1px 7px
 }
 
  .nav-tabs .nav-link {
      padding: .75rem 1rem;
-     color: #6FADBF
+     /* color: #6FADBF */
+     color: #82A7B3
 }
 
 .nav-tabs {margin-top:1rem}
@@ -556,8 +574,9 @@ header #navBar {
      border: 0 solid #fff;
 }
  .table-striped tbody tr:nth-of-type(odd) {
-     background-color: #c2c5d3 
-    /* #aeb1bf;
+ 	 background-color: #D3F5FF;
+     /* background-color: #c2c5d3; */
+     /* #aeb1bf;
      #5B5E66 */
      color: #F1F4F9 
 }
@@ -946,8 +965,8 @@ header #navBar {
          padding-left: 1rem;
     }
      .navbar .navbar-collapse {
-        margin-top:.25rem;
-        margin-bottom: .7rem;
+        margin-top:0;
+        margin-bottom: -1rem;
     }
     
      .print-portfolio-homepage .box-2 img {max-height: 250px}
