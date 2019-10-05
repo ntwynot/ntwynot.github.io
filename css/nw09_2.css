@@ -117,20 +117,7 @@ header #navBar {
      position: relative;
      padding-bottom: .25rem;
      width: 100%;
-     height: auto;
-     left:0;
-     top:0;
-     content: "";
-     background-color: rgba(202,203,206,1);
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cacbce+0,ffffff+70&1+0,0.2+70,0+100 */
-     background: -moz-linear-gradient(top, rgba(202,203,206,1) 0%, rgba(255,255,255,0.2) 70%, rgba(255,255,255,0) 100%);
-    /* FF3.6-15 */
-     background: -webkit-linear-gradient(top, rgba(202,203,206,1) 0%,rgba(255,255,255,0.2) 70%,rgba(255,255,255,0) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(to bottom, rgba(202,203,206,1) 0%,rgba(255,255,255,0.2) 70%,rgba(255,255,255,0) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacbce', endColorstr='#00ffffff',GradientType=0 );
-    /* IE6-9 */
+     height: auto;   
 }
 /* Start Homepage */
  .web-portfolio-homepage .box-2 img {max-height: 912px}
