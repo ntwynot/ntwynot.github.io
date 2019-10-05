@@ -2,12 +2,17 @@
 /* CSS Document */
  html, body {
      font-size: 14px;
-     height: 100%
+     height: 100%;
+     overflow-x: hidden
 }
  body {
      font-family: helvetica, verdana, arial, sans-serif;
-     background-image: url(../images/whynottSiteBckgrd.jpg);
-     background-repeat: repeat;
+    /* background-image: url(../images/whynottSiteBckgrd.jpg);
+     background-repeat: repeat; */
+	 background: -moz-linear-gradient(top,  rgba(134,111,191,0.36) 0%, rgba(255,255,255,1) 100%);
+	 background: -webkit-linear-gradient(top,  rgba(134,111,191,0.36) 0%,rgba(255,255,255,1) 100%);
+	 background: linear-gradient(to bottom,  rgba(134,111,191,0.36) 0%,rgba(255,255,255,1) 100%);
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c866fbf', endColorstr='#ffffff',GradientType=0 );
      color: #191919;
      letter-spacing: .05em;
 }
@@ -43,7 +48,8 @@
 header #navBar {
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgb(111, 173, 191) 100%),
 				rgba(134,111,191,.875) url(../images/bckgrd/header-bckgrd.JPG) no-repeat center 0 / cover;
-	background-blend-mode: screen;
+	background-blend-mode: screen; 
+	/* background-blend-mode: multiply; */
 }
 
  h1, h2, h3, h4, h5, h6 {
@@ -733,7 +739,7 @@ header #navBar {
      font-family: Verdana, Helvetica, sans-serif;
      font-size: .75rem;
      text-transform: uppercase;
-     color: #e6e6e6;
+     color: #666;
      margin: 0 auto;
      padding: 0 1rem .5rem;
      text-align: center;
