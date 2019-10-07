@@ -175,6 +175,26 @@ header #navBar {
      color: #82A7B3
 }
 
+.navbar-brand h1 {
+    margin: 0;
+    padding: .35rem 1rem .75rem;
+ 	font-size: 6rem;
+ 	letter-spacing: -.05em;
+ 	word-spacing: -.15em;
+ 	
+ 	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 30%, rgb(255, 255, 255) 100%);
+  	background: -o-linear-gradient(#111, #fff);
+  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 30%, rgb(255, 255, 255) 100%);
+  	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  	text-fill-color: transparent;
+  	text-shadow: rgba(0,0,0,.5) 0px -1px 0px;
+  	white-space: normal;
+	line-height: 1;
+  	border:0
+  }
+
 .nav-tabs {margin-top:1rem}
 
 .print-portfolio-homepage header,
@@ -191,8 +211,6 @@ header #navBar {
 	-ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1/4}
-    
-
 
  .mosaic-box p {
      position: absolute;
@@ -309,6 +327,9 @@ header #navBar {
 
 
 }
+
+	.strong {	font-weight: bolder}
+
 /* Large devices (desktops, 992px and up) */
  @media (min-width: 992px) {
 
