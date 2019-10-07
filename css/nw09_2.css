@@ -116,7 +116,7 @@ header #navBar {
 }
  #nav.navbar-nav {
  	background-color: rgba(255,255,255,.6);
-	padding: .35rem .55rem .125rem;
+	padding: .32rem .55rem;
 	box-shadow: rgba(0,0,0,.125) 5px 0 7px
 }
  
@@ -192,8 +192,11 @@ header #navBar {
     -ms-grid-column-span: 3;
     grid-column: 1/4}
     
+
+
  .mosaic-box p {
      position: absolute;
+     margin: 0;
      padding: .25rem 1rem .25rem;
 	 /*background: -moz-linear-gradient(left,  rgba(125,182,198,.75) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
 	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.75) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
@@ -202,13 +205,12 @@ header #navBar {
 	 background: -webkit-linear-gradient(110deg,  rgba(24,113,201,0.36) 0%,rgba(0,56,137,0.36) 100%);
 	 background: linear-gradient(110deg,  rgba(24,113,201,0.36) 0%,rgba(0,56,137,0.36) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c1871c9', endColorstr='#5c003889',GradientType=1 );
-
-     margin: 0;
      width: auto;
      border-top: 1px solid #aeb1bf;
-     color: #191919;
-     text-shadow: #fff 1px 1px 1px, #fff 0 -1px 1px;
+     text-shadow: rgba(0,0,0,.5) 1px 1px 1px, rgba(0,0,0,.5) 0 -1px 1px;
      box-shadow: rgba(0,0,0,.2) 1px 1px 7px;
+     color: #fff;
+     /*color: #191919;*/
      top:0;
      left: 0 
 }
@@ -620,7 +622,7 @@ header #navBar {
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 );
     /* #7080B2 */
      color: #fff;
-     text-shadow: #333 0 1px 1px;
+     text-shadow: #333 1px 1px 1px;
      border-radius: 2px 
 }
  .mikrotech-hrz-banner-container .figure, 
@@ -973,6 +975,13 @@ header #navBar {
     }
     
     #gallery .carousel-item {margin: 0}
+    
+    #nav.navbar-nav {
+    background-color: rgba(255,255,255,.6);
+    padding: .32rem .55rem;
+    box-shadow: rgba(0,0,0,.125) 5px 0 7px;
+    width: 100%;
+    margin: 0}
     
      .navbar-expand-lg .navbar-nav .nav-link {
          padding-right: 1rem;
