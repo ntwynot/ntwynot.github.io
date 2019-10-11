@@ -40,8 +40,8 @@
 }
  a, a.nav-link, a abbr {
      text-decoration: none;
-     color: #7080B2;
-     border-bottom: 1px dotted #7080B2;
+     color: #425799;
+     border-bottom: 1px dotted #425799;
 }
  a:hover, a.nav-link:hover, a abbr:hover {
      text-decoration: none;
@@ -184,7 +184,7 @@ header #navBar {
  	
  	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 30%, rgb(255, 255, 255) 100%);
   	background: -o-linear-gradient(#111, #fff);
-  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 30%, rgb(255, 255, 255) 100%);
+  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 30%, rgb(255, 255, 255) 100%), rgb(255, 255, 255) 100%);
   	-webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -432,7 +432,7 @@ header #navBar {
     background-color: #ddd
 }
  .dropdown-menu a, .dropdown-item a {
-    color: #7080B2 !important;
+    color: #425799 !important;
      border:0
 }
  .navbar-nav .dropdown .caret {
@@ -642,7 +642,7 @@ header #navBar {
 	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.35) 0%,rgba(111,173,191,0.35) 50%,rgba(134,111,191,0.32) 100%);
 	 background: linear-gradient(to right,  rgba(125,182,198,.35) 0%,rgba(111,173,191,0.35) 50%,rgba(134,111,191,0.32) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 );
-    /* #7080B2 */
+    /* #425799 */
      color: #fff;
      text-shadow: #333 1px 1px 1px;
      border-radius: 2px 
@@ -832,7 +832,7 @@ header #navBar {
  .figure a {
      display: block;
      border: 0;
-     color: #7080B2;
+     color: #425799;
      text-decoration: none
 }
  .figure p {
