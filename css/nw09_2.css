@@ -7,31 +7,10 @@
 }
  body {
      font-family: helvetica, verdana, arial, sans-serif;
-    /* background-image: url(../images/whynottSiteBckgrd.jpg);
-     background-repeat: repeat; */
-	/* background: -moz-linear-gradient(top,  rgba(134,111,191,0.36) 0%, rgba(255,255,255,1) 100%);
-	 background: -webkit-linear-gradient(top,  rgba(134,111,191,0.36) 0%,rgba(255,255,255,1) 100%);
-	 background: linear-gradient(to bottom,  rgba(134,111,191,0.36) 0%,rgba(255,255,255,1) 100%);
-	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c866fbf', endColorstr='#ffffff',GradientType=0 );
-	 *//*
-	 background: -moz-linear-gradient(top,  rgba(199,212,255,0.36) 0%, rgba(255,255,255,1) 100%);
-	 background: -webkit-linear-gradient(top,  rgba(199,212,255,0.36) 0%,rgba(255,255,255,1) 100%);
-	 background: linear-gradient(to bottom,  rgba(199,212,255,0.36) 0%,rgba(255,255,255,1) 100%);
-	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cc7d4ff', endColorstr='#ffffff',GradientType=0 ); */
-	 
-	 
-	/* background: -moz-linear-gradient(top,  rgba(149,162,204,0.36) 0%, rgba(255,255,255,1) 100%);
-	 background: -webkit-linear-gradient(top,  rgba(149,162,204,0.36) 0%,rgba(255,255,255,1) 100%);
-	 background: linear-gradient(to bottom,  rgba(149,162,204,0.36) 0%,rgba(255,255,255,1) 100%);
-	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c95a2cc', endColorstr='#ffffff',GradientType=0 ); */
-	 
 	 background: -moz-linear-gradient(top,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%);
 	 background: -webkit-linear-gradient(top,  rgba(24,113,201,0.35) 0%,rgba(0,56,137,0.35) 100%);
 	 background: linear-gradient(to bottom,  rgba(24,113,201,0.35) 0%,rgba(0,56,137,0.35) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#591871c9', endColorstr='#59003889',GradientType=0 );
-
-
-
      color: #191919;
      letter-spacing: .05em;
 }
@@ -52,8 +31,6 @@
 }
  a:not(.nav-link):visited {
      text-decoration: none;
-     /*color: #f1f1f1;
-     border-bottom: 1px dotted #f1f1f1; */
 }
  a:active {
      color: #ff8571;
