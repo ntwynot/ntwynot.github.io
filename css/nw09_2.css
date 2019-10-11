@@ -159,9 +159,9 @@ header #navBar {
  	letter-spacing: -.05em;
  	word-spacing: -.15em;
  	
- 	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 30%, rgb(255, 255, 255) 100%);
+ 	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 20%, rgb(255, 255, 255) 100%);
   	background: -o-linear-gradient(#111, #fff);
-  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 30%, rgb(255, 255, 255) 100%), rgb(255, 255, 255) 100%);
+  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 20%,  rgb(255, 255, 255) 100%);
   	-webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
