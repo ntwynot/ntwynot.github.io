@@ -155,10 +155,9 @@ header #navBar {
 .navbar-brand h1 {
     margin: 0;
     padding: .35rem 1rem .75rem;
- 	font-size: 6rem;
+ 	font-size: 1rem;
  	letter-spacing: -.05em;
  	word-spacing: -.15em;
- 	
  	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 20%, rgb(255, 255, 255) 100%);
   	background: -o-linear-gradient(#111, #fff);
   	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 20%,  rgb(255, 255, 255) 100%);
@@ -326,8 +325,9 @@ header #navBar {
      width: 100%;
 }
  #headerLogo a {
-    margin-right: .75rem;
-     border:0
+ 	display: block;
+    width: 100%;
+    border:0
 }
  #headerLogo h6 {
      position: relative;
@@ -992,6 +992,8 @@ header #navBar {
     }
     
      .print-portfolio-homepage .box-2 img {max-height: 250px}
+     
+     .navbar-brand h1 {font-size: 3rem}
 
      .box-outer {
          padding-right: 1rem;
@@ -1008,7 +1010,9 @@ header #navBar {
          column-count: 3
     } 
     
-      .print-portfolio-homepage .box-2 img {max-height: 350px}
+    .print-portfolio-homepage .box-2 img {max-height: 350px}
+      
+    .navbar-brand h1 {font-size: 5rem}
 
    
 }
@@ -1029,6 +1033,8 @@ header #navBar {
  @media (min-width: 1600px) {
  
  	header #navBar { background-position: left top, center -3rem}
+ 	
+ 	 .navbar-brand h1 {font-size: 6rem}
  	
      .container {
         max-width: 1400px
