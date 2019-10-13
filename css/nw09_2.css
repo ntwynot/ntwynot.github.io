@@ -165,7 +165,7 @@ header #navBar {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   	text-fill-color: transparent;
-  	text-shadow: rgba(0,0,0,.5) 0px -1px 0px;
+  	text-shadow: rgba(0,0,0,.35) 0px -1px 0px;
   	white-space: normal;
 	line-height: 1;
   	border:0
