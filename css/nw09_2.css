@@ -118,7 +118,7 @@ header #navBar {
  #navBar {
      display: block;
      position: relative;
-     padding-bottom: .25rem;
+     padding-bottom: 1.25rem;
      width: 100%;
      height: auto;   
 }
@@ -249,6 +249,8 @@ header #navBar {
 }
 /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) {
+ 
+  #navBar {padding-bottom: .25rem}
  
  .nav-item.dropdown:hover ul,
  .nav-item.dropdown:focus ul {
