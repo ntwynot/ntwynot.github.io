@@ -241,6 +241,7 @@ header #navBar {
      overflow: hidden
 }
 
+.strong {font-weight: bolder}
 
 
 /* Extra small devices (portrait phones, less than 576px) No media query for `xs` since this is the default in Bootstrap */
@@ -305,8 +306,6 @@ header #navBar {
 
 
 }
-
-	.strong {	font-weight: bolder}
 
 /* Large devices (desktops, 992px and up) */
  @media (min-width: 992px) {
@@ -995,7 +994,7 @@ header #navBar {
     
      .print-portfolio-homepage .box-2 img {max-height: 250px}
      
-     .navbar-brand h1 {font-size: 4rem}
+     .navbar-brand h1 {font-size: 4rem; text-align: center}
 
      .box-outer {
          padding-right: 1rem;
