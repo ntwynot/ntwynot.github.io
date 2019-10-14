@@ -535,31 +535,17 @@ header #navBar {
 }
 /* Begin Styles */
 
-.drop:before,
-.drop:after {
-  content: "";
-  display: block;
-}
-.drop:before {
-  margin-bottom: -0.175em;
-}
-.drop:after {
-  margin-top: -0.05em;
-}
-
  div .drop {
      float: left;
      display: inline;
      position: relative;
      margin: 0 .75rem 0 0;
-     padding: .5rem .8rem 0.5rem;
-     font-size: 200%;
+     padding: .7rem .7rem .25rem;
+     font-size: 2rem;
      line-height: 1;
-     border: 1px solid #f1f1f1;
-     background-color: #000;
-     color: #CDD0EB;
-     border-radius: 5px 
-}
+     background-color: #05448C;
+     color: #EDEFF5;
+	}
  table {
      width: 100%;
      border-collapse: collapse;
