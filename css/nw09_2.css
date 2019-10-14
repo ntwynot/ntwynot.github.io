@@ -411,7 +411,8 @@ header #navBar {
 }
  .dropdown-menu a, .dropdown-item a {
     color: #425799 !important;
-     border:0
+    letter-spacing: -.001em;
+    border:0
 }
  .navbar-nav .dropdown .caret {
      color:#e0e8ff !important;
@@ -614,7 +615,7 @@ header #navBar {
  .mikrotech-hrz-banner-container h3, 
  .figure.card h3 {
      margin-bottom: 1.125rem;
-     padding: .5rem 1rem .75rem;
+     padding: .5rem .3rem .75rem;
      /* background: rgba(112,128,178, .7) */
      background: -moz-linear-gradient(left,  rgba(125,182,198,.35) 0%, rgba(111,173,191,0.35) 50%, rgba(134,111,191,0.32) 100%);
 	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.35) 0%,rgba(111,173,191,0.35) 50%,rgba(134,111,191,0.32) 100%);
@@ -993,13 +994,16 @@ header #navBar {
     }
     
      .print-portfolio-homepage .box-2 img {max-height: 250px}
-     
+          
      .navbar-brand h1 {font-size: 4rem; text-align: center}
 
      .box-outer {
          padding-right: 1rem;
          padding-left: 1rem;
     }
+    
+    
+    
 }
 /* Large devices (desktops, 992px and up) */
  @media (min-width: 992px) {
@@ -1012,11 +1016,13 @@ header #navBar {
     } 
     
     .print-portfolio-homepage .box-2 img {max-height: 350px}
-      
-    .navbar-brand h1 {font-size: 5rem}
+    
+	.card.ahs img {max-height: 374px}
 
+    .navbar-brand h1 {font-size: 5rem}
    
 }
+
 /* Extra large devices (large desktops, 1200 and up) */
  @media (min-width: 1200px) {
      body {
@@ -1026,6 +1032,8 @@ header #navBar {
     header #navBar { background-position: left top, center -1rem}
     
 	.print-portfolio-homepage .box-2 img {max-height: 500px}
+	
+	.card.ahs img {max-height: 574px}
     
      .container {
         max-width: 1200px
