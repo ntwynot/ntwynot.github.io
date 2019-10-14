@@ -347,6 +347,10 @@ header #navBar {
  #gallery article > .standard, #gallery > .standard {
     margin-bottom: 1rem
 }
+ #gallery > .standard {
+ 	word-break: keep-all;
+ 	hyphens: none
+}
  #gallery .thumbnails {
     margin-top: 1rem
 }
