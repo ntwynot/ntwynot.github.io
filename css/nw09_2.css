@@ -757,6 +757,7 @@ header #navBar {
  .psb .figure {
      min-height: 120px
 }
+    
  .copyright {
      display: block;
      font-family: Verdana, Helvetica, sans-serif;
@@ -994,6 +995,8 @@ header #navBar {
     }
     
      .print-portfolio-homepage .box-2 img {max-height: 250px}
+     
+     .carousel .card.ahs img {max-height: none}
           
      .navbar-brand h1 {font-size: 4rem; text-align: center}
 
