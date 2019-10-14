@@ -1036,7 +1036,7 @@ header #navBar {
     
 	.print-portfolio-homepage .box-2 img {max-height: 500px}
 	
-	.card.ahs img {max-height: 574px}
+	.card.ahs img {max-height: 484px}
     
      .container {
         max-width: 1200px
@@ -1046,9 +1046,11 @@ header #navBar {
  
  	header #navBar { background-position: left top, center -3rem}
  	
- 	 .navbar-brand h1 {font-size: 6rem}
+ 	.card.ahs img {max-height: 574px}
+
+ 	.navbar-brand h1 {font-size: 6rem}
  	
-     .container {
+    .container {
         max-width: 1400px
     }
 }
