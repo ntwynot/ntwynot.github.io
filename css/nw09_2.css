@@ -534,6 +534,19 @@ header #navBar {
      display: none;
 }
 /* Begin Styles */
+
+.drop:before,
+.drop:after {
+  content: "";
+  display: block;
+}
+.drop:before {
+  margin-bottom: -0.175em;
+}
+.drop:after {
+  margin-top: -0.05em;
+}
+
  div .drop {
      float: left;
      display: inline;
@@ -1017,11 +1030,7 @@ header #navBar {
      body {
         font-size: 15px
     }
-     #gallery article > .standard, #gallery > .standard {
-         -webkit-column-count: 3;
-         column-count: 3
-    } 
-    
+      
     .print-portfolio-homepage .box-2 img {max-height: 350px}
     
 	.card.ahs img {max-height: 374px}
@@ -1046,7 +1055,17 @@ header #navBar {
         max-width: 1200px
     }
 }
+
+@media (min-width: 1400px) {
+	
+    
+}
+
  @media (min-width: 1600px) {
+	#gallery article > .standard, #gallery > .standard {
+			 -webkit-column-count: 3;
+			 column-count: 3
+		}
  
  	header #navBar { background-position: left top, center -3rem}
  	
