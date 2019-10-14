@@ -625,8 +625,9 @@ header #navBar {
 	 background: linear-gradient(to right,  rgba(125,182,198,.35) 0%,rgba(111,173,191,0.35) 50%,rgba(134,111,191,0.32) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 );
     /* #425799 */
-     color: #fff;
-     text-shadow: #333 1px 1px 1px;
+     /*color: #fff;
+     text-shadow: #333 1px 1px 1px; */
+     color: #05448C;
      border-radius: 2px 
 }
  .mikrotech-hrz-banner-container .figure, 
