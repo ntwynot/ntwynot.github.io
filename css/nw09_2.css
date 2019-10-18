@@ -194,7 +194,7 @@ div#rDeskGallery  .thumbnails {
 .navbar-brand .h1 {
     margin: 0;
     padding: .35rem 1rem .75rem;
- 	font-size: 2rem;
+ 	font-size: 2.2rem;
  	letter-spacing: -.05em;
  	word-spacing: -.15em;
  	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 8%, rgb(255, 255, 255) 100%);
@@ -230,20 +230,17 @@ div#rDeskGallery  .thumbnails {
  .mosaic-box p, .mosaic-box h4 {
      position: absolute;
      margin: 0;
-     padding: .25rem 1rem .25rem;
-	 /*background: -moz-linear-gradient(left,  rgba(125,182,198,.75) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
-	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.75) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
-	 background: linear-gradient(to right,  rgba(125,182,198,.75) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%); */
+     padding: .325rem 1rem .25rem;
 	 background: -moz-linear-gradient(110deg,  rgba(24,113,201,0.36) 0%, rgba(0,56,137,0.36) 100%);
 	 background: -webkit-linear-gradient(110deg,  rgba(24,113,201,0.36) 0%,rgba(0,56,137,0.36) 100%);
 	 background: linear-gradient(110deg,  rgba(24,113,201,0.36) 0%,rgba(0,56,137,0.36) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c1871c9', endColorstr='#5c003889',GradientType=1 );
      width: auto;
+     font-size: 1rem;
+     color: #fff;
      border-top: 1px solid #aeb1bf;
      text-shadow: rgba(0,0,0,.5) 1px 1px 1px, rgba(0,0,0,.5) 0 -1px 1px;
      box-shadow: rgba(0,0,0,.2) 1px 1px 7px;
-     color: #fff;
-     /*color: #191919;*/
      top:0;
      left: 0 
 }
@@ -569,9 +566,9 @@ div#rDeskGallery  .thumbnails {
      float: left;
      display: inline;
      position: relative;
-     margin: 0 .75rem 0 0;
+     margin: .25rem .75rem 0 0;
      padding: .5rem .7rem .25rem;
-     font-size: 1.25rem;
+     font-size: 1.5rem;
      line-height: 1;
      background-color: #05448C;
      color: #EDEFF5;
@@ -1055,6 +1052,11 @@ div#rDeskGallery  .thumbnails {
 
     .navbar-brand .h1 {font-size: 5rem}
    
+   	div .drop {
+   		padding-top: .4rem;
+   		padding-bottom: .25rem
+   	}
+   		
 }
 
 /* Extra large devices (large desktops, 1200 and up) */
