@@ -233,24 +233,7 @@
   <div class="row outer-test-container" id="test-content"> <!-- row-offcanvas row-offcanvas-right -->
     
   <div id="primaryContent" class="primary-content show-grid">
-    <style>
-.show-grid, .h1, .h2, .h3, h1, h2, h3 { margin-top: 1rem; margin-bottom: .5rem
-}
 
-code &gt; pre {
-	margin: 6px;
-	line-height: normal;
-	color:#c7254e
-}
-/*
-.caption .caption &gt; h3 { margin-bottom: 0.5rem }
-
-.caption &gt; h3 { margin-bottom: 1rem } */
- 
-.widget-directory code { display: block; }
-
-.thumbnail .thumbnail { border: 0 }
-</style>
 <div class=" widget-directory">
   <h1>RED Widget Directory</h1>
   <!-- Example row of columns -->
@@ -421,9 +404,9 @@ function setHelpText(field, changeClass)
       <div class="thumbnail">
         <div class="caption">
           <h3>Agent or Office Contact Widget</h3>
-          <div id="agentInfo" class="well agent-info agent-info-container clearfix">
-            <div id="agentPhoto" class="agent-photo container-fluid pull-left"><img alt="agent-photo" id="agentPhotoImg" class="img-responsive" src="Agent%20Design%20-%20Static_files/10798904.jpg"></div>
-            <div id="agentContact" class="agent-contact col-sm-8">
+          <div id="agentInfo" class="row well agent-info agent-info-container clearfix">
+            <div id="agentPhoto" class="agent-photo container-fluid pull-left col-sm-4 col-lg-3"><img alt="me" id="agentPhotoImg" class="img-responsive" src="images/me.jpg"></div>
+            <div id="agentContact" class="agent-contact col-sm-8 col-lg-9">
               <p class="agent-name"><b>Agent Name</b></p>
               <p class="agent-cell"> Mobile: 123-456-7892 </p>
               <p class="agent-office-phone">Office: 123-456-7890 Ext:1234 </p>
@@ -718,7 +701,7 @@ iPhone or Blackberry just pushed you one step closer to your next home.</p>
           <div class="reco-continuous-widgets continuous-widgets clearfix" id="recoBoxedWidgetsContainer">
             <h3></h3>
             <div>
-              <div class="thumbnails text-center thumbnail-boxes-container-1 col-xs-12  col-sm-12  col-md-4">
+              <div class="thumbnails-continuous text-center thumbnail-boxes-container-1 col-xs-12  col-sm-12  col-md-4">
                 <div class="thumbnail clearfix"> <span class="fa fa-building-o fa-3x"></span>
                   <div class="caption col-xs-11 col-sm-10 col-md-12">
                     <h3 class="text-center">Find an Agent/Office</h3>
@@ -728,7 +711,7 @@ iPhone or Blackberry just pushed you one step closer to your next home.</p>
                   </div>
                 </div>
               </div>
-              <div class="thumbnails text-center thumbnail-boxes-container-2 col-xs-12  col-sm-12 col-md-4">
+              <div class="thumbnails-continuous text-center thumbnail-boxes-container-2 col-xs-12  col-sm-12 col-md-4">
                 <div class="thumbnail clearfix"> <span class="fa fa-map-marker fa-3x"></span>
                   <div class="caption col-xs-11 col-sm-10 col-md-12">
                     <h3 class="text-center">Explore Communities</h3>
@@ -943,7 +926,7 @@ location.href='/' + state.replace('(City)', '').trim() + '/' + city.trim().repla
                   </div>
                 </div>
               </div>
-              <div class="thumbnails text-center thumbnail-boxes-container-3  col-xs-12  col-sm-12 col-md-4">
+              <div class="thumbnails-continuous text-center thumbnail-boxes-container-3  col-xs-12  col-sm-12 col-md-4">
                 <div class="thumbnail clearfix"> <span class="fa fa-home fa-3x"></span>
                   <div class="caption text-center col-xs-11 col-sm-10 col-md-12">
                     <h3 class="text-center">Open Houses</h3>
@@ -982,33 +965,6 @@ $(function() {
 </div>
 <!-- /.container --> 
 
-<!-- FOOTER -->
-<div class="footer">
-  <div class="container">
-    <footer>
-      <div class="agent-name-ft">Julie Lewis</div>
-      <div class="row footer-text">
-        <div class="col-xs-6 col-md-3"> <span class="footer-lead-txt"> Office Address</span><br>
-          Rehoboth Sales<br>
-          37156 Rehoboth Ave Extended Unit 5<br>
-          Rehoboth Beach, DE 19971 </div>
-        <div class="col-xs-6 col-md-3"> <span class="footer-lead-txt"> Phone</span><br>
-          Direct Office: 302-227-2541<br>
-          Mobile: 917-678-8799 </div>
-        <div class="col-xs-6 col-md-3"> <span class="footer-lead-txt">Website </span><br>
-          Visit My Website Specialties and Designations</div>
-        <div class="col-xs-6 col-md-3"> <span class="footer-lead-txt">Email</span><br>
-          julie.lewis@abcrealestate.com</div>
-      </div>
-      <div class="foot-icons show-grid"><i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> <i class="fa fa-pinterest-square" aria-hidden="true"></i> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </div>
-      <div>Investment Property, New Construction, Vacation Properties, 
-Works With First Time Home Buyers, Specializes in Relocations, Country 
-Homes, Senior Living, Resale Residential, Historic Homes, Suburban 
-Living, Condominiums, Urban Living, Water Front, Serving The Military, 
-Single Family Homes and Townhomes</div>
-    </footer>
-  </div>
-</div>
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
@@ -1154,6 +1110,8 @@ Single Family Homes and Townhomes</div>
 	</script>
 	<!-- <link href="web/RealEstateDigital/Agent%20Design%20-%20Static_files/bootstrap.css" rel="stylesheet"> -->
 <link rel="stylesheet" href="web/RealEstateDigital/Agent%20Design%20-%20Static_files/agent-static.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="web/RealEstateDigital/Agent%20Design%20-%20Static_files/cyan-color-scheme.css" type="text/css" media="screen" />	
+<link rel="stylesheet" href="web/RealEstateDigital/Agent%20Design%20-%20Static_files/cyan-color-scheme.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick-1.6.0/slick/slick.min.js">	
+
 </body>
 </html>

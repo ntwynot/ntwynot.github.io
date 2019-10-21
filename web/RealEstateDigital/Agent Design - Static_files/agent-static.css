@@ -55,6 +55,21 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	text-align: left}
 	
+
+code > pre {
+	margin: 6px;
+	line-height: normal;
+	color:#c7254e
+}
+/*
+.caption .caption &gt; h3 { margin-bottom: 0.5rem }
+
+.caption &gt; h3 { margin-bottom: 1rem } */
+ 
+.widget-directory code { display: block; clear: both;}
+
+.thumbnail .thumbnail { border: 0 }
+	
 .widget-directory small,
 .widget-directory .small { display: block; text-align: left}
 
@@ -69,6 +84,10 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 .widget-site-demo .h4,
 .widget-site-demo .h5,
 .widget-site-demo .h6 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+
+.widget-site-demo h3,
+.widget-site-demo .h3,
+.widget-site-demo .caption h3 {margin: 0; padding: 0}
 
 .widget-site-demo legend {font-size: 1.115rem}
 
@@ -303,11 +322,12 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 
 .side-column .agent-info-container ~ p:last-child {padding-bottom:1.5%}
 
-.calculator .input-group .input-group-addon:first-child {margin-top: 5px}
+/* .calculator .input-group .input-group-addon:first-child {margin-top: 5px} */
    
 .calculator .input-group .input-group-addon {
     padding-right: 4px;
     padding-left: 4px;
+    font-weight: 300;
     border: 0;
     background: transparent}
 	
@@ -419,19 +439,37 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 
 .side-column .well.discover-home-value {padding:15px 30px 30px}
 
-.calculator .control-label {	
+.calculator .control-label + div {float: left}
+
+.calculator .addon-text {font-size: .875rem; font-weight: 300}
+
+.calculator .input-group .input-group-addon {margin:0}
+
+.calculator .control-label {
+	float: left;	
 	display: block;
-	margin-bottom: 9px;
-	padding-top: 0 0 9px 22px;
+	margin: 0;
+	padding: 0;
 	font-size: .875rem;
 	line-height:1.05;
-	text-align:left}
+	text-align:right}
 
 .calculator .interest-rate-output  {left: 16px}
 
 .formtable.calculator  {
     color: currentcolor;
-    text-align: right}
+    text-align: right;
+    overflow: hidden}
+    
+.calculator .form-group {
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
 
 .carousel .glyphicon { text-decoration:none}
 
@@ -443,6 +481,10 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 .well .input-group .form-control,
 .well .input-group-addon:last-child {border: 0}
 
+.continuous-widgets .thumbnails,
+.continuous-widgets .thumbnails-continuous {
+    float: left;
+	width: 100%}
 .footer .fa { font-size: 2rem; opacity: 0.75}
 
 .well.agent-info {
@@ -470,6 +512,7 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 .agent-contact, .agent-contact p {
 	font-family:"Lato";
 	font-size: .775rem;
+	text-align: left;
 	line-height: 1.2;}
 
 .calculator input {
@@ -503,15 +546,23 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 .widget-site-demo .thumbnail > a, a .fa { text-decoration: none}
 
 .widget-site-demo .thumbnail > a {padding-top: .725rem}
-
+.widget-site-demo .well .btn {
+	display: inline-block;
+	margin-top: 1.35rem;
+	font-size: 1.125rem;
+	}
 .widget-site-demo .list-group-item, 
 .widget-site-demo .well,
 .widget-site-demo .thumbnail, .panel {
 	border-color: #e9e9e9;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025)
 	}
-	
-	.widget-site-demo .caption h3, .caption .h3 {
+.widget-site-demo .well {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.widget-site-demo .caption h3, .caption .h3 {
 		font-size: 1.05rem;
 		background: none }
 	
@@ -548,12 +599,16 @@ form .panel-collapse {
 
 .control-label, label, .form-control { font-size: 0.85rem; font-weight: 300}
 
-.agent-photo {margin-bottom: .25rem}
+.agent-photo {
+	margin-right: -1.5rem;
+	margin-bottom: .25rem
+	}
 	
 .agent-contact {
 	padding-right: 0;
 	width: 100%;
-	clear:left}
+	clear:left
+	}
 
 .lead, .side-column {
 	font-size: 1rem;
@@ -894,7 +949,7 @@ to {
 }
 @media (max-width: 1200px) {
 	
-.widget-site-demo .widget-directory .show-grid {width: 100%}
+.widget-site-demo .widget-directory .show-grid:not(.btn) {width: 100%}
 
 }
 
@@ -925,8 +980,7 @@ to {
 	.widget-site-demo .calculator .input-group .input-group-addon {
     	background: none;
     	border: 0;
-    	padding-left: 4px;
-   	 	padding-right: 4px;}
+    	padding: .7rem 4px 0}
 		
 	.widget-site-demo .widget-site-demo .widget-site-demo .nav.navbar-nav.navbar-right > li {margin-bottom: -5px}
 
