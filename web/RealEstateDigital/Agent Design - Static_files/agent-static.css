@@ -7,12 +7,17 @@
 
 /* body */ .widget-site-demo {
 	position: relative;
+	margin: 0 1rem;
+	padding: 0 1rem;
 	/*padding-top: 70px;*/
 	font-family: "Helvetica Neue" Helvetica, Arial, sans-serif;
 	font-size: 1rem;
-	height: 100%}
+	height: 100%;
+	background-color: #fff
+	}
 
-/*
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 ,h5, .h5 ,h6, .h6 ,h1, h2, h3, h4, h5, h6 { font-size:initial}
+
 h1, .h1 { font-size: 2rem;}
 
 h2, .h2 {font-size: 1.7rem;}
@@ -32,9 +37,28 @@ h3, h4, h5, h6 { font-weight:700}
 h1, .h1, h2, .h2, h3, .h3, .show-grid {
     margin-bottom: .5rem;
     margin-top: 1rem;
-} */
+} 
 
-.widget-site-demo h1, .widget-site-demo h2, .widget-site-demo .h1, .widget-site-demo .h2 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;  letter-spacing: -.025em}
+#thumbnails4,
+#thumbnailsComplete #thumbnails4 {max-width: 100%}
+
+#thumbnails3 .figure.card {padding: 0 .75rem .75rem}
+
+.widget-site-demo h1,
+.widget-site-demo h2,
+.widget-site-demo h3,
+.widget-site-demo .h1,
+.widget-site-demo .h2,
+.widget-site-demo .h3 { 
+	margin-bottom: 0;
+	padding:0;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: left}
+	
+.widget-directory small,
+.widget-directory .small { display: block; text-align: left}
+
+.widget-directory {padding: .5rem}
 
 .widget-site-demo .caption h3,
 .widget-site-demo h3,
@@ -44,7 +68,7 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 .widget-site-demo .h3,
 .widget-site-demo .h4,
 .widget-site-demo .h5,
-.widget-site-demo .h6 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;  letter-spacing: -.05em}
+.widget-site-demo .h6 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
 .widget-site-demo legend {font-size: 1.115rem}
 
@@ -115,11 +139,6 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 	
 .widget-site-demo #qsLocationBox {margin-bottom:0; padding: 0 15px}
 
-
-/* End ids */
-
-
-/* start classes */
 
 /* start navs */
 
@@ -441,7 +460,7 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
     background: none;
     border: 0 none;
     color: currentcolor}
-
+    
 .agent-contact p.agent-name  {margin-top:0; font-size: 1rem}
 
 .agent-contact p.agent-cell {font-size: 1.05rem; font-weight: 700}
@@ -465,6 +484,8 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 
 .jumbotron h1, .jumbotron .h1, .jumbotron h2, .jumbotron .h2 { font-family:"Lato";}
 
+.figure.card h3 { font-size: 1rem}
+
 .side-column h1, .side-column h2, .side-column h3,
 .side-column h4, .side-column h5, .side-column h6  {margin: 2rem 0 .25rem}
 
@@ -479,13 +500,26 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 	color:#fff;
 	border:0}
 		
-.thumbnail > a, a .fa { text-decoration: none}
-	
-.side-column p  { font-weight: normal; text-align:justify}
+.widget-site-demo .thumbnail > a, a .fa { text-decoration: none}
 
-.side-column form.well,
-.sidebar-offcanvas form.well,
-.sidebar form.well {margin-top: 1rem; padding: 0 0 19px}
+.widget-site-demo .thumbnail > a {padding-top: .725rem}
+
+.widget-site-demo .list-group-item, 
+.widget-site-demo .well,
+.widget-site-demo .thumbnail, .panel {
+	border-color: #e9e9e9;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025)
+	}
+	
+	.widget-site-demo .caption h3, .caption .h3 {
+		font-size: 1.05rem;
+		background: none }
+	
+.widget-site-demo .side-column p  { font-weight: normal; text-align:justify}
+
+.widget-site-demo .side-column form.well,
+.widget-site-demo .sidebar-offcanvas form.well,
+.widget-site-demo .sidebar form.well {margin-top: 1rem; padding: 0 0 19px}
 	
 button.glyphicon {
 	font-size: 24px;
@@ -569,8 +603,6 @@ form .panel-collapse {
 .footer-lead-txt {font-size: 1.45rem}
 
 .footer-text, .footer { font-size: 1em; line-height: 1.25em}
-
-
 
 /* end classes */
 
@@ -835,6 +867,8 @@ to {
 	
 			  
 }
+
+
 /*	
 @media (max-width:480px) {
 	
@@ -857,6 +891,10 @@ to {
 
 @media (max-width: 768px) {
 	
+}
+@media (max-width: 1200px) {
+	
+.widget-site-demo .widget-directory .show-grid {width: 100%}
 
 }
 
@@ -896,7 +934,9 @@ to {
 	
 	.widget-site-demo .widget-site-demo .nav .nav-item a:before {padding-top: 10px; padding-bottom: 6px}
 
-	.widget-site-demo .thumbnail.well .caption { padding-top: 0; min-height: 148px}
+	.widget-site-demo .thumbnail.well .caption { padding-top: 0; min-height: 128px} /*148px*/
+	
+	.widget-site-demo .caption pre {white-space: normal}
 	
 	.widget-site-demo .widget-site-demo .thumbnail.well .fa {padding-top: 10px}
 		
@@ -1000,9 +1040,7 @@ to {
 	
 	.widget-site-demo .widget-site-demo .caption h1, .caption .h1 {font-size: 1.45rem}
 	.widget-site-demo .caption h2, .caption .h2 {font-size: 1.25rem}
-	.widget-site-demo .caption h3, .caption .h3 {
-		font-size: 1.05rem;
-		background: none }
+	.widget-site-demo .caption h3, .caption .h3 {font-size: 1.05rem }
 		
 	.widget-site-demo .widget-site-demo .widget-site-demo .side-column legend, .sidebar-offcanvas legend, .side-bar legend {margin-bottom: 0}
 	
@@ -1016,6 +1054,8 @@ to {
 	/* .footer {margin-left: 16.66666667%; /* eq: col-xs-offset-2 } */
 
 	.widget-site-demo .btn, .btn-group-lg > .btn, .btn input {font-size: .85rem}
+	
+	.figure.card h3 { font-size: 1.45rem}
 	
 }
 
@@ -1050,9 +1090,9 @@ to {
 		
 		.widget-site-demo .discover-home-value legend {font-size: 1.8rem;}
 		
-		.widget-site-demo .caption h1, .widget-site-demo .caption .h1 {font-size: 1.65rem}
-	  	.widget-site-demo .caption h2, .widget-site-demo .caption .h2 {font-size: 1.45rem}
-	  	.widget-site-demo .caption h3, .widget-site-demo .caption .h3 {font-size: 1.25rem}
+		.widget-site-demo .caption h1, .widget-site-demo .caption .h1 {font-size: 1.75rem}
+	  	.widget-site-demo .caption h2, .widget-site-demo .caption .h2 {font-size: 1.55rem}
+	  	.widget-site-demo .caption h3, .widget-site-demo .caption .h3 {font-size: 1.35rem}
 		
 		.widget-site-demo .well.agent-info {margin-bottom: 0}
 		
@@ -1101,9 +1141,9 @@ to {
 		/* overflow-x: hidden;
     	overflow-y: auto; */}
 				
-		.widget-site-demo .caption h1, .widget-site-demo .caption .h1 {font-size: 1.75rem}
-	  	.widget-site-demo .caption h2, .widget-site-demo .caption .h2 {font-size: 1.55rem}
-	  	.widget-site-demo .caption h3, .widget-site-demo .caption .h3 {font-size: 1.35rem}
+		.widget-site-demo .caption h1, .widget-site-demo .caption .h1 {font-size: 1.85rem}
+	  	.widget-site-demo .caption h2, .widget-site-demo .caption .h2 {font-size: 1.7rem}
+	  	.widget-site-demo .caption h3, .widget-site-demo .caption .h3 {font-size: 1.5rem}
 		
 		.widget-site-demo .side-column .agent-info-container ~ p:last-child,
 		.side-column .agent-info-container + p.lead {padding-bottom: 10%}

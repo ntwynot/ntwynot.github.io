@@ -100,11 +100,23 @@ a.list-group-item.active:focus {
 	background-image: none;
 	color: #fff}
 	
-.widget-site-demo .thumbnail.well a:hover *, .thumbnail.well a:focus * {color: #4a4a4a}
-.widget-site-demo .thumbnail.well a * {color: #00b4d2}
-	
-.widget-site-demo .carousel .glyphicon { color: #fff}
-
+.widget-site-demo .thumbnail.well a:hover *, 
+.thumbnail.well a:focus * {
+	color: #4a4a4a
+	}
+.widget-site-demo .thumbnail.well a *,
+.thumbnail.well a * {
+	color: #fff;
+	background-color: #00b4d2;
+	text-align: center;
+	text-decoration: none
+	}
+.widget-site-demo .well .btn {
+	display: inline
+	}
+.widget-site-demo .carousel .glyphicon {
+	color: #fff
+	}
 .widget-site-demo .well .input-group-addon {background-color: currentcolor}
 
 .widget-site-demo .carousel-caption .h3 {color: #4a4a4a;}

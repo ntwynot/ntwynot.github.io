@@ -85,7 +85,9 @@ header #navBar {
  p {
      line-height:1.42857143 
 }
- main {
+main#content {
+	padding-right: .5rem;
+	padding-left: .5rem;
     min-width: 0;
     min-height: 450px;
     background-color: #fff;
@@ -460,7 +462,7 @@ div#rDeskGallery  .thumbnails {
 }
  .navbar-toggler {
      position: relative;
-     margin: auto;
+     margin: 1rem 1rem auto auto;
      padding: .125rem .25rem;
      max-height: 40px;
      bottom: .5rem;
@@ -986,6 +988,15 @@ div#rDeskGallery  .thumbnails {
      margin: 0 auto;
      padding-top: 1rem
 }
+
+
+i.fa-facebook-square:before { background-image:url("/images/icons/Facebook Icon - White.png");}
+i.fa-instagram-square:before { background-image:url("/images/icons/Instagram Icon - White.png");}
+i.fa-twitter-square:before { background-image:url("/images/icons/Twitter Icon - White.png");}
+i.fa-linkedin-square:before { background-image:url("/images/icons/LinkedIn Icon - White.png");}
+i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Icon - White.png");}
+
+
 /* Extra small devices (portrait phones, less than 576px) No media query for `xs` since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) {
@@ -1030,10 +1041,10 @@ div#rDeskGallery  .thumbnails {
           
      .navbar-brand .h1 {font-size: 4rem; text-align: center}
 
-     .box-outer {
+     /*.box-outer {
          padding-right: 1rem;
          padding-left: 1rem;
-    }
+    }*/
     
     
     
