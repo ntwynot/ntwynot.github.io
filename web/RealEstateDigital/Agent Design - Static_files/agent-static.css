@@ -39,6 +39,14 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
     margin-top: 1rem;
 } 
 
+#gallery #testimonial-group .carousel-item.testimonials.active {
+     display: block !important;
+}
+
+#gallery #testimonial-group .carousel-item {
+     display: none !important;
+}
+
 #thumbnails4,
 #thumbnailsComplete #thumbnails4 {max-width: 100%}
 
@@ -58,8 +66,8 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 	margin-bottom: 0;
 	padding:0;
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-	text-align: left}
-	
+	text-align: left
+	}
 
 code > pre, 
 code > pre span {
@@ -498,10 +506,16 @@ code > pre span {
 .well .input-group .form-control,
 .well .input-group-addon:last-child {border: 0}
 
+.reco-continuous-widgets .caption ~ p {
+	max-width: 75%;
+	margin: 0 auto 1rem;
+	}
+
 .continuous-widgets .thumbnails,
 .continuous-widgets .thumbnails-continuous {
     float: left;
 	width: 100%}
+	
 .footer .fa { font-size: 2rem; opacity: 0.75}
 
 .well.agent-info {
@@ -576,10 +590,23 @@ code > pre span {
 	border-color: #e9e9e9;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025)
 	}
+.widget-site-demo .thumbnail {padding: 1.5rem 0}
 .widget-site-demo .well {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+
+.thumbnails-continuous .fa {margin-bottom: 1rem}
+
+.thumbnails-continuous .figure p { margin: auto; max-width: 75%;}
+
+.caption .btn,
+.caption .btn-primary,
+.caption .btn-group,
+.widget-site-demo .btn-primary,
+a.btn-primary {margin-top: 1rem}
+
+input-group-addon [type="button"] {margin: auto}
 
 .widget-site-demo .caption h3, .caption .h3 {
 		font-size: 1.05rem;
