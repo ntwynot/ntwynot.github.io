@@ -338,7 +338,7 @@ function setHelpText(field, changeClass)
               <input name="Criteria/ListingNumber" id="ListingNumber" type="hidden">
               <fieldset>
                 <legend id="qsIntro" class="sr-only">Search for Properties</legend>
-                <button class="btn btn-sm btn-link collapsed pull-right" data-toggle="collapse" data-parent="#recoQuickSearchContainer" href="#collapseOne">More Options</button>
+                <button class="btn btn-sm btn-link collapsed pull-right" data-toggle="collapse" data-parent="#collapseOne" href="#collapseOne">More Options</button>
                 <div id="qsLocationBox" class="input-group form-group col-sm-12 col-md-9 col-lg-10">
                   <label class="control-label sr-only">Location</label>
                   <input class="idfield form-control input-lg location" id="mapsearch-criteria-location" onfocus="setHelpText(this, false)" onblur="setHelpText(this, false)" title="Address, City, Neighborhood, Zip" value="Address, City, Neighborhood, Zip" name="Criteria/LocationBox" locationtype="City,zip code,neighborhood,address" type="text">
@@ -591,7 +591,7 @@ ut feugiat tortor commodo.<span class="testimonial-quotation-mark">"</span></spa
       <div class="thumbnail">
         <div class="caption">
           <h3>Explore Communities <br>
-            <small>Form/input field only shown</small></h3>
+           <!-- <small>Form/input field only shown</small></h3> -->
           <div class="explore-search clearfix">
             <form class="form-inline" role="form" id="city-search" name="city-search">
               <div class="form-group">

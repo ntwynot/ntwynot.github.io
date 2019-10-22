@@ -221,7 +221,9 @@ button.glyphicon {
 .widget-site-demo .btn-primary:hover, a.btn-primary:hover,
 .widget-site-demo .btn-primary:focus, a.btn-primary:focus {background-color: #4a4a4a; color: #fff}
 
-.widget-site-demo .btn-primary, a.btn-primary {
+.widget-site-demo .btn-primary, a.btn-primary,
+.input-group-addon [type="button"]  {
+	margin: auto;
 	background-color: #00b4d2;
     border-color: #00b4d2;
     color: #fff;
