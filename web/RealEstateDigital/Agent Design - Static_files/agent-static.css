@@ -57,6 +57,11 @@ h1, .h1, h2, .h2, h3, .h3, .show-grid {
 
 }
 
+#city-search  {
+    margin: auto;
+    max-width: 70%;
+}
+
 .widget-site-demo h1,
 .widget-site-demo h2,
 .widget-site-demo h3,
@@ -374,6 +379,11 @@ code > pre span {
 .side-column .agent-office-address,
 .side-column .agent-office-city-stae-zip  { display:none}
 
+.fa-home + .caption .btn {
+    color: #fff;
+    max-width: 50%;
+}
+
 .side-column + .button-scroll-container {
 	position:absolute;
 	padding: 1% 0;
@@ -558,6 +568,11 @@ code > pre span {
 
 .jumbotron h1, .jumbotron .h1, .jumbotron h2, .jumbotron .h2 { font-family:"Lato";}
 
+.figure .caption p {
+    max-width: 70%;
+    margin: .7rem auto 1rem;
+}
+
 .figure.card h3 { font-size: 1rem}
 
 .side-column h1, .side-column h2, .side-column h3,
@@ -599,12 +614,6 @@ code > pre span {
 .thumbnails-continuous .fa {margin-bottom: 1rem}
 
 .thumbnails-continuous .figure p { margin: auto; max-width: 75%;}
-
-.caption .btn,
-.caption .btn-primary,
-.caption .btn-group,
-.widget-site-demo .btn-primary,
-a.btn-primary {margin-top: 1rem}
 
 input-group-addon [type="button"] {margin: auto}
 
@@ -1053,25 +1062,25 @@ to {
 		text-align: right}
 		
 	.widget-site-demo .widget-site-demo .widget-site-demo .navbar.navbar-fixed-top {
-	position: absolute;
-	/* margin-left: -90px; */
-	padding-right:0;
-	padding-left:0;
-	max-width: 16.8vw;
-	text-align: center;
-    text-transform: uppercase;
-	min-height: 900px;
-	top: 0;
-	bottom: 0;
-    z-index: 1000;
-	animation: fadein 1s;
-	-moz-animation: fadein 1s;
-	-webkit-animation: fadein 1s;
-	-o-animation: fadein 1s;
-	-webkit-transition: margin-left .5s ease-in-out 0s;
-	-moz-transition: margin-left .5s ease-in-out 0s;
-	-o-transition: margin-left .5s ease-in-out 0s;
-	transition: margin-left .5s ease-in-out 0s}
+		position: absolute;
+		/* margin-left: -90px; */
+		padding-right:0;
+		padding-left:0;
+		max-width: 16.8vw;
+		text-align: center;
+		text-transform: uppercase;
+		min-height: 900px;
+		top: 0;
+		bottom: 0;
+		z-index: 1000;
+		animation: fadein 1s;
+		-moz-animation: fadein 1s;
+		-webkit-animation: fadein 1s;
+		-o-animation: fadein 1s;
+		-webkit-transition: margin-left .5s ease-in-out 0s;
+		-moz-transition: margin-left .5s ease-in-out 0s;
+		-o-transition: margin-left .5s ease-in-out 0s;
+		transition: margin-left .5s ease-in-out 0s}
 		
 	.widget-site-demo .widget-site-demo .widget-site-demo .navbar-collapse.collapse {
 		margin-left: 0;
@@ -1085,26 +1094,26 @@ to {
 	-o-animation: fadein 1s;}
 	
 	.widget-site-demo .widget-site-demo .navbar-header {
-	animation: animationFrames ease 1s;
-  animation-iteration-count: 1;
-  transform-origin: 50% 50%;
-  animation-fill-mode:forwards; /*when the spec is finished*/
-  -webkit-animation: animationFrames ease 1s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-transform-origin: 50% 50%;
-  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
-  -moz-animation: animationFrames ease 1s;
-  -moz-animation-iteration-count: 1;
-  -moz-transform-origin: 50% 50%;
-  -moz-animation-fill-mode:forwards; /*FF 5+*/
-  -o-animation: animationFrames ease 1s;
-  -o-animation-iteration-count: 1;
-  -o-transform-origin: 50% 50%;
-  -o-animation-fill-mode:forwards; /*Not implemented yet*/
-  -ms-animation: animationFrames ease 1s;
-  -ms-animation-iteration-count: 1;
-  -ms-transform-origin: 50% 50%;
-  -ms-animation-fill-mode:forwards; /*IE 10+*/}
+	  animation: animationFrames ease 1s;
+	  animation-iteration-count: 1;
+	  transform-origin: 50% 50%;
+	  animation-fill-mode:forwards; /*when the spec is finished*/
+	  -webkit-animation: animationFrames ease 1s;
+	  -webkit-animation-iteration-count: 1;
+	  -webkit-transform-origin: 50% 50%;
+	  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+	  -moz-animation: animationFrames ease 1s;
+	  -moz-animation-iteration-count: 1;
+	  -moz-transform-origin: 50% 50%;
+	  -moz-animation-fill-mode:forwards; /*FF 5+*/
+	  -o-animation: animationFrames ease 1s;
+	  -o-animation-iteration-count: 1;
+	  -o-transform-origin: 50% 50%;
+	  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+	  -ms-animation: animationFrames ease 1s;
+	  -ms-animation-iteration-count: 1;
+	  -ms-transform-origin: 50% 50%;
+	  -ms-animation-fill-mode:forwards; /*IE 10+*/}
 	
 	.widget-site-demo .widget-site-demo .navbar-nav .btn {
 	display: block;
