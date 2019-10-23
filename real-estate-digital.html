@@ -109,6 +109,22 @@
 						
 					</div><!-- /.thumbnails -->
 				</section>
+				<section id="thumbnails3" class="show-grid">
+				<h3><abbr title="User Interface">UI</abbr> Lead Routing for BHHS Agent - <abbr title="Real Estate Digital">RED</abbr> (rDesk) Intranet</h3>
+				
+				<p><a href="web/RealEstateDigital/LeadRouting/Lead-Routing-Landing.html" target="_blank">See the HTML Demo</a></p>
+					<div class="clearfix">
+						<div class="container-fliud">
+							<div class="figure card">
+								<h3>
+								 Lead Routing Default Actions Interface Sample
+								</h3>
+								<a href="web/RealEstateDigital/LeadRouting/Lead-Routing-Landing.html" target="_blank" title="See the Demo site"><img class="img-fluid" src="web/RealEstateDigital/LeadRouting.png" alt="LeadRouting" /></a>
+							</div><!-- /.figure  card -->
+						</div><!-- /.col -->
+						
+					</div><!-- /.thumbnails -->
+				</section>
 				<section id="thumbnails5" class="row d-flex justify-content-center show-grid">
 				<h3 class="container-fluid">E-mail blast banner</h3>
 					<div class="clearfix">
@@ -332,6 +348,21 @@
 		  location.reload();
 		  $('.modal-backdrop').remove();
 		})
+	</script>
+	<script>
+	  if ('loading' in HTMLImageElement.prototype) {
+		  const images = document.querySelectorAll("img.lazyload");
+		  images.forEach(img => {
+			  img.src = img.dataset.src;
+		  });
+	  } else {
+		  // Dynamically import the LazySizes library
+		let script = document.createElement("script");
+		script.async = true;
+		script.src =
+		  "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
+		document.body.appendChild(script);
+	  }
 	</script>
 	
 </body>
