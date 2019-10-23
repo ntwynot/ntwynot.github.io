@@ -2,16 +2,21 @@
 /* CSS Document */
 
 
-html, body{ font-size: 14px}
+/* html, body{ font-size: 14px} */
 
 
-body {
+/* body */ .widget-site-demo {
 	position: relative;
-	padding-top: 70px;
+	margin: 0 1rem;
+	padding: 0 1rem;
+	/*padding-top: 70px;*/
 	font-family: "Helvetica Neue" Helvetica, Arial, sans-serif;
 	font-size: 1rem;
-	height: 100%}
+	height: 100%;
+	background-color: #fff
+	}
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 ,h5, .h5 ,h6, .h6 ,h1, h2, h3, h4, h5, h6 { font-size:initial}
 
 h1, .h1 { font-size: 2rem;}
 
@@ -32,27 +37,97 @@ h3, h4, h5, h6 { font-weight:700}
 h1, .h1, h2, .h2, h3, .h3, .show-grid {
     margin-bottom: .5rem;
     margin-top: 1rem;
+} 
+
+#gallery #testimonial-group .carousel-item.testimonials.active {
+     display: block !important;
 }
 
-h1, h2, .h1, .h2 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;  letter-spacing: -.025em}
+#gallery #testimonial-group .carousel-item {
+     display: none !important;
+}
 
-h3, h4, h5, h6, .h3, .h4, .h5, .h6 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;  letter-spacing: -.05em}
+#thumbnails4,
+#thumbnailsComplete #thumbnails4 {max-width: 100%}
 
-legend {font-size: 1.115rem}
+#thumbnails3 .figure.card {padding: 0 .75rem .75rem}
 
-fieldset { position:relative}
+#city-search .form-group .input-group {
+	width: 100%;
+
+}
+
+#city-search  {
+    margin: auto;
+    max-width: 70%;
+}
+
+.widget-site-demo h1,
+.widget-site-demo h2,
+.widget-site-demo h3,
+.widget-site-demo .h1,
+.widget-site-demo .h2,
+.widget-site-demo .h3 { 
+	margin-bottom: 0;
+	padding:0;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: left
+	}
+
+code > pre, 
+code > pre span {
+	/*margin: 6px;*/
+	line-height: normal;
+	font-size: 87.5%;
+	font-weight: normal;
+	color:#c7254e
+}
+/*
+.caption .caption &gt; h3 { margin-bottom: 0.5rem }
+
+.caption &gt; h3 { margin-bottom: 1rem } */
+ 
+.widget-directory code { display: block; clear: both;}
+
+.thumbnail .thumbnail { border: 0 }
+	
+.widget-directory small,
+.widget-directory .small { display: block; text-align: left}
+
+.widget-directory {padding: .5rem}
+
+.widget-site-demo .caption h3,
+.widget-site-demo h3,
+.widget-site-demo h4,
+.widget-site-demo h5,
+.widget-site-demo h6,
+.widget-site-demo .h3,
+.widget-site-demo .h4,
+.widget-site-demo .h5,
+.widget-site-demo .h6 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+
+.widget-site-demo h3,
+.widget-site-demo .h3,
+.widget-site-demo .caption h3 {margin: 0; padding: 0}
+
+.widget-site-demo .caption h3 {margin-bottom: .5rem; font-size: 1rem}
+
+.widget-site-demo legend {font-size: 1.115rem}
+
+.widget-site-demo fieldset { position:relative}
+
 
 /* Start ids */
 
-body#agenthome-homepage {padding-top: 50px}
+/* body#agenthome-homepage {padding-top: 50px} */
 
 
-#collapseSideSocial.collapse:before {
+.widget-site-demo  #collapseSideSocial.collapse:before {
 	background: #fff;
 	}
 	
-#collapseSideSocial.collapsing,
-#collapseSideSocial.collapse {
+.widget-site-demo #collapseSideSocial.collapsing,
+.widget-site-demo #collapseSideSocial.collapse {
 	position:absolute;
 	padding: 20px;
 	width: 73px;
@@ -61,15 +136,15 @@ body#agenthome-homepage {padding-top: 50px}
 	background-color: #fff;
 	z-index: -1}
 
-#agenthome-homepage .embed-responsive,
-#agenthome-homepage .primary-column  {
+.widget-site-demo #agenthome-homepage .embed-responsive,
+.widget-site-demo #agenthome-homepage .primary-column  {
 	padding-right: 0;
 	padding-left: 0;
 	height: 100%;
 	background-color: #f5f5f5}
 	
 	
-#agenthome-homepage .primary-column  {
+.widget-site-demo #agenthome-homepage .primary-column  {
 	animation: fadein 1.5s;
 	-moz-animation: fadein 1.5s;
 	-webkit-animation: fadein 1.5s;
@@ -81,7 +156,7 @@ body#agenthome-homepage {padding-top: 50px}
 	/*filter: alpha(Opacity=0);
 	opacity: 0 */ }
 
-#agenthome-homepage .side-column  {
+.widget-site-demo #agenthome-homepage .side-column  {
 	padding-top: 1%;
     text-align: left;
 	color: #bab2c7;
@@ -95,27 +170,22 @@ body#agenthome-homepage {padding-top: 50px}
 	-o-transition: left .5s ease-in-out 0s;
 	transition: left .5s ease-in-out 0s}
 
-#navbar  > ul:first-child { border-top: #fff 1px solid; border-bottom: #fff 1px solid; }
+.widget-site-demo #navbar  > ul:first-child { border-top: #fff 1px solid; border-bottom: #fff 1px solid; }
 
 
-#twoColumn {
+.widget-site-demo #twoColumn {
     position: relative;
 	top: 0;
     left: 0;
     width: auto;
 	height: 100%}
 	
-#qsLocationBox {margin-bottom:0; padding: 0 15px}
+.widget-site-demo #qsLocationBox {margin-bottom:0; padding: 0 15px}
 
-
-/* End ids */
-
-
-/* start classes */
 
 /* start navs */
 
-.nav .nav-item a:before {
+.widget-site-demo .nav .nav-item a:before {
 	position:relative;
 	display:block;
 	padding-top: 5px;
@@ -123,21 +193,21 @@ body#agenthome-homepage {padding-top: 50px}
 	font-size: 2rem;
 	font-family: fontawesome;}
 	
-.nav .nav-item-home a:before {content:"\f015";}
-.nav .nav-item-search a:before {content:"\f002";}
-.nav .nav-item-blog a:before {content:"\f299";}
-.nav .nav-item-market-report a:before {content:"\f012";}
-.nav .nav-item-about a:before {content:"\f1ae"; font-size: 3rem}
-.nav .nav-item-contact a:before {content:"\f007";}
+.widget-site-demo .nav .nav-item-home a:before {content:"\f015";}
+.widget-site-demo .nav .nav-item-search a:before {content:"\f002";}
+.widget-site-demo .nav .nav-item-blog a:before {content:"\f299";}
+.widget-site-demo .nav .nav-item-market-report a:before {content:"\f012";}
+.widget-site-demo .nav .nav-item-about a:before {content:"\f1ae"; font-size: 3rem}
+.widget-site-demo .nav .nav-item-contact a:before {content:"\f007";}
 
-.nav.navbar-nav.navbar-right > li {display: inline-block}
+.widget-site-demo .nav.navbar-nav.navbar-right > li {display: inline-block}
 
-.row-offcanvas .visible-xs .btn {position: relative;z-index: 2000}
+.widget-site-demo .row-offcanvas .visible-xs .btn {position: relative;z-index: 2000}
 	
-.navbar.navbar-fixed-top:after,
-.navbar-collapse.collapse.in:after,
-.navbar-collapse:after,
-#collapseSideSocial.collapse:before {
+.widget-site-demo .navbar.navbar-fixed-top:after,
+.widget-site-demo .navbar-collapse.collapse.in:after,
+.widget-site-demo .navbar-collapse:after,
+.widget-site-demo #collapseSideSocial.collapse:before {
     position: absolute;
     display: block;
 	width: 100%;
@@ -148,18 +218,18 @@ body#agenthome-homepage {padding-top: 50px}
     content: "";
     z-index: -1;}
 	
-.navbar-collapse:after {width:90px; overflow: hidden} 
+.widget-site-demo .navbar-collapse:after {width:90px; overflow: hidden} 
 	
-.navbar-collapse.collapse.in:after { position: fixed; width: 90px;}
+.widget-site-demo .navbar-collapse.collapse.in:after { position: fixed; width: 90px;}
 
-.navbar-collapse.collapse.in {margin-left: 0}
+.widget-site-demo .navbar-collapse.collapse.in {margin-left: 0}
 
-.navbar-collapse.collapsed.collapse,
-.navbar-collapse.collapsed.collapse.in {display: block;}
+.widget-site-demo .navbar-collapse.collapsed.collapse,
+.widget-site-demo .navbar-collapse.collapsed.collapse.in {display: block;}
 
-.navbar-collapse.collapsed  { display: none}
+.widget-site-demo .navbar-collapse.collapsed  { display: none}
 
-.navbar-collapse.collapse {
+.widget-site-demo .navbar-collapse.collapse {
 	width: 90px;
 	margin-left: -170px;
 	-webkit-transition: margin-left .5s ease-in-out 0s;
@@ -167,26 +237,26 @@ body#agenthome-homepage {padding-top: 50px}
 	-o-transition: margin-left .5s ease-in-out 0s;
 	transition: margin-left .5s ease-in-out 0s}
 	
-.navbar-toggle .icon-bar { background-color:#fff}
+.widget-site-demo .navbar-toggle .icon-bar { background-color:#fff}
 
-.navbar .btn-sm {
+.widget-site-demo .navbar .btn-sm {
 	font-size:.7rem;
 	line-height: 1.25;
 	width:100%;}
 
-.navbar-toggle.collapsed {margin-left:0}
+.widget-site-demo .navbar-toggle.collapsed {margin-left:0}
 
-.navbar-nav .btn {border-radius: 0}
+.widget-site-demo .navbar-nav .btn {border-radius: 0}
 		
-.navbar-brand > span:first-child {
+.widget-site-demo .navbar-brand > span:first-child {
 		position:relative;
 		display: block;
 		white-space:100%}
 		
-.navbar-nav > li > a,
-.navbar-nav .btn,
-.navbar-nav > li > a:visited,
-.navbar-nav .btn:visited {
+.widget-site-demo .navbar-nav > li > a,
+.widget-site-demo .navbar-nav .btn,
+.widget-site-demo .navbar-nav > li > a:visited,
+.widget-site-demo .navbar-nav .btn:visited {
 	width:100%;
 	font-size: 0.7rem;
 	text-transform:uppercase;
@@ -196,21 +266,21 @@ body#agenthome-homepage {padding-top: 50px}
 	background: none;
 	border:0;}
 	
-.navbar-nav > li > a, .navbar-nav > li > a:visited {line-height: normal}
+.widget-site-demo .navbar-nav > li > a, .navbar-nav > li > a:visited {line-height: normal}
 	
-.navbar-nav > li {float: none}
+.widget-site-demo .navbar-nav > li {float: none}
 
-.nav.navbar-nav {
+.widget-site-demo .nav.navbar-nav {
 	margin-top: 0;
 	margin-bottom:0;
 	width:90px;
 	clear: both}
 
-.navbar-collapse > ul,
+.widget-site-demo .navbar-collapse > ul,
 .navbar-collapse button,
-#collapseSideSocial.collapsing,
-#collapseSideSocial.collapse.in,
-#collapseSideSocial.collapse {
+.widget-site-demo #collapseSideSocial.collapsing,
+.widget-site-demo #collapseSideSocial.collapse.in,
+.widget-site-demo #collapseSideSocial.collapse {
 	animation: animationFrames ease 1s;
   animation-iteration-count: 1;
   transform-origin: 50% 50%;
@@ -239,7 +309,7 @@ body#agenthome-homepage {padding-top: 50px}
   -ms-transition: left 450ms ease-in-out 0s;
   }
 	
-.navbar-brand img {
+.widget-site-demo .navbar-brand img {
 	display:block;
 	margin: 0 auto;
 	height: auto;
@@ -272,15 +342,18 @@ body#agenthome-homepage {padding-top: 50px}
 
 /* start classes */
 
+.widget-site-demo .caption pre {font-size: .785rem; white-space: normal}
+
 .well .input-group-addon > a .fa {display: inline; padding: 10px 3px}
 
 .side-column .agent-info-container ~ p:last-child {padding-bottom:1.5%}
 
-.calculator .input-group .input-group-addon:first-child {margin-top: 5px}
+/* .calculator .input-group .input-group-addon:first-child {margin-top: 5px} */
    
 .calculator .input-group .input-group-addon {
     padding-right: 4px;
     padding-left: 4px;
+    font-weight: 300;
     border: 0;
     background: transparent}
 	
@@ -306,6 +379,11 @@ body#agenthome-homepage {padding-top: 50px}
 .side-column .agent-office-address,
 .side-column .agent-office-city-stae-zip  { display:none}
 
+.fa-home + .caption .btn {
+    color: #fff;
+    max-width: 50%;
+}
+
 .side-column + .button-scroll-container {
 	position:absolute;
 	padding: 1% 0;
@@ -324,6 +402,8 @@ body#agenthome-homepage {padding-top: 50px}
 	clear: both}
 
 .discover-home-value .btn > input {text-indent: -15000px; background: none}
+
+.form-inline.well.discover-home-value {padding: 1rem 1.5rem}
 
 .agent-info .agent-photo > img { max-height: 147px}
 
@@ -390,21 +470,41 @@ body#agenthome-homepage {padding-top: 50px}
 
 .discover-home-value-container .well { background: transparent url(../images/blurred-background.jpg) no-repeat center}
 
+.discover-home-value-container fieldset {margin: auto}
+
 .side-column .well.discover-home-value {padding:15px 30px 30px}
 
-.calculator .control-label {	
+.calculator .control-label + div {float: left}
+
+.calculator .addon-text {font-size: .875rem; font-weight: 300}
+
+.calculator .input-group .input-group-addon {margin:0}
+
+.calculator .control-label {
+	float: left;	
 	display: block;
-	margin-bottom: 9px;
-	padding-top: 0 0 9px 22px;
+	margin: 0;
+	padding: 0;
 	font-size: .875rem;
 	line-height:1.05;
-	text-align:left}
+	text-align:right}
 
 .calculator .interest-rate-output  {left: 16px}
 
 .formtable.calculator  {
     color: currentcolor;
-    text-align: right}
+    text-align: right;
+    overflow: hidden}
+    
+.calculator .form-group {
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
 
 .carousel .glyphicon { text-decoration:none}
 
@@ -416,6 +516,16 @@ body#agenthome-homepage {padding-top: 50px}
 .well .input-group .form-control,
 .well .input-group-addon:last-child {border: 0}
 
+.reco-continuous-widgets .caption ~ p {
+	max-width: 75%;
+	margin: 0 auto 1rem;
+	}
+
+.continuous-widgets .thumbnails,
+.continuous-widgets .thumbnails-continuous {
+    float: left;
+	width: 100%}
+	
 .footer .fa { font-size: 2rem; opacity: 0.75}
 
 .well.agent-info {
@@ -428,12 +538,12 @@ body#agenthome-homepage {padding-top: 50px}
 .btn.btn-link { padding-right:0;}
 
 .btn.btn-link:hover,
-	.btn.btn-link:focus,
-	.btn.btn-link {
+	.widget-site-demo .btn.btn-link:focus,
+	.widget-site-demo .btn.btn-link {
     background: none;
     border: 0 none;
     color: currentcolor}
-
+    
 .agent-contact p.agent-name  {margin-top:0; font-size: 1rem}
 
 .agent-contact p.agent-cell {font-size: 1.05rem; font-weight: 700}
@@ -443,6 +553,7 @@ body#agenthome-homepage {padding-top: 50px}
 .agent-contact, .agent-contact p {
 	font-family:"Lato";
 	font-size: .775rem;
+	text-align: left;
 	line-height: 1.2;}
 
 .calculator input {
@@ -456,6 +567,13 @@ body#agenthome-homepage {padding-top: 50px}
 .jumbotron .h1, .jumbotron h1 { font-size: 3.5rem; }
 
 .jumbotron h1, .jumbotron .h1, .jumbotron h2, .jumbotron .h2 { font-family:"Lato";}
+
+.figure .caption p {
+    max-width: 70%;
+    margin: .7rem auto 1rem;
+}
+
+.figure.card h3 { font-size: 1rem}
 
 .side-column h1, .side-column h2, .side-column h3,
 .side-column h4, .side-column h5, .side-column h6  {margin: 2rem 0 .25rem}
@@ -471,13 +589,43 @@ body#agenthome-homepage {padding-top: 50px}
 	color:#fff;
 	border:0}
 		
-.thumbnail > a, a .fa { text-decoration: none}
-	
-.side-column p  { font-weight: normal; text-align:justify}
+.widget-site-demo .thumbnail > a, a .fa { text-decoration: none}
 
-.side-column form.well,
-.sidebar-offcanvas form.well,
-.sidebar form.well {margin-top: 1rem; padding: 0 0 19px}
+.widget-site-demo .thumbnail > a {padding-top: .725rem}
+
+.widget-site-demo .well .btn {
+	display: inline-block;
+	/*margin-top: 1.35rem;*/
+	/* font-size: 1.125rem;*/
+	}
+	
+.widget-site-demo .list-group-item, 
+.widget-site-demo .well,
+.widget-site-demo .thumbnail, .panel {
+	border-color: #e9e9e9;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025)
+	}
+.widget-site-demo .thumbnail {padding: 1.5rem 0}
+.widget-site-demo .well {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.thumbnails-continuous .fa {margin-bottom: 1rem}
+
+.thumbnails-continuous .figure p { margin: auto; max-width: 75%;}
+
+input-group-addon [type="button"] {margin: auto}
+
+.widget-site-demo .caption h3, .caption .h3 {
+		font-size: 1.05rem;
+		background: none }
+	
+.widget-site-demo .side-column p  { font-weight: normal; text-align:justify}
+
+.widget-site-demo .side-column form.well,
+.widget-site-demo .sidebar-offcanvas form.well,
+.widget-site-demo .sidebar form.well {margin-top: 1rem; padding: 0 0 19px}
 	
 button.glyphicon {
 	font-size: 24px;
@@ -506,12 +654,16 @@ form .panel-collapse {
 
 .control-label, label, .form-control { font-size: 0.85rem; font-weight: 300}
 
-.agent-photo {margin-bottom: .25rem}
+.agent-photo {
+	margin-right: -1.5rem;
+	margin-bottom: .25rem
+	}
 	
 .agent-contact {
 	padding-right: 0;
 	width: 100%;
-	clear:left}
+	clear:left
+	}
 
 .lead, .side-column {
 	font-size: 1rem;
@@ -561,8 +713,6 @@ form .panel-collapse {
 .footer-lead-txt {font-size: 1.45rem}
 
 .footer-text, .footer { font-size: 1em; line-height: 1.25em}
-
-
 
 /* end classes */
 
@@ -801,33 +951,35 @@ to {
 
 @media (max-width:320px) {
 	
-	.agent-info-container { width: 45%}
+	.widget-site-demo .widget-site-demo .agent-info-container { width: 45%}
 
 }
 
 @media (min-width: 480px) {
 	
-	.column-container + .agent-info-container > .company-logo { margin:0}
+	.widget-site-demo .widget-site-demo .column-container + .agent-info-container > .company-logo { margin:0}
 	
-	.column-container + .agent-info-container p:after {
+	.widget-site-demo .widget-site-demo .column-container + .agent-info-container p:after {
 		position:relative;
 		display:inline-block;
 		width:12px;
 		text-align:center;
 		content:"|";}
 	
-	.column-container + .agent-info-container p,
-	.column-container + .agent-info-container  > div {
+	.widget-site-demo .widget-site-demo .column-container + .agent-info-container p,
+	.widget-site-demo .column-container + .agent-info-container  > div {
 		float: left;
 		margin: 0;
 		font-size: 0.925rem;
 		font-weight: normal;}
 	
-	.footer-text > div { float: left; min-height: 80px}
+	.widget-site-demo .widget-site-demo .footer-text > div { float: left; min-height: 80px}
 	
 			  
 }
-	
+
+
+/*	
 @media (max-width:480px) {
 	
 	
@@ -839,173 +991,184 @@ to {
 @media (max-width:480px) and (orientation:landscape) {
 	
 	
-}
+} */
 
 @media (max-width: 767px) {
 
-	.navbar.navbar-fixed-top { position:absolute}
+	.widget-site-demo .navbar.navbar-fixed-top { position:absolute}
 
 }
 
 @media (max-width: 768px) {
 	
+}
+@media (max-width: 1200px) {
+	
+.widget-site-demo .widget-directory .show-grid:not(.btn) {width: 100%}
 
 }
 
 
 @media (min-width: 768px) {
 	
-	html, body{ font-size: 15px}
+	/*html, body{ font-size: 15px}
 	
 	body {padding-top: 0; font-size: 1rem}
 	
-	body#agenthome-homepage { padding-top: 0}
+	body#agenthome-homepage { padding-top: 0}*/
 	
-	#agenthome-homepage .side-column  {padding: 1% 1.5% 1% 1.7%}
+	.widget-site-demo #agenthome-homepage .side-column  {padding: 1% 1.5% 1% 1.7%}
 	
-	#collapseSideSocial.collapsing,
+	.widget-site-demo #collapseSideSocial.collapsing,
 	#collapseSideSocial.collapse {
 		right: auto;
 		left: 100%;}
 		
-	.side-column .panel-collapse .form-group:nth-child(2n+1) { clear: left}
+	.widget-site-demo .widget-site-demo .widget-site-demo .side-column .panel-collapse .form-group:nth-child(2n+1) { clear: left}
 		
-	.column-container + .agent-info-container .agent-info {padding: 15px 19px;}
+	.widget-site-demo .widget-site-demo .widget-site-demo .column-container + .agent-info-container .agent-info {padding: 15px 19px;}
 	
-	.column-container + .agent-info-container p:after {width:50px}
+	.widget-site-demo .widget-site-demo .column-container + .agent-info-container p:after {width:50px}
 	
-	.calculator .input-group .input-group-addon:last-child { padding-right: 0}
+	.widget-site-demo .widget-site-demo .calculator .input-group .input-group-addon:last-child { padding-right: 0}
 
-	.calculator .input-group .input-group-addon {
+	.widget-site-demo .calculator .input-group .input-group-addon {
     	background: none;
     	border: 0;
-    	padding-left: 4px;
-   	 	padding-right: 4px;}
+    	padding: .7rem 4px 0}
 		
-	.nav.navbar-nav.navbar-right > li {margin-bottom: -5px}
+	.widget-site-demo .widget-site-demo .widget-site-demo .nav.navbar-nav.navbar-right > li {margin-bottom: -5px}
 
-	.nav.navbar-nav.navbar-right > li > button {padding: 15px 0;}
+	.widget-site-demo .nav.navbar-nav.navbar-right > li > button {padding: 15px 0;}
 	
-	.nav .nav-item a:before {padding-top: 10px; padding-bottom: 6px}
+	.widget-site-demo .widget-site-demo .nav .nav-item a:before {padding-top: 10px; padding-bottom: 6px}
 
-	.thumbnail.well .caption { padding-top: 0; min-height: 148px}
+	.widget-site-demo .thumbnail.well .caption { padding-top: 0; min-height: 128px} /*148px*/
 	
-	.thumbnail.well .fa {padding-top: 10px}
+	.widget-site-demo .caption pre {white-space: normal}
+	
+	.widget-site-demo .widget-site-demo .thumbnail.well .fa {padding-top: 10px}
 		
-	.agent-info-container .company-logo img {max-height: 39px}
+	.widget-site-demo .widget-site-demo .widget-site-demo .agent-info-container .company-logo img {max-height: 39px}
 	
-	.side-column .discover-home-value-container {padding-right: 15px}
+	.widget-site-demo .widget-site-demo .side-column .discover-home-value-container {padding-right: 15px}
 	
-	.navbar-collapse.collapsed  { display: block}
+	.widget-site-demo .widget-site-demo .navbar-collapse.collapsed  { display: block}
 	
-	.calculator .control-label {
+	.widget-site-demo .widget-site-demo .calculator .control-label {
 		margin-bottom:0;
 		padding: 7px 0;
 		height: 34px;
 		text-align: right}
 		
-	.navbar.navbar-fixed-top {
-	position: absolute;
-	/* margin-left: -90px; */
-	padding-right:0;
-	padding-left:0;
-	max-width: 16.8vw;
-	text-align: center;
-    text-transform: uppercase;
-	min-height: 900px;
-	top: 0;
-	bottom: 0;
-    z-index: 1000;
-	animation: fadein 1s;
-	-moz-animation: fadein 1s;
-	-webkit-animation: fadein 1s;
-	-o-animation: fadein 1s;
-	-webkit-transition: margin-left .5s ease-in-out 0s;
-	-moz-transition: margin-left .5s ease-in-out 0s;
-	-o-transition: margin-left .5s ease-in-out 0s;
-	transition: margin-left .5s ease-in-out 0s}
+	.widget-site-demo .widget-site-demo .widget-site-demo .navbar.navbar-fixed-top {
+		position: absolute;
+		/* margin-left: -90px; */
+		padding-right:0;
+		padding-left:0;
+		max-width: 16.8vw;
+		text-align: center;
+		text-transform: uppercase;
+		min-height: 900px;
+		top: 0;
+		bottom: 0;
+		z-index: 1000;
+		animation: fadein 1s;
+		-moz-animation: fadein 1s;
+		-webkit-animation: fadein 1s;
+		-o-animation: fadein 1s;
+		-webkit-transition: margin-left .5s ease-in-out 0s;
+		-moz-transition: margin-left .5s ease-in-out 0s;
+		-o-transition: margin-left .5s ease-in-out 0s;
+		transition: margin-left .5s ease-in-out 0s}
 		
-	.navbar-collapse.collapse {
+	.widget-site-demo .widget-site-demo .widget-site-demo .navbar-collapse.collapse {
 		margin-left: 0;
 		width: 100%;
 		left: 0}
 		
-	.navbar-collapse.collapsing {
+	.widget-site-demo .widget-site-demo .widget-site-demo .navbar-collapse.collapsing {
 		animation: fadein 1s;
 	-moz-animation: fadein 1s;
 	-webkit-animation: fadein 1s;
 	-o-animation: fadein 1s;}
 	
-	.navbar-header {
-	animation: animationFrames ease 1s;
-  animation-iteration-count: 1;
-  transform-origin: 50% 50%;
-  animation-fill-mode:forwards; /*when the spec is finished*/
-  -webkit-animation: animationFrames ease 1s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-transform-origin: 50% 50%;
-  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
-  -moz-animation: animationFrames ease 1s;
-  -moz-animation-iteration-count: 1;
-  -moz-transform-origin: 50% 50%;
-  -moz-animation-fill-mode:forwards; /*FF 5+*/
-  -o-animation: animationFrames ease 1s;
-  -o-animation-iteration-count: 1;
-  -o-transform-origin: 50% 50%;
-  -o-animation-fill-mode:forwards; /*Not implemented yet*/
-  -ms-animation: animationFrames ease 1s;
-  -ms-animation-iteration-count: 1;
-  -ms-transform-origin: 50% 50%;
-  -ms-animation-fill-mode:forwards; /*IE 10+*/}
+	.widget-site-demo .widget-site-demo .navbar-header {
+	  animation: animationFrames ease 1s;
+	  animation-iteration-count: 1;
+	  transform-origin: 50% 50%;
+	  animation-fill-mode:forwards; /*when the spec is finished*/
+	  -webkit-animation: animationFrames ease 1s;
+	  -webkit-animation-iteration-count: 1;
+	  -webkit-transform-origin: 50% 50%;
+	  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+	  -moz-animation: animationFrames ease 1s;
+	  -moz-animation-iteration-count: 1;
+	  -moz-transform-origin: 50% 50%;
+	  -moz-animation-fill-mode:forwards; /*FF 5+*/
+	  -o-animation: animationFrames ease 1s;
+	  -o-animation-iteration-count: 1;
+	  -o-transform-origin: 50% 50%;
+	  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+	  -ms-animation: animationFrames ease 1s;
+	  -ms-animation-iteration-count: 1;
+	  -ms-transform-origin: 50% 50%;
+	  -ms-animation-fill-mode:forwards; /*IE 10+*/}
 	
-	.navbar-nav .btn {
+	.widget-site-demo .widget-site-demo .navbar-nav .btn {
 	display: block;
 	float:left;
 	margin: 0 auto;
 	padding-right: 7px;
 	padding-left: 7px}
 	
-	.navbar .btn-sm {width:auto}
+	.widget-site-demo .widget-site-demo .navbar .btn-sm {width:auto}
 	
-	.navbar-brand {
+	.widget-site-demo .widget-site-demo .navbar-brand {
 		padding-top:15px;
 		padding-bottom:15px;
 		max-width: 120px;
 		height:auto;
 		min-height:50px}
 	
-	.nav.navbar-nav { width:100% }
+	.widget-site-demo .widget-site-demo .nav.navbar-nav { width:100% }
 	
-	.navbar-brand img {max-height: 120px}
+	.widget-site-demo .widget-site-demo .navbar-brand img {max-height: 120px}
 	
 	
-	.outer-column-container > .row-offcanvas {margin: 0}
+	.widget-site-demo .widget-site-demo .outer-column-container > .row-offcanvas {margin: 0}
 
-	.video-container .embed-responsive-item {
+	.widget-site-demo .video-container .embed-responsive-item {
 		margin-top: 0 !important;
 		margin-left:0 !important;
 		max-height: 100%}
 	
-	.agent-info-container .company-logo {max-width: 100px}
+	.widget-site-demo .widget-site-demo .agent-info-container .company-logo {max-width: 100px}
 	
-	.footer .container {width: auto}
+	.widget-site-demo .widget-site-demo .footer .container {width: auto}
 	
-	.caption h1, .caption .h1 {font-size: 1.45rem}
-	.caption h2, .caption .h2 {font-size: 1.25rem}
-	.caption h3, .caption .h3 {font-size: 1.05rem}
+	.widget-site-demo .widget-site-demo .caption h1, .caption .h1 {font-size: 1.45rem}
+	.widget-site-demo .caption h2, .caption .h2 {font-size: 1.25rem}
+	.widget-site-demo .caption h3, .caption .h3 {font-size: 1.05rem }
 		
-	.side-column legend, .sidebar-offcanvas legend, .side-bar legend {margin-bottom: 0}
+	.widget-site-demo .widget-site-demo .widget-site-demo .side-column legend, .sidebar-offcanvas legend, .side-bar legend {margin-bottom: 0}
 	
-	.outer-column-container, .footer {position:relative}
+	.widget-site-demo .widget-site-demo .outer-column-container, .footer {position:relative}
 	
-	.side-column { max-height: 900px}
+	.widget-site-demo .widget-site-demo .side-column { max-height: 900px}
 	
-	.footer {padding: 2% 3% 0}
+	.widget-site-demo .widget-site-demo .footer {padding: 2% 3% 0}
 	
 	
 	/* .footer {margin-left: 16.66666667%; /* eq: col-xs-offset-2 } */
 
-	.btn, .btn-group-lg > .btn, .btn input {font-size: .85rem}
+	.widget-site-demo .btn, .btn-group-lg > .btn, .btn input {font-size: .85rem}
+	
+	.figure.card h3 { font-size: 1.375rem}
+	
+	 #city-search .form-group { width: 100%;
+    	max-width: 18vw;}
+}
 	
 }
 
@@ -1018,36 +1181,38 @@ to {
 
 @media (min-width: 992px) {
 	
-		html, body{ font-size: 16px}
+		/*html, body{ font-size: 16px}
 		
-		body {font-size: 1rem}
+		body {font-size: 1rem} */
 		
-		.side-column + .button-scroll-container { max-width: 24.5vw}
+		.widget-site-demo .side-column + .button-scroll-container { max-width: 24.5vw}
 		
-		.side-column .input-group.form-group {width: 100%}
+		.widget-site-demo .side-column .input-group.form-group {width: 100%}
 		
-		.side-column .panel-collapse .form-group:nth-child(3n+1),
+		.widget-site-demo .side-column .panel-collapse .form-group:nth-child(3n+1),
 		.sidebar-offcanvas .panel-collapse .form-group:nth-child(3n+1),
 		.sidebar .panel-collapse .form-group:nth-child(3n+1) { clear: none}	
 		
-		.panel-collapse .form-group:nth-child(3n+1) { clear: left}		
+		.widget-site-demo .panel-collapse .form-group:nth-child(3n+1) { clear: left}		
 		
-		.side-column .form-group {width: 50%}
+		.widget-site-demo .side-column .form-group {width: 50%}
 		
-		.button-scroll-container .glyphicon-chevron-up { text-indent: 2px;}
+		.widget-site-demo .button-scroll-container .glyphicon-chevron-up { text-indent: 2px;}
 		.button-scroll-container .glyphicon-chevron-down {}
 
 		
-		.discover-home-value legend {font-size: 1.8rem;}
+		.widget-site-demo .discover-home-value legend {font-size: 1.8rem;}
 		
-		.caption h1, .caption .h1 {font-size: 1.65rem}
-	  	.caption h2, .caption .h2 {font-size: 1.45rem}
-	  	.caption h3, .caption .h3 {font-size: 1.25rem}
+		.widget-site-demo .caption h1, .widget-site-demo .caption .h1 {font-size: 1.75rem}
+	  	.widget-site-demo .caption h2, .widget-site-demo .caption .h2 {font-size: 1.55rem}
+	  	.widget-site-demo .caption h3, .widget-site-demo .caption .h3 {font-size: 1.35rem}
 		
-		.well.agent-info {margin-bottom: 0}
+		.widget-site-demo .well.agent-info {margin-bottom: 0}
 		
-		.side-column {font-size:.875rem}
+		.widget-site-demo .side-column {font-size:.875rem}
 		.lead {font-size: 1em}
+		
+		.widget-directory {padding: 1rem}
 		
 		
 }
@@ -1056,20 +1221,20 @@ to {
 
 @media (max-width: 1199px) {
 	
-	.video-container .embed-responsive-item {width: 100% !important;}
+	.widget-site-demo .widget-site-demo .video-container .embed-responsive-item {width: 100% !important;}
 	
 }
 
 
 @media (min-width: 1200px) {
 	
-		html, body{ font-size: 18px}
+		/*html, body{ font-size: 18px}
 		
-		body {font-size: 1rem}
+		body {font-size: 1rem} */
 		
-		#agenthome-homepage .primary-column {position:absolute}
+		.widget-site-demo .widget-site-demo #agenthome-homepage .primary-column {position:absolute}
 				
-		#agenthome-homepage .outer-column-container  {
+		.widget-site-demo .widget-site-demo #agenthome-homepage .outer-column-container  {
 		height: 100%;
     	left: 0;
     	overflow-x: hidden;
@@ -1077,7 +1242,7 @@ to {
     	top: 0;
     	width: 100%;}
 		
-		#agenthome-homepage .side-column  { 
+		.widget-site-demo .widget-site-demo #agenthome-homepage .side-column  { 
 		position: relative;
 		float:right;
 		margin-right:0;
@@ -1091,28 +1256,28 @@ to {
 		/* overflow-x: hidden;
     	overflow-y: auto; */}
 				
-		.caption h1, .caption .h1 {font-size: 1.75rem}
-	  	.caption h2, .caption .h2 {font-size: 1.55rem}
-	  	.caption h3, .caption .h3 {font-size: 1.35rem}
+		.widget-site-demo .caption h1, .widget-site-demo .caption .h1 {font-size: 1.85rem}
+	  	.widget-site-demo .caption h2, .widget-site-demo .caption .h2 {font-size: 1.7rem}
+	  	.widget-site-demo .caption h3, .widget-site-demo .caption .h3 {font-size: 1.5rem}
 		
-		.side-column .agent-info-container ~ p:last-child,
+		.widget-site-demo .side-column .agent-info-container ~ p:last-child,
 		.side-column .agent-info-container + p.lead {padding-bottom: 10%}
 		
-		.agent-info-container .company-logo img {max-height: 44px}
+		.widget-site-demo .agent-info-container .company-logo img {max-height: 44px}
 		
-		.agent-contact p.agent-cell { font-size:.975rem}
+		.widget-site-demo .agent-contact p.agent-cell { font-size:.975rem}
 	
 		.primary-column .agent-info-container { position:absolute; bottom:0; left:0}
 				
-		.side-column .discover-home-value-container { padding-right: 0}
+		.widget-site-demo .side-column .discover-home-value-container { padding-right: 0}
 						
-		.video-container .embed-responsive-item {max-width: 1600px}
+		.widget-site-demo .video-container .embed-responsive-item {max-width: 1600px}
 		
-		.footer .container { max-width: 98%}
+		.widget-site-demo .footer .container { max-width: 98%}
 		
-		.discover-home-value legend {font-size: 1.54rem;}
+		.widget-site-demo .discover-home-value legend {font-size: 1.54rem;}
 		
-		.hide-scroll-bar {
+		.widget-site-demo .hide-scroll-bar {
 			padding-right: 15px;
     		width: 100%;
 			height: 99%;
@@ -1126,7 +1291,7 @@ to {
 		.side-column .agent-info-container ~ p:last-child,
 		.side-column .agent-info-container + p.lead {padding-bottom: 8.5%}	
 				
-		.agent-contact p.agent-cell { font-size:1.05rem}
+		.widget-site-demo .agent-contact p.agent-cell { font-size:1.05rem}
 
 }
 
