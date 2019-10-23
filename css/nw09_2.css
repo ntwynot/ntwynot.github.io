@@ -86,8 +86,7 @@ header #navBar {
      line-height:1.42857143 
 }
 main#content {
-	padding-right: .5rem;
-	padding-left: .5rem;
+	padding: 1rem;
     min-width: 0;
     min-height: 450px;
     background-color: #fff;
@@ -373,11 +372,11 @@ div#rDeskGallery  .thumbnails {
      text-decoration: none;
      font-size: 0;
      border: 0;
-}
+}/*
  #gallery article > .standard, 
  #gallery > .standard {
     margin-bottom: 1rem
-}
+}*/
  #gallery > .standard {
  	word-break: keep-all;
  	hyphens: none
@@ -480,11 +479,10 @@ div#rDeskGallery  .thumbnails {
 }
 /* .card img {
     transition: opacity 0.15s ease-in-out
-}
- */
- .box-outer {
+}*/
+/*.box-outer {
     padding: .85rem .25rem .75rem 
-}
+}*/
  .box2 {
      margin-top:.5rem;
      border: #fff 1px solid;
@@ -1012,7 +1010,8 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
         font-size: 14px
     }
      #gallery article > .standard,
-     #gallery > .standard {
+     #gallery > .standard,
+     #gallery.gallery-ui p {
          -webkit-column-count: 2;
          column-count: 2
     }
@@ -1095,7 +1094,10 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
 }
 
  @media (min-width: 1600px) {
-	#gallery article > .standard, #gallery > .standard {
+	#gallery article > .standard,
+	#gallery > .standard,
+	#gallery.gallery-ui p
+	 {
 			 -webkit-column-count: 3;
 			 column-count: 3
 		}

@@ -1,0 +1,456 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>agent design</title>
+
+    <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        
+    <script src="https://use.fontawesome.com/bbe495f178.js"></script>
+    <style>
+	body{font-family: 'Lato', sans-serif;}
+    .navbar {min-height: 75px; background-color: #3e4a58; margin-bottom:0px; border: 0px solid transparent;}
+	.navbar-header {padding-top: 20px;}
+	.navbar-nav { padding-top: 10px;}
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {color: #fff; text-decoration: none; border-bottom:1px solid #fff;}
+    .logotext{top:18px; position:relative; font-family: 'Lato', sans-serif; font-weight: 100; font-size:33px; color:#fff;}
+	.active{border-bottom:1px solid #fff;}
+	.nav > li > a:hover, .nav > li > a:focus { background-color: transparent; border-bottom:1px solid #fff; text-decoration: none;}
+	.nav > li {margin-top: 5px;}
+	.navbar-toggle .icon-bar {background-color: #fff;}
+	.navbar-nav .nav-item + .nav-item {margin-left: 2rem;}
+	.navbar-collapse {  border-top: 0 solid transparent; box-shadow: 0 0 0 rgba(255, 255, 255, 0.1) inset; max-height: 1000px; padding-left: 15px; padding-right: 30px;}
+	.navbar-brand {font-size: 1.03rem; margin-right: 14rem; padding-bottom: 0.25rem; padding-top: 0rem;}
+	.navbar-nav .nav-link {display: block; padding-bottom: 0.425rem; padding-top: 1.6rem; color#fff;}
+	.nav > li > a {color: #fff;}
+	.register-button{background-color:#fff; border-radius:0px; border:1px solid #fff; color:#3e4a58; margin-top:1.2rem;}
+	.sign-in-button{background-color:transparent; border-radius:0px; border:1px solid #fff; margin-right:1rem; margin-top:1.2rem; color:#fff;}
+	.nav-icon{font-size:25px; color:#fff; margin-right:10px;}
+	.nav-icon-inner {padding-top: 1.2rem;}	
+	.nav-pipe{width:1px; background-color:rgba(255, 255, 255, 0.3); height:18px; margin-top:1.8rem;}
+	.navbar-nav > li > a { padding-bottom: 15px; padding-top: 2px;}
+	.navbar-right:last-child {margin-right: 4px;}
+	.navbar-brand, .navbar-nav > li > a {text-shadow: 0 0px 0 rgba(255, 255, 255, 0.25);} 
+	.header-img{background-image:url(images/agent.jpg); background-size:cover; height:650px;} 
+	.blk-overlay{ background-color: rgba(0, 0, 0, 0.4); height:650px;   }
+	.jumbotron {padding: 0px;}
+	.hd-con{color:#fff; margin-top:200px; margin-bottom:3%;}
+	.articles{padding:25px 0;}
+	.insta-con{padding:25px 0;}
+	.right-border{border-right:1px solid #CCC;}
+	.stats{padding-bottom:100px;}
+	.stats-con{padding-top:65px; font-size:24px; font-weight: 700;}
+	.stat-hdln-con{padding-bottom:50px;}
+	.house{text-align:center; font-size:92px; color:#00b4d2;}
+	.stat-number{text-align:center;  font-size:102px; color:#4a4a4a; font-weight:bold; letter-spacing: 10.7px; line-height:99px}
+	.stat-text{text-align:center;   font-size:28px; color:#3f4a58; font-weight: 600;}
+	.getmyapp{background-image:url(images/dog.jpg); background-size:cover; background-position:bottom; height:819px; color:#fff; margin-bottom:15px;}
+	.app-title{padding-top:200px; font-size:92px; font-weight: 100;}
+	.app-rule{height:4px; background-color:#FFF; width:25%; float:left;}
+	.app-txt{clear:both;  font-size: 2.5rem; font-weight: 100;}
+	.foot-icons{text-align:center; color: rgba(255, 255, 255, 0.7); font-size:34px; padding:50px 0;}
+	.footer{padding:50px 0; color:#fff;}
+	.agent-name-ft{font-size: 36px; font-weight: bold; font-style: normal;}
+	.footer-lead-txt{font-size: 26px; font-weight: 100;}
+	.footer-text{font-size: 16px; font-weight: 300; font-style: normal; font-stretch: normal;}
+	.marketing h2 {font-weight: 300;}
+	.c-n-pad{padding:50px 0;}
+	.headline{font-size: 68px;
+	  font-weight: 900;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #ffffff;
+	  font-family: 'Lato', sans-serif;
+	  }
+	.subheadline{font-family: 'Lato', sans-serif;  font-size: 42px; font-weight: 300; font-style: normal; font-stretch: normal;}
+	.search-pad{padding-top:10px; padding-bottom:10px; border-radius:0px;  height: 47px;}
+	.featurette-heading {
+		margin-top: 2rem; margin-bottom:35px;
+	}
+	.homeworth{background-image:url(images/012096746_prevstill.jpeg);   background-size:cover; background-position:bottom;  color:#fff}
+	.footer{background-color: #3e4a58;}
+	.blk{background-color: rgba(0, 0, 0, 0.3);  padding:90px 0px 200px ;}
+	.lead {
+		font-family: "lato",sans-serif;
+		font-size: 22px;
+		font-weight: 300;
+	}
+	h2, .h2 {
+		font-size: 46px;
+	}
+	.form-control { height: 46px;}
+		/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+	.navbar-nav{margin-left: 1rem;}
+	.navbar-nav .nav-item + .nav-item {margin-left: 1rem;}
+	.hidden-md-down{display:none;}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+	.navbar-nav .nav-item + .nav-item {margin-left: 1rem;}
+	.nav > li > a:hover, .nav > li > a:focus {border-bottom:0px solid #fff; }
+	.navbar-nav .nav-link {text-align: center;}
+	.logotext{visibility:hidden;}
+	.navbar-brand {margin-right: 0rem;  float: none;}
+	.navbar-nav {margin-left: 25px;}
+	.hidden-md-down{display:none;}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+.nav-pipe{visibility:hidden;}
+.nav > li > a:hover, .nav > li > a:focus {border-bottom:0px solid #fff;}
+.navbar-nav .nav-link {text-align: center;}
+.logotext{visibility:hidden;}
+.navbar-brand {margin-right: 0rem;  float: none;}
+.header-img {
+    background-image: url("images/agent.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 137% auto;
+    height: 374px;
+}
+.blk-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 299px;
+	padding:0px 20px;
+}
+.hd-con {
+    color: #fff;
+    margin-bottom: 3%;
+    margin-top: 70px;
+}
+.jumbotron {
+    background-color: transparent;}
+	.headline {font-size: 31px;}
+	.subheadline {font-size: 17px;}
+	.contact-but{ margin-top:-280px; width: 100%;}
+	.input-smallscreen{margin-top:132px;}
+	.btn {background-color: #00b5d7; color: #fff; }
+	.register-button{background-color:#fff; border-radius:0px; border:1px solid #fff; color:#3e4a58; margin-top:1.2rem;}
+	.sign-in-button{background-color:transparent; border-radius:0px; border:1px solid #fff; margin-right:1rem; margin-top:1.2rem; color:#fff;}
+	.navbar-nav {margin-left: 0px;}
+	.navbar-nav .nav-item + .nav-item {
+    margin-left: 0rem;
+}
+	.hidden-md-down{display:none !important;}
+	}
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        .nav-pipe{visibility:hidden;}
+		.nav > li > a:hover, .nav > li > a:focus {border-bottom:0px solid #fff;}
+		.navbar-nav .nav-link {text-align: center;}
+		.logotext{visibility:hidden;}
+		.navbar-brand {margin-right: 0rem;  float: none;}
+		.navbar-nav {margin-left: 0px;}
+		.headline {font-size: 31px; margin-top:36px;}
+		.blk-overlay {height: 287px;}
+		.hidden-md-down{display:none !important;}
+    }
+</style>
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body>
+  
+ <!-- Fixed navbar -->
+    <div class="navbar navbar-fixed-top" role="navigation">
+      <div class="">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span><img src="images/abc-bug.png"></span><span class="logotext"> Real Estate</span></a>
+        </div>
+       <div id="navbar" class="navbar-collapse collapse">
+       <ul class="nav navbar-nav navbar-right">
+            <li><button class="btn pull-lg-right register-button">Register</button> <button class="btn pull-lg-right sign-in-button">Sign-in</button></li>
+          </ul>
+          <ul class="nav navbar-nav pull-lg-left">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item"><div class="nav-pipe"></div></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Search</a>
+        </li>
+        <li class="nav-item"><div class="nav-pipe"></div></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item"><div class="nav-pipe"></div></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Market Report</a>
+        </li>
+        <li class="nav-item "><div class="nav-pipe"></div></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item"><div class="nav-pipe"></div></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item "><div class="nav-pipe"></div></li>
+        <li class="nav-item nav-icon-inner hidden-md-down"><a class="nav-icon pull-left" href="#"><i class="fa fa-instagram " aria-hidden="true"></i></a> <a class=" nav-icon pull-left" href="#"><i class="fa fa-tumblr-square" aria-hidden="true"></i>
+        
+</a></li>
+      </ul>
+            </li>
+          </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <!-- nav end -->
+
+<div class="jumbotron header-img">
+<!--search -->
+    <div class="row blk-overlay" style="">
+    <div class="container hd-con" style="">
+    <h1 class="headline">JULIE LEWIS</h1>
+    <h2 class="subheadline">Your Premier Real Estate Agent </h2>
+    </div>
+<div class="form-group container" >
+	<div class="col-lg-9 col-md-7 col-sm-9">
+		<label class="sr-only" for="Critieria/Location">Search by City, Zip Code, School District, or MLS#</label>
+	<div class="input-group input-smallscreen">
+		<input id="Critieria/Location" class="form-control sh-text-input empty ac_input search-pad" autocomplete="off" name="Criteria/LocationBox" type="text" placeholder="ENTER LOCATION">
+	<div class="input-group-btn sh-form-middle-btn">
+		<button id="btnoptions" class="btn  form-control search-pad" type="button" aria-label="View more options" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="criteria-more-options">
+		<i class="fa fa-sliders"></i>
+		</button>
+	</div>
+	<div class="input-group-btn">
+	<button id="btnsubmit" class="btn  form-control search-pad" type="button" onclick="prepareSubmit()" aria-label="Search by location">
+	<i class="fa fa-search"></i>
+	</button>
+	</div>
+	</div>
+    
+	</div>
+    <div class="col-lg-3">
+    <button class="btn btn-primary search-pad contact-but">Contact Julie</button></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<!-- /search -->
+</div>
+    
+    
+    
+    
+ <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+ <!-- START THE FEATURETTES -->
+
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Welcome</h2>
+          <p class="lead">For the past 27 years, I have been helping clients buy and sell homes as they start new lives, settle and resettle, change course, upsize, downsize and rightsize.I grew up in North Bay and moved to Toronto for university. I have degrees in psychology and education. I love neighbourhoods and I love getting to know all sorts of different people.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+     <div class="row ">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">My Featured Listings</h2>
+          
+        </div>
+        <div class="row">
+        <div class="pull-left hidden-md-down"><img src="images/carosel-arrow-lft.jpg" width="28" height="264"></div>
+        <div class="pull-left text-lg-center"><img src="images/featured-carosel-1.jpg" width="369" height="264"></div>
+        <div class="pull-left text-lg-center"><img src="images/featured-carosel-2.jpg" width="369" height="264"></div>
+        <div class="pull-left text-lg-center"><img src="images/featured-carosel-3.jpg" width="369" height="264"></div>
+        <div class="pull-left hidden-md-down"><img src="images/carosel-arrow-rtt.jpg" width="28" height="264"></div>
+        
+        </div>
+  	 </div>
+
+      <hr class="featurette-divider">
+
+     <div class="row ">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Area Statistics</h2>
+          
+        </div>
+       <div class="row">
+        <div class="col-md-6"><img src="images/weather-1.jpg" width="568" height="334"></div>
+        <div class="col-md-6"><img src="images/weather.jpg" width="521" height="334"></div>
+       </div>
+  	 </div>
+     
+     <div class="row featurette c-n-pad">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Community and Neighborhood</h2>
+          <p class="lead">Aliso Viejo is a city in the San Joaquin Hills of southern Orange County, California. It had a population of 47,823 as of the 2010 census, up from 40,166 as of the 2000 census. It became Orange County's 34th city on July 1, 2001, the only city in Orange County to be incorporated since 2000. It is bordered by the cities of Laguna Beach on the west and southwest, Laguna Hills on the east, Laguna Niguel on the southeast, and Laguna Woods on the north.</p>
+        </div>
+      </div>
+     
+
+      <!-- /END THE FEATURETTES -->
+
+
+
+  </div><!-- /.container -->
+  <div class="row homeworth ">
+  	<div class="blk">
+      <div class="container full-opasity">
+        <div class="col-md-12 text-lg-center">
+          <h2 class="featurette-heading">What’s Your Home Worth?</h2>
+          <h3>See your estimated values</h3>
+          <div class="form-group container" style="z-index:1000; top:10px; position:relative;">
+<label class="sr-only" for="Critieria/Location">Search by City, Zip Code, School District, or MLS#</label>
+<div class="col-lg-6 offset-lg-3">
+<div class="input-group ">
+<input id="Critieria/Location" class="form-control sh-text-input empty ac_input " autocomplete="off" name="Criteria/LocationBox" type="text" placeholder="Enter Address">
+
+<div class="input-group-btn">
+<button id="btnsubmit" class="btn btn-primary form-control" type="button" onclick="prepareSubmit()" aria-label="Search by location">
+<i class="fa fa-search"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+        </div>
+        </div>
+      </div>
+      <!-- BLOG AND INSTA -->
+     <div class="container stat-hdln-con">
+     <div><h2 class="featurette-heading">Get to Know Me</h2></div>
+     <div class="articles col-lg-9">
+     
+    <div class="row"><img src="images/get-to-know.JPG" width="753" height="149" alt="article"></div>
+    <div class="row"><img src="images/get-to-know.JPG" width="753" height="149" alt="article"></div>
+    <div class="row"><img src="images/get-to-know.JPG" width="753" height="149" alt="article"></div>
+    <div class="row"><img src="images/get-to-know.JPG" width="753" height="149" alt="article"></div>
+    <div class="row"><img src="images/get-to-know.JPG" width="753" height="149" alt="article"></div>
+    
+     </div>
+     <div class="insta-con col-lg-3 text-lg-right"><img src="images/insta-feed.JPG" width="378" height="755"></div>
+     </div>
+<div>
+<iframe src="https://player.vimeo.com/video/101635526" width="100%" height="809" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+</div>
+
+<!-- area stats-->
+<div class="container stats">
+  <div class="col-lg-12 stats-con">
+    <div class="text-lg-center text-md-center text-sm-center text-xs-center">AREA STATS</div>
+   <div> <h2 class="featurette-heading text-lg-center stat-hdln-con  text-md-center text-sm-center text-xs-center">Some Fun Facts</h2></div>
+    </div>
+  <div class="col-lg-6 right-border">
+    <div class="col-lg-6">
+    <div class="house"><i class="fa fa-home" aria-hidden="true"></i></div>
+    <div class="stat-number">22</div>
+    <div class="stat-text">HOMES FOR SALE</div>
+    </div>
+    <div class="col-lg-6">
+    <div class="house"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+    <div class="stat-number">23</div>
+    <div class="stat-text">CHANGE</div>
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="col-lg-6">
+    <div class="house"><i class="fa fa-home" aria-hidden="true"></i></div>
+    <div class="stat-number">22</div>
+    <div class="stat-text">SOLD</div>
+    </div>
+    <div class="col-lg-6">
+    <div class="house"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+    <div class="stat-number">23</div>
+    <div class="stat-text">CHANGE</div>
+    </div>
+    </div>
+</div>
+
+      <!-- get app section -->
+<div class="getmyapp">
+	<div class="container" style="height:819px;">
+    	<div class="col-lg-7 col-md-12 col-sm-12">
+        <div class="app-title">USE MY APP</div>
+        <hr class="app-rule">
+        <div class="app-txt">GET ACCESS TO MY NEW PERSONALIZED SEARCH APP</div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 hidden-md-down" style="bottom:0px; position:relative; height:819px;"><img src="images/hand.png" width="100%"  style=" vertical-align: bottom; bottom:0px; position:absolute;"></div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+      <!-- FOOTER -->
+  <div class="footer">
+      <div class="container">
+      <footer>
+      <div class="agent-name-ft">Julie Lewis</div>
+      <div class="row">
+        <div class="col-md-3">
+        
+        <div class="footer-text">
+        <span class="footer-lead-txt">Office Address</span><br>
+        Rehoboth Sales<br>
+        37156 Rehoboth Ave Extended Unit 5<br>
+        Rehoboth Beach, DE 19971</div>
+        </div>
+        <div class="col-md-3 footer-text">
+        <span class="footer-lead-txt">Phone</span><br> 
+        Direct Office: 302-227-2541<br>
+        Mobile: 917-678-8799
+        </div>
+        <div class="col-md-3 footer-text">
+        <span class="footer-lead-txt">Website </span><br>
+        Visit My Website Specialties and Designations</div>
+        <div class="col-md-3 footer-text">
+        <span class="footer-lead-txt">Email</span><br>
+		julie.lewis@abcrealestate.com</div>
+        </div>
+        <div class="col-md-12 foot-icons"><i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> <i class="fa fa-pinterest-square" aria-hidden="true"></i> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+   </div>
+        <div class="col-md-12">Investment Property, New Construction, Vacation Properties, Works With First Time Home Buyers, Specializes in Relocations, Country Homes, Senior Living, Resale Residential, Historic Homes, Suburban Living, Condominiums, Urban Living, Water Front, Serving The Military, Single Family Homes and Townhomes</div>
+      </footer>
+</div>
+</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
