@@ -140,7 +140,6 @@ main#content {
   }
 }
 
-
 #rDeskGallery .card  img {	
 	width: 100%;
 }	
@@ -171,6 +170,8 @@ div#rDeskGallery  .thumbnails {
      height: auto;
      background-color: #fff;   
 }
+
+#ltrHd img {max-height: 500px}
 
 /* Start Homepage */
  .web-portfolio-homepage .box-2 img {max-height: 912px}
