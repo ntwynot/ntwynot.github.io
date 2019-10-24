@@ -189,18 +189,19 @@ div#rDeskGallery  .thumbnails {
  .nav-tabs .nav-link {
      padding: .75rem 1rem;
      /* color: #6FADBF */
-     color: #82A7B3
+     color: #4a7682
 }
 
 .navbar-brand .h1 {
     margin: 0;
-    padding: .35rem 1rem .75rem;
- 	font-size: 2.2rem;
+    padding: .75rem 1rem 0;
+ 	font-size: 2rem;
  	letter-spacing: -.05em;
  	word-spacing: -.15em;
- 	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 8%, rgb(255, 255, 255) 100%);
+ 	background-color: rgba(255, 255, 255, 0);
+ 	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 8%, rgb(255, 255, 255) 90%);
   	background: -o-linear-gradient(#111, #fff);
-  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 8%,  rgb(255, 255, 255) 100%);
+  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 8%,  rgb(255, 255, 255) 90%);
   	-webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -340,6 +341,19 @@ div#rDeskGallery  .thumbnails {
     -ms-grid-column-span: 1;
     grid-column: 1/2;
 	}
+	
+  .navbar-brand .h1 {
+    padding: .35rem 1rem .75rem;
+  	font-size: 2.2rem;
+ 	background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgb(25, 25, 25) 8%, rgb(255, 255, 255) 100%);
+  	background: -o-linear-gradient(#111, #fff);
+  	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(134,111,191,0.36) 8%,  rgb(255, 255, 255) 100%);
+  	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  	text-fill-color: transparent;
+  	text-shadow: rgba(0,0,0,.125) 0px -1px 0px;
+  }
 
 
 }
@@ -465,7 +479,8 @@ div#rDeskGallery  .thumbnails {
      margin: 1rem 1rem auto auto;
      padding: .125rem .25rem;
      max-height: 40px;
-     bottom: .5rem;
+     top: 0;
+     bottom: 0;
 	 background-color: rgba(142,152,201,.5)
 }
  .dropdown-item {

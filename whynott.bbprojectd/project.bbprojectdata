@@ -37,6 +37,7 @@
 		<string>69E1722D-E533-4C9F-8ACD-E041CBF57CA6</string>
 		<string>C5B5B118-4B3B-48FA-9C53-DFF62CD6775E</string>
 		<string>8B1D0EA7-4741-4CAD-BF79-06FE4F525CE0</string>
+		<string>738DA0B1-272F-405A-998C-44F57C9C753E</string>
 	</array>
 	<key>ProjectItems</key>
 	<dict>
@@ -553,6 +554,60 @@
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
+		<key>602753CA-93FC-42FD-A1BB-8B7E9AC52BBB</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va7wDAAAAAAQQMAAAAI3xXIuumLbgIWR1kCqkwPW8
+				tSgNAdXlKg7U+ju8zLOYrAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAQAAAAAQEAAG5hdGhhbmllbHdo
+				eW5vdHQFAAAAAQEAAFNpdGVzAAAABwAAAAEBAAB3aHlu
+				b3R0AAMAAAABAQAAd2ViABEAAAABAQAAUmVhbEVzdGF0
+				ZURpZ2l0YWwAAAAbAAAAAQEAAEFnZW50IERlc2lnbiAt
+				IFN0YXRpY19maWxlcwAQAAAAAQEAAGFnZW50LXN0YXRp
+				Yy5jc3MgAAAAAQYAABAAAAAgAAAAOAAAAEgAAABYAAAA
+				ZAAAAIAAAACkAAAACAAAAAQDAABunQoAAAAAAAgAAAAE
+				AwAAom8QAAAAAAAIAAAABAMAAMmnEgAAAAAACAAAAAQD
+				AABKhkcAAAAAAAgAAAAEAwAAU8FIAAAAAAAIAAAABAMA
+				AC89SQAAAAAACAAAAAQDAAD/uIYAAAAAAAgAAAAEAwAA
+				BLmGAAAAAAAgAAAAAQYAAOQAAAD0AAAABAEAABQBAAAk
+				AQAANAEAAEQBAABUAQAACAAAAAAEAABBwW8o/1WCnRgA
+				AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAA
+				AAQDAAAGAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAA
+				ZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAE
+				AwAAAFA/LRwAAAAIAAAAAAQAAEHArkjE95wrJAAAAAEB
+				AABBRUJCOTcxRi1BRTZDLTRCQzktODdDRC05MTAwNzgz
+				RjI5QjgYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAA
+				AAAAAAEAAAABAQAALwAAAAAAAAABBQAAGgAAAAEBAABO
+				U1VSTERvY3VtZW50SWRlbnRpZmllcktleQAABAAAAAMD
+				AACZAgAA2AAAAP7///8BAAAAAAAAABEAAAAEEAAAvAAA
+				AAAAAAAFEAAAZAEAAAAAAAAQEAAAnAEAAAAAAABAEAAA
+				jAEAAAAAAAACIAAAaAIAAAAAAAAFIAAA2AEAAAAAAAAQ
+				IAAA6AEAAAAAAAARIAAAHAIAAAAAAAASIAAA/AEAAAAA
+				AAATIAAADAIAAAAAAAAgIAAASAIAAAAAAAAwIAAAdAIA
+				AAAAAAABwAAAvAEAAAAAAAARwAAAIAAAAAAAAAASwAAA
+				zAEAAAAAAAAQ0AAABAAAAAAAAAB8AgCAoAIAAAAAAAA=
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/nathanielwhynott/Sites/whynott/web/RealEstateDigital/Agent%20Design%20-%20Static_files/agent-static.css</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./web/RealEstateDigital/Agent Design - Static_files/agent-static.css</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>agent-static.css</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+			<key>UserOverrideItemName</key>
+			<true/>
+		</dict>
 		<key>66B2B1DD-2CA5-4837-B781-51C35FB16377</key>
 		<dict>
 			<key>ItemData</key>
@@ -830,6 +885,57 @@
 			</dict>
 			<key>ItemName</key>
 			<string>kelley-Blue-Book-leaderboards-3.html</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+		</dict>
+		<key>738DA0B1-272F-405A-998C-44F57C9C753E</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va4wDAAAAAAQQMAAAAN9c/fPpcn/fIjlwj9W6BHQv
+				dzGvkOJnYGSZnjKUwShsfAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAQAAAAAQEAAG5hdGhhbmllbHdo
+				eW5vdHQFAAAAAQEAAFNpdGVzAAAABwAAAAEBAAB3aHlu
+				b3R0AAMAAAABAQAAd2ViABEAAAABAQAAUmVhbEVzdGF0
+				ZURpZ2l0YWwAAAAaAAAAAQEAAEFnZW50IERlc2lnbiAt
+				IFN0YXRpYy5odG1sAAAcAAAAAQYAABAAAAAgAAAAOAAA
+				AEgAAABYAAAAZAAAAIAAAAAIAAAABAMAAG6dCgAAAAAA
+				CAAAAAQDAACibxAAAAAAAAgAAAAEAwAAyacSAAAAAAAI
+				AAAABAMAAEqGRwAAAAAACAAAAAQDAABTwUgAAAAAAAgA
+				AAAEAwAALz1JAAAAAAAIAAAABAMAACG5hgAAAAAAHAAA
+				AAEGAADIAAAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAA
+				CAAAAAAEAABBwW8o/3Ev/hgAAAABAgAAAQAAAAAAAAAP
+				AAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQA
+				AAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEA
+				AE1hY2ludG9zaCBIRAgAAAAEAwAAAFA/LRwAAAAIAAAA
+				AAQAAEHArkjE95wrJAAAAAEBAABBRUJCOTcxRi1BRTZD
+				LTRCQzktODdDRC05MTAwNzgzRjI5QjgYAAAAAQIAAIEA
+				AAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAA
+				AAAAAAABBQAAGgAAAAEBAABOU1VSTERvY3VtZW50SWRl
+				bnRpZmllcktleQAABAAAAAMDAACaAgAA2AAAAP7///8B
+				AAAAAAAAABEAAAAEEAAApAAAAAAAAAAFEAAAOAEAAAAA
+				AAAQEAAAbAEAAAAAAABAEAAAXAEAAAAAAAACIAAAOAIA
+				AAAAAAAFIAAAqAEAAAAAAAAQIAAAuAEAAAAAAAARIAAA
+				7AEAAAAAAAASIAAAzAEAAAAAAAATIAAA3AEAAAAAAAAg
+				IAAAGAIAAAAAAAAwIAAARAIAAAAAAAABwAAAjAEAAAAA
+				AAARwAAAIAAAAAAAAAASwAAAnAEAAAAAAAAQ0AAABAAA
+				AAAAAABMAgCAcAIAAAAAAAA=
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/nathanielwhynott/Sites/whynott/web/RealEstateDigital/Agent%20Design%20-%20Static.html</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./web/RealEstateDigital/Agent Design - Static.html</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>Agent Design - Static.html</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
