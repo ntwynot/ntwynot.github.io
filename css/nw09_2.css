@@ -160,7 +160,8 @@ div#rDeskGallery  .thumbnails {
      position: relative;
      padding-bottom: 1rem;
      width: 100%;
-     height: auto;   
+     height: auto;
+     background-color: #fff;   
 }
 
 /* Start Homepage */
@@ -367,6 +368,7 @@ div#rDeskGallery  .thumbnails {
      -ms-flex-pack: center;
      justify-content: center;
      width: 100%;
+     background: none;
 }
  #headerLogo a {
  	display: block;
