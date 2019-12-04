@@ -7,10 +7,10 @@
 }
  body {
      font-family: helvetica, verdana, arial, sans-serif;
-	 background: -moz-linear-gradient(top,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%);
-	 background: -webkit-linear-gradient(top,  rgba(24,113,201,0.35) 0%,rgba(0,56,137,0.35) 100%);
-	 background: linear-gradient(to bottom,  rgba(24,113,201,0.35) 0%,rgba(0,56,137,0.35) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#591871c9', endColorstr='#59003889',GradientType=0 );
+	background: -moz-linear-gradient(top,  rgba(0,56,137,0.35) 0%, rgba(24,113,201,0.35) 50%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,56,137,0.35) 0%,rgba(24,113,201,0.35) 50%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(0,56,137,0.35) 0%,rgba(24,113,201,0.35) 50%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59003889', endColorstr='#ffffff',GradientType=0 );
      color: #191919;
      letter-spacing: .05em;
 }
@@ -795,7 +795,7 @@ div#rDeskGallery  .thumbnails {
      line-height: 125%;
      font-family: Helvetica, sans-serif;
 }
- #workTable h2, .cronusBdy {
+ #workTable h2,  #workTable h3.cronusBdy {
      padding: 0 .85rem 0 .5rem;
      font-size: .875em;
      text-align: left;
