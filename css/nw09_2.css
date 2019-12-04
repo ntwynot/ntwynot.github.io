@@ -85,6 +85,9 @@ header #navBar {
  p {
      line-height:1.42857143 
 }
+
+#navbarNavDropdown .nav-item {margin: auto}
+
 main#content {
 	padding: 1rem;
     min-width: 0;
@@ -96,8 +99,7 @@ main#content {
 }
  #nav.navbar-nav {
  	background-color: rgba(255,255,255,.6);
-	padding: .32rem .55rem;
-	box-shadow: rgba(0,0,0,.125) 5px 0 7px
+	padding: .32rem .55rem
 }
  
  #navFooter a.nav-link {
@@ -181,7 +183,9 @@ div#rDeskGallery  .thumbnails {
  margin: auto 0;
  max-height: 561px}
  .print-portfolio-homepage .box-2 img {max-height: 500px}
- .print-portfolio-homepage .box-4 img {max-height: 600px}
+ .print-portfolio-homepage .box-4 img,
+.print-portfolio-homepage .box-5 img {max-height: 600px}
+ 
  
  .print-portfolio-homepage .mosaic-box p {
      top:0;
@@ -244,13 +248,13 @@ div#rDeskGallery  .thumbnails {
  .mosaic-box p, .mosaic-box h4 {
      position: absolute;
      margin: 0;
-     padding: .325rem 1rem .25rem;
+     padding: .2rem 1rem .25rem;
 	 background: -moz-linear-gradient(110deg,  rgba(24,113,201,0.36) 0%, rgba(0,56,137,0.36) 100%);
 	 background: -webkit-linear-gradient(110deg,  rgba(24,113,201,0.36) 0%,rgba(0,56,137,0.36) 100%);
 	 background: linear-gradient(110deg,  rgba(24,113,201,0.36) 0%,rgba(0,56,137,0.36) 100%);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c1871c9', endColorstr='#5c003889',GradientType=1 );
      width: auto;
-     font-size: 1rem;
+     font-size: .875rem;
      color: #fff;
      border-top: 1px solid #aeb1bf;
      text-shadow: rgba(0,0,0,.5) 1px 1px 1px, rgba(0,0,0,.5) 0 -1px 1px;
@@ -258,6 +262,11 @@ div#rDeskGallery  .thumbnails {
      top:0;
      left: 0 
 }
+
+ .mosaic-box a {
+ 	margin: auto;
+ 	border: 0}
+
  .web-portfolio-homepage, 
  .print-portfolio-homepage {
      display: block;
@@ -265,6 +274,7 @@ div#rDeskGallery  .thumbnails {
      height: 100%;
 }
 
+/*
 .mosaic-box::before {
     position: absolute;
     content: "";
@@ -272,17 +282,20 @@ div#rDeskGallery  .thumbnails {
     top: 0;
     right: 0;
 	left: 0;
-}
+} */
 
  .mosaic-box {
      position: relative;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
      margin-bottom: 1rem;
      padding: 1.5rem 0 0;
      /* background-color:  #aeb1bf #fff; */ 
-     background: -moz-linear-gradient(left,  rgba(125,182,198,.36) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
+   /* background: -moz-linear-gradient(left,  rgba(125,182,198,.36) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
 	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.36) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
 	 background: linear-gradient(to right,  rgba(125,182,198,.36) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
-	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 );
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 ); */
      min-height: 50px;
      min-width: 50px;
      -ms-grid-column-align: center;
@@ -326,7 +339,7 @@ div#rDeskGallery  .thumbnails {
   	-ms-grid-column-span: 3;
   	grid-column: 1/4;
 	-ms-grid-row: 4;
-	grid-row: 4/4;
+	grid-row: 6/6;
 	}
   
   .print-portfolio-homepage .box-2 {
@@ -335,23 +348,31 @@ div#rDeskGallery  .thumbnails {
   	-ms-grid-column-span: 1;
   	grid-column: 3/4;
 	-ms-grid-row: 2;
-	grid-row: 2/2;
+	grid-row: 4/4;
 	}
   
   .print-portfolio-homepage .box-3 {
-  	-ms-grid-row: 3;
-  	grid-row: 3/3;
 	-ms-grid-column: 1;
 	-ms-grid-column-span: 3;
 	grid-column: 1/4;
+	-ms-grid-row: 4;
+  	grid-row: 5/5;
 	}
   
   .print-portfolio-homepage .box-4 {
   	-ms-grid-row: 2;
-  	grid-row: 2/2;
+  	grid-row: 4/4;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
+	}
+	
+	.print-portfolio-homepage .box-5 {
+  	-ms-grid-row: 2;
+  	grid-row: 2/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 1/4;
 	}
 	
   .navbar-brand .h1 {
