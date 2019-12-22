@@ -42,13 +42,16 @@
 }
 
 header #navBar {
-	background: -moz-linear-gradient(left,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%);
-	background: -webkit-linear-gradient(left,  rgba(24,113,201,0.35) 0%,rgba(0,56,137,0.35) 100%);
-	background: linear-gradient(to right,  rgba(24,113,201,0.35) 0%,rgba(0,56,137,0.35) 100%);
-	background: linear-gradient(110deg, rgb(24, 113, 201) 0%, rgb(0, 56, 137) 100%), url(../images/bckgrd/header-bckgrd.JPG) no-repeat center 0 / cover;
+	/* background: -moz-linear-gradient(left,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%);
+	background: -webkit-linear-gradient(left,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%);
+	background: linear-gradient(to right,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%); */
+	background: -moz-linear-gradient(left, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%);
+	background: -webkit-linear-gradient(left, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%);
+	background: linear-gradient(to right, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%);
+	background: linear-gradient(110deg, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%), url(../images/bckgrd/header-bckgrd.JPG) no-repeat center 0 / cover;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#591871c9', endColorstr='#59003889',GradientType=1 );
-	background-blend-mode: darken; 
-	/* background-blend-mode: screen; 
+	/*background-blend-mode: darken; */
+	background-blend-mode: hard-light; 
 	/* background-blend-mode: multiply; */
 }
 
@@ -218,7 +221,7 @@ div#rDeskGallery  .thumbnails {
  	font-size: 2rem;
  	letter-spacing: -.05em;
  	word-spacing: -.15em;
- 	background-color: rgb(255, 255, 255);
+ 	/* background-color: rgb(255, 255, 255);
  	background: -webkit-linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgb(25, 25, 25) 8%, rgb(255, 255, 255) 90%);
   	background: -o-linear-gradient(#111, #fff);
   	background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(134,111,191,0.36) 8%,  rgb(255, 255, 255) 90%);
@@ -226,7 +229,17 @@ div#rDeskGallery  .thumbnails {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   	text-fill-color: transparent;
-  	text-shadow: rgba(0,0,0,.125) 0px -1px 0px;
+  	text-shadow: rgba(0,0,0,.125) 0px -1px 0px; */
+  	background-color: rgb(255, 255, 255);
+ 	background: -webkit-linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(134,111,191,0.6) 8%, rgba(255, 255, 255, .5) 70%);
+  	background: -o-linear-gradient(#111, #fff);
+  	background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(134,111,191,0.6) 8%, rgba(255, 255, 255, .5) 70%);
+  	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  	text-fill-color: transparent;
+  	/* text-shadow: rgba(0,0,0,.125) 0px -1px 0px; */
+  	text-shadow: rgba(0,0,0,.05) 0px -1px 0px;
   	white-space: normal;
 	line-height: 1;
   	border:0
