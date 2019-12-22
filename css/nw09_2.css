@@ -156,6 +156,11 @@ main#content {
      display: block !important;
      float: none;
 }
+/*
+#gallery [class^="col-"] {
+ background: rgba(24,113,201,.075);
+} */
+
 div#rDeskGallery  .thumbnails {
 	margin-top: 0
 }
@@ -666,10 +671,12 @@ div#rDeskGallery  .thumbnails {
      padding-top: .75rem;
      padding-bottom: 1rem;
      min-height: auto;
-     background: rgba(24,113,201,.075);
+     background: rgba(24,113,201,.065);
 }
 
  .figure h3 a {color: #fff}
+ 
+ .superpages .figure.card img {max-height: 150px}
  
  .show-info {
      width: 85%;
