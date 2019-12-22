@@ -221,15 +221,6 @@ div#rDeskGallery  .thumbnails {
  	font-size: 2rem;
  	letter-spacing: -.05em;
  	word-spacing: -.15em;
- 	/* background-color: rgb(255, 255, 255);
- 	background: -webkit-linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgb(25, 25, 25) 8%, rgb(255, 255, 255) 90%);
-  	background: -o-linear-gradient(#111, #fff);
-  	background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(134,111,191,0.36) 8%,  rgb(255, 255, 255) 90%);
-  	-webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  	text-fill-color: transparent;
-  	text-shadow: rgba(0,0,0,.125) 0px -1px 0px; */
   	background-color: rgb(255, 255, 255);
  	background: -webkit-linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(134,111,191,0.6) 8%, rgba(255, 255, 255, .5) 70%);
   	background: -o-linear-gradient(#111, #fff);
@@ -291,16 +282,6 @@ div#rDeskGallery  .thumbnails {
      height: 100%;
 }
 
-/*
-.mosaic-box::before {
-    position: absolute;
-    content: "";
-    border-top: 1px solid #aeb1bf;
-    top: 0;
-    right: 0;
-	left: 0;
-} */
-
  .mosaic-box {
      position: relative;
      display: -webkit-box;
@@ -308,11 +289,6 @@ div#rDeskGallery  .thumbnails {
      display: flex;
      margin-bottom: 1rem;
      padding: 1.5rem 0 0;
-     /* background-color:  #aeb1bf #fff; */ 
-   /* background: -moz-linear-gradient(left,  rgba(125,182,198,.36) 0%, rgba(111,173,191,0.36) 50%, rgba(134,111,191,0.36) 100%);
-	 background: -webkit-linear-gradient(left,  rgba(125,182,198,.36) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
-	 background: linear-gradient(to right,  rgba(125,182,198,.36) 0%,rgba(111,173,191,0.36) 50%,rgba(134,111,191,0.36) 100%);
-	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db6c6', endColorstr='#5c866fbf',GradientType=1 ); */
      min-height: 50px;
      min-width: 50px;
      -ms-grid-column-align: center;
@@ -320,6 +296,9 @@ div#rDeskGallery  .thumbnails {
      align-self: start;
      overflow: hidden
 }
+
+.bp-1inch-puck,
+.pb-btl-label {max-height: 400px}
 
 .strong {font-weight: bolder}
 
@@ -855,7 +834,7 @@ div#rDeskGallery  .thumbnails {
  	 margin-top: 1rem;
 }
  .figure h3 {
- 	 margin-top: 1rem;
+ 	 margin-top: .25rem;
      padding: .325rem 0 .5rem;
      text-align: center 
 }
