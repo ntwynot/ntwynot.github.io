@@ -117,7 +117,7 @@ main#content {
 #rDeskGallery .gallery-content .card {
     position: relative;
     height: 100%;
-    max-height: 610px;
+    max-height: 510px;
     background-color: #577DA1;
     overflow-y: auto;
     overflow-x: hidden;
@@ -145,9 +145,13 @@ main#content {
 #rDeskGallery .card  img {	
 	width: 100%;
 }	
- #myCarousel .carousel-item.active, 
- #thumbnailsComplete .carousel-item {
+#myCarousel .carousel-item.active, 
+#thumbnailsComplete .carousel-item {
     display: block !important
+}
+#gallery .carousel-item {
+     display: block !important;
+     float: none;
 }
 div#rDeskGallery  .thumbnails {
 	margin-top: 0
@@ -155,14 +159,10 @@ div#rDeskGallery  .thumbnails {
  #content .nav-tabs {
 	 padding-top:1.5rem
 }
- #thumbnails5 {
-     width: 100%
-}
  #wrapper2 {
      margin: .25rem auto 0;
      padding: .125rem 0 1rem;
      height: 100%;
-    /* background-color: #fff;*/
 }
  #navBar {
      display: block;
@@ -173,7 +173,11 @@ div#rDeskGallery  .thumbnails {
      background-color: #fff;   
 }
 
-#ltrHd img {max-height: 500px}
+#ltrHd img {padding: 0 1rem; max-height: 792px}
+
+#mBC img {max-height: 212px}
+
+#mEnv img {padding: 0 1rem; max-height: 825px}
 
 /* Start Homepage */
  .web-portfolio-homepage .box-2 img {max-height: 912px}
@@ -316,12 +320,15 @@ div#rDeskGallery  .thumbnails {
  
   #navBar {padding-bottom:0}
  
+ .navbar-nav .dropdown-menu {
+    margin-top: -.25rem
+}
  .nav-item.dropdown:hover ul,
  .nav-item.dropdown:focus ul {
   display: block !important;
   margin-top: -.25rem
   }
-  
+    
   .web-portfolio-homepage, 
   .print-portfolio-homepage {
      display: -ms-grid;
@@ -420,11 +427,7 @@ div#rDeskGallery  .thumbnails {
      text-decoration: none;
      font-size: 0;
      border: 0;
-}/*
- #gallery article > .standard, 
- #gallery > .standard {
-    margin-bottom: 1rem
-}*/
+}
  #gallery > .standard {
  	word-break: keep-all;
  	hyphens: none
@@ -436,19 +439,6 @@ div#rDeskGallery  .thumbnails {
     /*margin-top: .5rem; */
      width: 100%
 }
- #box2SmlCtr {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     position: relative;
-     padding: 0
-}
- #box2SmlCtr .box2Small {
-     position: relative;
-     margin: 0;
-     padding: 0 1rem 1rem
-}
-
  #gallery.carousel-inner, .carousel-inner {
     margin: auto
 }
@@ -526,40 +516,16 @@ div#rDeskGallery  .thumbnails {
      min-height: 30px;
      max-height: 100px
 }
-/* .card img {
+ .card img {
     transition: opacity 0.15s ease-in-out
-}*/
-/*.box-outer {
-    padding: .85rem .25rem .75rem 
-}*/
+}
+/*
  .box2 {
      margin-top:.5rem;
      border: #fff 1px solid;
 }
- .box-outer2 {
-     padding-bottom: 0;
-     padding-top: 0;
-     margin-right: 0;
-     max-height: 215px;
-}
- .box-inner2 {
-     padding: 2.5rem 4.55rem 2.85rem;
-     min-height: auto !important;
-     min-height: 100%;
-     min-height: 215px;
-}
-/* .web {
-     background: url(../images/bckgrd/smallBox/newsite_top_left_web.png) no-repeat left top;
-}
- .print {
-     background: url(../images/bckgrd/smallBox/newsite_top_left_print.png) no-repeat left top;
-}
- */
-/* .box h1, .box h2, .box p {
-     padding-left: 5%;
-     padding-right: 5%;
-}
- */
+
+
  .box2 h2 {
      padding: 1rem .25rem .125rem;
      font-size: 1.375rem;
@@ -567,7 +533,7 @@ div#rDeskGallery  .thumbnails {
 }
  .box2 h2 a:hover {
      color: #CA94D5;
-}
+} */
  .copyright a:hover {
      color: #CA94D5;
 }
@@ -580,10 +546,6 @@ div#rDeskGallery  .thumbnails {
      min-height: 100%;
      font-size: inherit;
      line-height: normal;
-}
- .bodyLi3 {
-     text-align: center;
-     font-size: 1rem;
 }
  .titleImage {
      position: relative;
@@ -712,7 +674,7 @@ div#rDeskGallery  .thumbnails {
      padding-top: .75rem;
      padding-bottom: 1rem;
      min-height: auto;
-     background: rgba(112,128,178, .125);
+     background: rgba(24,113,201,.075);
 }
 
  .figure h3 a {color: #fff}
@@ -790,7 +752,7 @@ div#rDeskGallery  .thumbnails {
      margin: 0;
      font-size: 1em;
 }
- .standard {
+ .standard, p.standard {
      padding: .25rem 0 0;
      margin-right: 0;
      margin-left:0;
@@ -798,6 +760,9 @@ div#rDeskGallery  .thumbnails {
      line-height: 1.5;
      widows: 2;
      orphans: 2;
+     -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
      overflow: hidden
 }
  .standard:last-child {
@@ -868,25 +833,19 @@ div#rDeskGallery  .thumbnails {
  .figure img, .figure2 img {
      display: block;
      margin: 0 auto;
-     background-color: #f1f1f1;
      padding: 0;
      text-align: center;
-     height: auto !important;
-    /*max-height: 240px;
-    */
-     max-width: 100% !important;
-}
+    }
+ .figure2 img {margin: 0; max-height: 80px}
+    
  .figure2 h3 {
-     font-size: .875em;
-     text-align: left;
-     padding: .25rem 0;
-     width: 100%;
+ 	 margin-top: 1rem;
 }
  .figure h3 {
+ 	 margin-top: 1rem;
      padding: .325rem 0 .5rem;
      text-align: center 
 }
-
  .figure a {
      display: block;
      border: 0;
@@ -894,9 +853,9 @@ div#rDeskGallery  .thumbnails {
      text-decoration: none
 }
  .figure p {
-     font: 1em/normal Verdana, Helvetica, sans-serif;
+     /*font: 1em/normal Verdana, Helvetica, sans-serif; */
      text-align: center;
-     margin: .5rem 0 .5rem;
+     /*margin: .5rem 0 .5rem;*/
      font-size: .825rem;
      letter-spacing: normal;
 }
@@ -913,16 +872,14 @@ div#rDeskGallery  .thumbnails {
 }
  .figure2 {
      max-width: 728px;
-     min-height: 120px;
-     text-align: left;
+    /* min-height: 120px; 
+     text-align: left; */
 }
  .right {
      text-align: right;
      padding-right: 20px;
 }
- div h3 {
-     text-align: left;
-}
+ 
  div#bodyLi {
     margin-bottom: 1rem;
      font-size: 1.125rem
@@ -931,37 +888,18 @@ div#rDeskGallery  .thumbnails {
      font-size: 1.15em;
      padding: 0 0 24px 0;
 }
-/* ul.bodyLi2 {
-     float: left;
-     display: block;
-     position: relative;
-     text-align: left;
-     list-style: none;
-}
- */
- ul.bodyLi2 {
-    margin-bottom:0
-}
- .bodyLi2 li, .bodyLi3 li {
+ .skills-list li {
      float: none;
      display: block;
      position: relative;
      line-height: 150%;
-     list-style: none;
-     padding: 0;
-}
- .bodyLi2 li {
      padding: .5rem 0 0;
      text-align: left;
-     font-weight: bold
+     font-weight: bold;
+     -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
 }
-/* a[href^="http:"] {
-     background-image: url(../images/externalLink.gif);
-     background-repeat: no-repeat;
-     background-position: right top;
-     padding-right: 10px;
-}
- */
  a[href^="http://www.nathanielwhynott.com"] {
      background-image: none;
      padding-right: 0;
@@ -1000,12 +938,7 @@ div#rDeskGallery  .thumbnails {
      margin-top: 1rem;
      margin-bottom: .5rem
 }
- #gallery .carousel-item {
-     display: block !important;
-     float: none;
-    /* margin: 0;
-     width: auto */
-}
+
  #myCarousel .carousel-inner {
      margin: auto;
      height: 100%;
@@ -1060,22 +993,19 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
     }
      #gallery article > .standard,
      #gallery > .standard,
-     #gallery.gallery-ui p {
+     #gallery.gallery-ui p,
+     .textGallery .standard,
+     .skills-list  {
          -webkit-column-count: 2;
-         column-count: 2
-    }
-    
-    #gallery .carousel-item {margin: 0}
-    
+         column-count: 2;
+    }      
 	#rDeskGallery .carousel-item { width: inherit}
-	
     #nav.navbar-nav {
     background-color: rgba(255,255,255,.6);
     padding: .32rem .55rem;
     box-shadow: rgba(0,0,0,.125) 5px 0 7px;
     width: 100%;
     margin: 0}
-    
      .navbar-expand-lg .navbar-nav .nav-link {
          padding-right: 1rem;
          padding-left: 1rem;
@@ -1084,20 +1014,10 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
         margin-top:0;
         margin-bottom: -1rem;
     }
-    
-     .print-portfolio-homepage .box-2 img {max-height: 250px}
-     
-     .carousel .card.ahs img {max-height: none}
-          
+     .print-portfolio-homepage .box-2 img {max-height: 250px} 
+     .carousel .card.ahs img {max-height: none}       
      .navbar-brand .h1 {font-size: 4rem; text-align: center}
 
-     /*.box-outer {
-         padding-right: 1rem;
-         padding-left: 1rem;
-    }*/
-    
-    
-    
 }
 /* Large devices (desktops, 992px and up) */
  @media (min-width: 992px) {
@@ -1139,14 +1059,14 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
 
 @media (min-width: 1400px) {
 	
-    
 }
 
  @media (min-width: 1600px) {
 	#gallery article > .standard,
 	#gallery > .standard,
-	#gallery.gallery-ui p
-	 {
+	#gallery.gallery-ui p,
+	.textGallery .standard,
+	.skills-list {
 			 -webkit-column-count: 3;
 			 column-count: 3
 		}
