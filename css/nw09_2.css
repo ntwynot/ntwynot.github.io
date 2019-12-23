@@ -782,15 +782,14 @@ div#rDeskGallery  .thumbnails {
 }
  #workTable h2,  #workTable h3.cronusBdy {
      padding: 0 .85rem 0 .5rem;
-     font-size: .875em;
+     font-size: .875rem;
      text-align: left;
      vertical-align: top;
      background-color: transparent;
-     line-height: 125%;
+     line-height: 1.25;
      font-weight: normal;
 }
  #workTable thead h3, #workTable thead h2 {
-     font-size: 1rem !important;
      line-height: normal;
      font-weight: bold !important;
      padding: 0 !important;
