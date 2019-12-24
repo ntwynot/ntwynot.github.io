@@ -42,13 +42,10 @@
 }
 
 header #navBar {
-	/* background: -moz-linear-gradient(left,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%);
-	background: -webkit-linear-gradient(left,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%);
-	background: linear-gradient(to right,  rgba(24,113,201,0.35) 0%, rgba(0,56,137,0.35) 100%); */
-	background: -moz-linear-gradient(left, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%);
-	background: -webkit-linear-gradient(left, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%);
-	background: linear-gradient(to right, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%);
-	background: linear-gradient(110deg, rgba(24, 113, 201, .75) 50%, rgba(0, 56, 137, .76) 100%), url(../images/bckgrd/header-bckgrd.JPG) no-repeat center 0 / cover;
+	background: -moz-linear-gradient(left, rgba(24, 113, 201, .75) 30%, rgba(0, 56, 137, .76) 100%);
+	background: -webkit-linear-gradient(left, rgba(24, 113, 201, .75) 30%, rgba(0, 56, 137, .76) 100%);
+	background: linear-gradient(to right, rgba(24, 113, 201, .75) 30%, rgba(0, 56, 137, .76) 100%);
+	background: linear-gradient(90deg, rgba(24, 113, 201, .75) 30%, rgba(0, 56, 137, .76) 100%), url(../images/bckgrd/header-bckgrd.JPG) no-repeat center 0 / cover;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#591871c9', endColorstr='#59003889',GradientType=1 );
 	/*background-blend-mode: darken; */
 	background-blend-mode: hard-light; 
