@@ -479,6 +479,9 @@ div#rDeskGallery  .thumbnails {
  .gallery-content .figure img, .gallery-content .figure2 img {
     max-height:none
 }
+.red-website-samples .figure img {
+	max-height: 430px
+}
  .dropdown-item.active, .dropdown-item:active {
     background-color: #ddd
 }
@@ -757,7 +760,7 @@ div#rDeskGallery  .thumbnails {
      padding: .25rem 0 0;
      margin-right: 0;
      margin-left:0;
-     font-size: 1.05rem;
+     /*font-size: 1.05rem;*/
      line-height: 1.5;
      widows: 2;
      orphans: 2;
@@ -844,6 +847,7 @@ div#rDeskGallery  .thumbnails {
  .figure h3 {
  	 margin-top: .25rem;
      padding: .325rem 0 .5rem;
+     font-size: 1.125rem;
      text-align: center 
 }
  .figure a {
@@ -1020,7 +1024,6 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
 	margin-bottom: -1rem;
     }
      .print-portfolio-homepage .box-2 img {max-height: 250px} 
-     .carousel .card.ahs img {max-height: none}       
      .navbar-brand .h1 {font-size: 4rem; text-align: center}
 
 }
@@ -1036,8 +1039,6 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
           
     .print-portfolio-homepage .box-2 img {max-height: 350px}
     
-	.card.ahs img {max-height: 374px}
-
     .navbar-brand .h1 {font-size: 5rem}
    
    	div .drop {
@@ -1056,16 +1057,16 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
     header #navBar { background-position: left top, center -1rem}
         
 	.print-portfolio-homepage .box-2 img {max-height: 500px}
-	
-	.card.ahs img {max-height: 484px}
-    
+	    
      .container {
         max-width: 1200px
     }
 }
 
 @media (min-width: 1400px) {
-	
+	.red-website-samples .figure img {
+    max-height: 470px;
+	}
 }
 
  @media (min-width: 1600px) {
@@ -1080,8 +1081,6 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
  
  	header #navBar { background-position: left top, center -3rem}
  	
- 	.card.ahs img {max-height: 574px}
-
  	.navbar-brand .h1 {font-size: 6rem}
  	
     .container {
