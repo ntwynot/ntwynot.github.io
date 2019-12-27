@@ -315,16 +315,21 @@ div#rDeskGallery  .thumbnails {
  @media (min-width: 768px) {
  
   #navBar {padding-bottom:0}
- 
+
  .navbar-nav .dropdown-menu {
     margin-top: -.25rem
 }
- .nav-item.dropdown:hover ul,
- .nav-item.dropdown:focus ul {
-  display: block !important;
-  margin-top: -.25rem
-  }
-    
+  
+  .dropdown:hover .dropdown-menu,
+  .btn-group:hover .dropdown-menu {
+        display: block !important;
+}
+
+.navbar .dropdown-toggle, 
+.nav-tabs .dropdown-toggle {
+        margin-bottom: 2px;
+    }
+
   .web-portfolio-homepage, 
   .print-portfolio-homepage {
      display: -ms-grid;
@@ -447,7 +452,7 @@ div#rDeskGallery  .thumbnails {
 }
  .navbar-light .navbar-nav .nav-link {
      border: 0;
-     padding-top: 0;
+     padding-top: .25rem;
      padding-bottom: 0;
      font-size: 1.125rem;
      font-weight: 300;
@@ -1005,12 +1010,14 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
  	margin-top: .5rem;
 	padding-top:1.5rem}
     .navbar-expand-lg .navbar-nav .nav-link {
-         padding-right: 1rem;
-         padding-left: 1rem;
+	position: relative;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	z-index: 1000;
     }
      .navbar .navbar-collapse {
-        margin-top:0;
-        margin-bottom: -1rem;
+	margin-top:0;
+	margin-bottom: -1rem;
     }
      .print-portfolio-homepage .box-2 img {max-height: 250px} 
      .carousel .card.ahs img {max-height: none}       
