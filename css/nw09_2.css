@@ -1023,7 +1023,14 @@ i.fa-pinterest-square:before { background-image:url("/images/icons/Pinterest Ico
 	margin-bottom: -1rem;
     }
      .print-portfolio-homepage .box-2 img {max-height: 250px} 
+     
+     .red-flyer:not(.carousel-inner) .figure img  {max-height: 500px} 
+     
+     .red-flyers.carousel-inner .figure img  {max-height: 900px} 
+    
      .navbar-brand .h1 {font-size: 4rem; text-align: center}
+     
+     
 
 }
 /* Large devices (desktops, 992px and up) */
