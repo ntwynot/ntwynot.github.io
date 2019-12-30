@@ -498,7 +498,7 @@ div#rDeskGallery  .thumbnails {
      min-height: 200px;
 }
  .thumbnails .thumbnail-outer-container {
-     margin: auto;
+     margin: 0 auto;
      padding-right: .85rem;
      padding-left: .85rem;
 }
